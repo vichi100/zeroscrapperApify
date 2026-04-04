@@ -8,3 +8,6 @@ pymongo
 qdrant-client
 openai
 geopy
+requests
+ollama
+fastembed

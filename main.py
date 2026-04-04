@@ -17,7 +17,10 @@ from storage_utils import (
     search_nearby_properties,
     find_duplicates
 )
+from nobroker_utils import build_nobroker_url
 from nobroker_scraper import run_nobroker_scraper
+from magicbricks_utils import build_magicbricks_url
+from magicbricks_scraper import run_magicbricks_scraper
 
 load_dotenv()
 
@@ -80,27 +83,65 @@ async def process_search(request: SearchRequest):
     # 6. Scrape if not enough results
     if len(final_results) < 5:
         print("Not enough nearby results. Triggering scrapers...")
-        # Trigger NoBroker scraper as an example
-        scraper_results = run_nobroker_scraper(
-            search_queries=[post_content],
-            location=parsed_query.location,
-            category=parsed_query.category,
-            limit=10
+        
+        # Extract rent range for both scrapers
+        rent_str = parsed_query.rent or "50000"
+        import re
+        numbers = re.findall(r'\d+', rent_str)
+        rent_min = 0
+        rent_max = 50000
+        
+        if len(numbers) >= 2:
+            rent_min = int(numbers[0]) * (1000 if 'k' in rent_str.lower() else 1)
+            rent_max = int(numbers[1]) * (1000 if 'k' in rent_str.lower() else 1)
+        elif len(numbers) == 1:
+            rent_max = int(numbers[0]) * (1000 if 'k' in rent_str.lower() else 1)
+
+        # Generate NoBroker search URL
+        nobroker_url = build_nobroker_url(
+            lat=lat,
+            lon=lon,
+            place_name=parsed_query.location or "Mumbai",
+            rent_min=rent_min,
+            rent_max=rent_max,
+            bhk_type=parsed_query.house or "BHK2",
+            category=parsed_query.category if hasattr(parsed_query, 'category') else "rent"
         )
         
-        if scraper_results["status"] == "success":
-            new_items = scraper_results["items"]
-            processed_ids = []
+        # Generate MagicBricks search URL
+        magicbricks_url = build_magicbricks_url(
+            city=parsed_query.City or "Mumbai",
+            locality=parsed_query.location or "Mumbai",
+            rent_min=rent_min,
+            rent_max=rent_max,
+            bedroom=parsed_query.house or "BHK2",
+            category=parsed_query.category if hasattr(parsed_query, 'category') else "rent"
+        )
+        
+        # Trigger both scrapers
+        # Note: In production, these should run in parallel (async)
+        scraper_outputs = []
+        
+        # NoBroker
+        nobroker_res = run_nobroker_scraper(search_url=nobroker_url, limit=10)
+        if nobroker_res["status"] == "success":
+            scraper_outputs.extend(nobroker_res["items"])
             
-            for item in new_items:
+        # MagicBricks
+        magicbricks_res = run_magicbricks_scraper(search_url=magicbricks_url, limit=10)
+        if magicbricks_res["status"] == "success":
+            scraper_outputs.extend(magicbricks_res["items"])
+        
+        if scraper_outputs:
+            processed_ids = []
+            for item in scraper_outputs:
                 # Basic property metadata
                 prop_id = item.get("id") or item.get("url")
                 if not prop_id:
                     continue
                 
                 # Check for semantic duplicates in Qdrant before storing
-                # (Deduplication across different sources)
-                description = f"{item.get('title', '')} {item.get('description', '')}"
+                description = f"{item.get('title', '')} {item.get('description', '')} {item.get('locality', '')}"
                 embedding = get_embeddings(description)
                 
                 duplicates = find_duplicates(embedding)
@@ -112,9 +153,8 @@ async def process_search(request: SearchRequest):
                 store_properties([item])
                 
                 # Store in Qdrant (with geo info)
-                # Need lat/lon for the property itself (often provided by scraper)
-                p_lat = item.get("latitude") or item.get("lat")
-                p_lon = item.get("longitude") or item.get("lng")
+                p_lat = item.get("latitude") or item.get("lat") or lat
+                p_lon = item.get("longitude") or item.get("lon") or item.get("lng") or lon
                 
                 if p_lat and p_lon:
                     upsert_property_vectors(
@@ -123,7 +163,8 @@ async def process_search(request: SearchRequest):
                         metadata=[{
                             "location": {"lat": p_lat, "lon": p_lon},
                             "title": item.get("title"),
-                            "url": item.get("url")
+                            "url": item.get("url"),
+                            "source": item.get("source", "nobroker")
                         }]
                     )
                     processed_ids.append(prop_id)
@@ -132,14 +173,14 @@ async def process_search(request: SearchRequest):
                         final_results.append(item)
             
             # Cache the newly found result IDs for this query
-            cache_results(query_hash, [p["id"] for p in final_results if "id" in p])
+            cache_results(query_hash, [p.get("id") or p.get("url") for p in final_results if p.get("id") or p.get("url")])
 
     # 7. Final tracking and return
     track_user_sent_results(user_id, [p["id"] for p in final_results if "id" in p])
     
     return {
         "status": "success",
-        "parsed_info": parsed_query.dict(),
+        "parsed_info": parsed_query.model_dump(),
         "coordinates": coords,
         "results": final_results
     }

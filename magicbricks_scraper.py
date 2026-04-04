@@ -7,30 +7,28 @@ from dotenv import load_dotenv
 load_dotenv()
 
 APIFY_API_TOKEN = os.getenv("APIFY_API_TOKEN")
-NO_BROKER_ACTOR_ID = os.getenv("NO_BROKER_ACTOR_ID")
+MAGICBRICKS_ACTOR_ID = os.getenv("MAGICBRICKS_ACTOR_ID")
 
 def get_apify_client():
     if not APIFY_API_TOKEN:
         raise ValueError("APIFY_API_TOKEN not found in environment variables.")
     return ApifyClient(APIFY_API_TOKEN)
 
-from nobroker_utils import build_nobroker_url
+from magicbricks_utils import build_magicbricks_url
 
-def run_nobroker_scraper(
+def run_magicbricks_scraper(
     search_url: Optional[str] = None,
-    search_queries: Optional[List[str]] = None,
     location: str = "Mumbai",
     category: str = "Rent",
-    limit: int = 20
+    limit: int = 10
 ) -> Dict[str, Any]:
     """
-    Triggers the NoBroker search results scraper actor on Apify.
+    Triggers the MagicBricks search results scraper actor on Apify.
     
     Args:
         search_url (Optional[str]): Direct search URL to scrape.
-        search_queries (Optional[List[str]]): List of search terms.
         location (str): The city or locality to search in.
-        category (str): Scraper category (Rent/Resale).
+        category (str): Scraper category (Rent/Sale).
         limit (int): Maximum number of results to fetch.
         
     Returns:
@@ -38,20 +36,14 @@ def run_nobroker_scraper(
     """
     client = get_apify_client()
     
-    if not NO_BROKER_ACTOR_ID:
-        raise ValueError("NO_BROKER_ACTOR_ID not found in environment variables.")
+    if not MAGICBRICKS_ACTOR_ID:
+        raise ValueError("MAGICBRICKS_ACTOR_ID not found in environment variables.")
     
-    # If no search_url is provided, generate one from search_queries or location
+    # If no search_url is provided, generate one
     if not search_url:
-        # For simplicity, we use the first query or the location if no queries provided
-        place = search_queries[0] if search_queries else location
-        # Note: In a real scenario, we might need lat/lon from geocoding here
-        # For now, we use a placeholder or assume the user provides search_url
-        # If we have lat/lon in the env or passed in, we could use them.
-        # But since main.py already does geocoding, we should probably pass the URL from main.py.
-        search_url = build_nobroker_url(lat=19.0760, lon=72.8777, place_name=place, category=category.lower())
+        search_url = build_magicbricks_url(city="Mumbai", locality=location, category=category.lower())
 
-    # Prepare input for the actor (as confirmed by schema check)
+    # Prepare input for the actor
     run_input = {
         "searchUrls": [search_url],
         "resultsLimit": limit
@@ -59,9 +51,9 @@ def run_nobroker_scraper(
     
     try:
         # Start the actor and wait for it to finish
-        print(f"Starting NoBroker scraper actor: {NO_BROKER_ACTOR_ID}...")
+        print(f"Starting MagicBricks scraper actor: {MAGICBRICKS_ACTOR_ID}...")
         print(f"Input URL: {search_url}")
-        run = client.actor(NO_BROKER_ACTOR_ID).call(run_input=run_input)
+        run = client.actor(MAGICBRICKS_ACTOR_ID).call(run_input=run_input)
         
         print(f"Run completed. Run ID: {run['id']}")
         
@@ -71,8 +63,16 @@ def run_nobroker_scraper(
         
         # Add source info to items
         for item in items:
-            item["source"] = "nobroker"
+            item["source"] = "magicbricks"
+            # MagicBricks actor uses property_id
+            if "id" not in item and "property_id" in item:
+                item["id"] = item["property_id"]
             
+            if "url" not in item and "id" in item:
+                 # Prefer encId for detail URL if available, else use id
+                 detail_id = item.get("encId") or item.get("id")
+                 item["url"] = f"https://www.magicbricks.com/property-details/{detail_id}"
+        
         return {
             "status": "success",
             "run_id": run["id"],
@@ -80,7 +80,7 @@ def run_nobroker_scraper(
             "items": items
         }
     except Exception as e:
-        print(f"Error running NoBroker scraper: {str(e)}")
+        print(f"Error running MagicBricks scraper: {str(e)}")
         return {
             "status": "error",
             "message": str(e)
@@ -89,8 +89,8 @@ def run_nobroker_scraper(
 if __name__ == "__main__":
     # Example usage
     try:
-        url = "https://www.nobroker.in/property/rent/mumbai/Juhu?searchParam=W3sibGF0IjoxOS4xMDc1LCJsb24iOjcyLjgyNjMsInBsYWNlTmFtZSI6Ikp1aHUifV0=&radius=2.0&sharedAccomodation=0&city=mumbai&locality=Juhu&rent=0,50000&type=BHK2&availability=immediate"
-        results = run_nobroker_scraper(search_url=url, limit=5)
+        test_url = build_magicbricks_url(locality="Andheri West", rent_min=40000, rent_max=60000, bedroom="BHK2")
+        results = run_magicbricks_scraper(search_url=test_url, limit=5)
         if results["status"] == "success":
             print(f"Successfully fetched {results['item_count']} items.")
             for item in results["items"]:

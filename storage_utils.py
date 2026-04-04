@@ -29,16 +29,27 @@ qdrant_client = QdrantClient(host=QDRANT_HOST, port=QDRANT_PORT)
 COLLECTION_NAME = "properties"
 
 def init_qdrant():
-    """Initializes Qdrant collection if it doesn't exist."""
+    """Initializes Qdrant collection if it doesn't exist or has wrong dimensions."""
+    target_size = 384  # FastEmbed BAAI/bge-small-en-v1.5
     try:
         collections = qdrant_client.get_collections().collections
         exists = any(c.name == COLLECTION_NAME for c in collections)
-        if not exists:
+        
+        recreate = not exists
+        if exists:
+            # Check existing collection configuration
+            collection_info = qdrant_client.get_collection(COLLECTION_NAME)
+            current_size = collection_info.config.params.vectors.size
+            if current_size != target_size:
+                print(f"Dimension mismatch in {COLLECTION_NAME}: {current_size} vs {target_size}. Recreating...")
+                recreate = True
+                
+        if recreate:
             qdrant_client.recreate_collection(
                 collection_name=COLLECTION_NAME,
-                vectors_config=models.VectorParams(size=1536, distance=models.Distance.COSINE),
+                vectors_config=models.VectorParams(size=target_size, distance=models.Distance.COSINE),
             )
-            print(f"Collection {COLLECTION_NAME} created in Qdrant.")
+            print(f"Collection {COLLECTION_NAME} initialized with size {target_size}.")
     except Exception as e:
         print(f"Error initializing Qdrant: {e}")
 
@@ -71,7 +82,7 @@ def store_properties(properties: List[Dict[str, Any]]):
 
 def get_properties_by_ids(ids: List[str]) -> List[Dict[str, Any]]:
     """Retrieves properties from MongoDB by their unique IDs."""
-    return list(properties_col.find({"id": {"$in": ids}}))
+    return list(properties_col.find({"id": {"$in": ids}}, {"_id": 0}))
 
 def track_user_sent_results(user_id: str, property_ids: List[str]):
     """Tracks which results have been sent to a specific user."""
@@ -101,33 +112,42 @@ def upsert_property_vectors(property_ids: List[str], embeddings: List[List[float
     qdrant_client.upsert(collection_name=COLLECTION_NAME, points=points)
 
 def search_nearby_properties(lat: float, lon: float, radius_km: float = 5.0, limit: int = 20) -> List[Dict[str, Any]]:
-    """Searches for properties within a radius of a location."""
-    # Note: Radius is in meters for Qdrant geo-filter
-    res = qdrant_client.scroll(
-        collection_name=COLLECTION_NAME,
-        scroll_filter=models.Filter(
-            must=[
-                models.FieldCondition(
-                    key="location",
-                    geo_radius=models.GeoRadius(
-                        center=models.GeoPoint(lat=lat, lon=lon),
-                        radius=radius_km * 1000
+    """Searches for properties within a radius of a location using query_points."""
+    try:
+        # v1.10+ Unified Query API with geo-filter
+        res = qdrant_client.query_points(
+            collection_name=COLLECTION_NAME,
+            query_filter=models.Filter(
+                must=[
+                    models.FieldCondition(
+                        key="location",
+                        geo_radius=models.GeoRadius(
+                            center=models.GeoPoint(lat=lat, lon=lon),
+                            radius=radius_km * 1000
+                        )
                     )
-                )
-            ]
-        ),
-        limit=limit
-    )
-    return [p.payload for p in res[0]]
+                ]
+            ),
+            limit=limit
+        )
+        return [p.payload for p in res.points]
+    except Exception as e:
+        print(f"Error searching nearby in Qdrant: {e}")
+        return []
 
 def find_duplicates(embedding: List[float], threshold: float = 0.95) -> List[str]:
-    """Finds existing properties that are semantically similar."""
-    res = qdrant_client.search(
-        collection_name=COLLECTION_NAME,
-        query_vector=embedding,
-        limit=5,
-        score_threshold=threshold
-    )
-    return [hit.payload["property_id"] for hit in res]
+    """Finds existing properties that are semantically similar using query_points."""
+    try:
+        # v1.10+ Unified Query API
+        res = qdrant_client.query_points(
+            collection_name=COLLECTION_NAME,
+            query=embedding,
+            limit=5,
+            score_threshold=threshold
+        )
+        return [hit.payload["property_id"] for hit in res.points]
+    except Exception as e:
+        print(f"Error finding duplicates in Qdrant: {e}")
+        return []
 
 init_qdrant()
