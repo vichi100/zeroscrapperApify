@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+apify-client
+python-dotenv
+pydantic
+redis
+pymongo
+qdrant-client
+openai
+geopy
