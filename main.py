@@ -21,6 +21,10 @@ from nobroker_utils import build_nobroker_url
 from nobroker_scraper import run_nobroker_scraper
 from magicbricks_utils import build_magicbricks_url
 from magicbricks_scraper import run_magicbricks_scraper
+from ninetynineacres_utils import build_99acres_url
+from ninetynineacres_scraper import run_99acres_scraper
+from housing_utils import get_housing_url
+from housing_scraper import run_housing_scraper
 
 load_dotenv()
 
@@ -131,6 +135,30 @@ async def process_search(request: SearchRequest):
         magicbricks_res = run_magicbricks_scraper(search_url=magicbricks_url, limit=10)
         if magicbricks_res["status"] == "success":
             scraper_outputs.extend(magicbricks_res["items"])
+            
+        # 99acres
+        ninetynineacres_url = build_99acres_url(
+            term=parsed_query.location or "Mumbai",
+            bedroom=parsed_query.house or "BHK2",
+            rent_min=rent_min,
+            rent_max=rent_max
+        )
+        ninetynineacres_res = run_99acres_scraper(search_url=ninetynineacres_url, limit=10)
+        if ninetynineacres_res["status"] == "success":
+            scraper_outputs.extend(ninetynineacres_res["items"])
+            
+        # Housing.com (High Priority Native Scraper)
+        housing_url = get_housing_url(
+            term=parsed_query.location or "Mumbai",
+            bedroom=parsed_query.house or "BHK2",
+            rent_min=rent_min,
+            rent_max=rent_max
+        )
+        if housing_url:
+            proxy_url = "http://324beea8213c28ca309a__cr.in:0c9cd61aae2ca100@gw.dataimpulse.com:823"
+            housing_res = run_housing_scraper(url=housing_url, limit=10, proxy=proxy_url)
+            if housing_res["status"] == "success":
+                scraper_outputs.extend(housing_res["items"])
         
         if scraper_outputs:
             processed_ids = []

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "19320849",
+    "title": "2.5 BHK Flat",
+    "rent": 185000,
+    "rent_formatted": "\u20b91,85,000",
+    "area": "900 sq.ft",
+    "furnishing": "Semi Furnished",
+    "url": "https://housing.com/rent/19320849-900-sqft-2.5-bhk-apartment-on-rent-in-juhu-mumbai",
+    "locality": null,
+    "highlights": [
+      "Close to Juhu Beach Bus Station",
+      "Close to Grocery Store",
+      "Close to Kokilaben Dhirubhai Ambani Hospital and Medical Research Institute",
+      "Close to HBT Medical College And Dr. R N Cooper Municipal General Hospital"
+    ],
+    "updated_at": "5 days ago",
+    "source": "housing",
+    "latitude": 19.100558,
+    "longitude": 72.829487
+  },
+  {
+    "id": "19685179",
+    "title": "2 BHK Flat",
+    "rent": 120000,
+    "rent_formatted": "\u20b91,20,000",
+    "area": "1050 sq.ft",
+    "furnishing": "Fully Furnished",
+    "url": "https://housing.com/rent/19685179-1050-sqft-2-bhk-apartment-on-rent-in-juhu-mumbai",
+    "locality": null,
+    "highlights": [
+      "Natural Light",
+      "Bachelor Friendly",
+      "Gated Community",
+      "24*7 Security"
+    ],
+    "updated_at": "5 days ago",
+    "source": "housing",
+    "latitude": 19.100558,
+    "longitude": 72.829487
+  },
+  {
+    "id": "19095567",
+    "title": "3 BHK Flat",
+    "rent": 200000,
+    "rent_formatted": "\u20b92,00,000",
+    "area": "1200 sq.ft",
+    "furnishing": "Semi Furnished",
+    "url": "https://housing.com/rent/19095567-1200-sqft-3-bhk-apartment-on-rent-in-juhu-mumbai",
+    "locality": null,
+    "highlights": [
+      "Close to Pawan Hans Juhu Airport",
+      "Lift",
+      "Natural Light",
+      "Gated Community"
+    ],
+    "updated_at": "5 days ago",
+    "source": "housing",
+    "latitude": 19.110502,
+    "longitude": 72.824485
+  }
+]

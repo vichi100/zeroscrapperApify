@@ -1,0 +1,32 @@
+[
+  {
+    "id": "19294433",
+    "title": "Without Brokerage 2 BHK Flat",
+    "rent": 90000,
+    "rent_formatted": "\u20b990,000",
+    "area": "800 sq.ft",
+    "furnishing": "Fully Furnished",
+    "url": "https://housing.com/rent/19294433-800-sqft-2-bhk-apartment-on-rent-in-juhu-mumbai",
+    "locality": null,
+    "highlights": [],
+    "updated_at": "6 days ago",
+    "source": "housing",
+    "latitude": 19.110502,
+    "longitude": 72.824485
+  },
+  {
+    "id": "14579062",
+    "title": "Without Brokerage 2 BHK Flat",
+    "rent": 87000,
+    "rent_formatted": "\u20b987,000",
+    "area": "825 sq.ft",
+    "furnishing": "Unfurnished",
+    "url": "https://housing.com/rent/14579062-825-sqft-2-bhk-apartment-on-rent-in-juhu-mumbai-v2",
+    "locality": null,
+    "highlights": [],
+    "updated_at": "6 days ago",
+    "source": "housing",
+    "latitude": 19.111067,
+    "longitude": 72.825118
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "id": "19320849",
+    "title": "2.5 BHK Flat",
+    "rent": 185000,
+    "url": "https://housing.com/rent/19320849-900-sqft-2.5-bhk-apartment-on-rent-in-juhu-mumbai",
+    "locality": null,
+    "source": "housing",
+    "latitude": 19.100558,
+    "longitude": 72.829487
+  },
+  {
+    "id": "19685179",
+    "title": "2 BHK Flat",
+    "rent": 120000,
+    "url": "https://housing.com/rent/19685179-1050-sqft-2-bhk-apartment-on-rent-in-juhu-mumbai",
+    "locality": null,
+    "source": "housing",
+    "latitude": 19.100558,
+    "longitude": 72.829487
+  },
+  {
+    "id": "19095567",
+    "title": "3 BHK Flat",
+    "rent": 200000,
+    "url": "https://housing.com/rent/19095567-1200-sqft-3-bhk-apartment-on-rent-in-juhu-mumbai",
+    "locality": null,
+    "source": "housing",
+    "latitude": 19.110502,
+    "longitude": 72.824485
+  },
+  {
+    "id": "11368322",
+    "title": "3 BHK Flat",
+    "rent": 145000,
+    "url": "https://housing.com/rent/11368322-1350-sqft-3-bhk-apartment-on-rent-in-juhu-mumbai-v2",
+    "locality": null,
+    "source": "housing",
+    "latitude": 19.098821,
+    "longitude": 72.832072
+  },
+  {
+    "id": "19900219",
+    "title": "3 BHK Flat",
+    "rent": 200000,
+    "url": "https://housing.com/rent/19900219-1500-sqft-3-bhk-apartment-on-rent-in-juhu-mumbai",
+    "locality": null,
+    "source": "housing",
+    "latitude": 19.108931,
+    "longitude": 72.82737
+  },
+  {
+    "id": "19548398",
+    "title": "4 BHK Flat",
+    "rent": 600000,
+    "url": "https://housing.com/rent/19548398-3899-sqft-4-bhk-apartment-on-rent-in-juhu-mumbai",
+    "locality": null,
+    "source": "housing",
+    "latitude": 19.1032249,
+    "longitude": 72.8321325
+  },
+  {
+    "id": "19346308",
+    "title": "3 BHK Flat",
+    "rent": 250000,
+    "url": "https://housing.com/rent/19346308-1520-sqft-3-bhk-apartment-on-rent-in-juhu-mumbai",
+    "locality": null,
+    "source": "housing",
+    "latitude": 19.11418,
+    "longitude": 72.824921
+  },
+  {
+    "id": "18574260",
+    "title": "6 BHK Independent House",
+    "rent": 1000000,
+    "url": "https://housing.com/rent/18574260-6200-sqft-6-bhk-independent-house-on-rent-in-juhu-mumbai",
+    "locality": null,
+    "source": "housing",
+    "latitude": 19.118462,
+    "longitude": 72.82122
+  },
+  {
+    "id": "19462808",
+    "title": "2 BHK Flat",
+    "rent": 160000,
+    "url": "https://housing.com/rent/19462808-1450-sqft-2-bhk-apartment-on-rent-in-juhu-mumbai",
+    "locality": null,
+    "source": "housing",
+    "latitude": 19.1005583501856,
+    "longitude": 72.8294871912662
+  },
+  {
+    "id": "17846265",
+    "title": "4 BHK Flat",
+    "rent": 650000,
+    "url": "https://housing.com/rent/17846265-3800-sqft-4-bhk-apartment-on-rent-in-juhu-mumbai-v2",
+    "locality": null,
+    "source": "housing",
+    "latitude": 19.100558,
+    "longitude": 72.829487
+  }
+]

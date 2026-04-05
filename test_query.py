@@ -13,6 +13,10 @@ from nobroker_utils import build_nobroker_url
 from nobroker_scraper import run_nobroker_scraper
 from magicbricks_utils import build_magicbricks_url
 from magicbricks_scraper import run_magicbricks_scraper
+from ninetynineacres_utils import build_99acres_url
+from ninetynineacres_scraper import run_99acres_scraper
+from housing_utils import get_housing_url
+from housing_scraper import run_housing_scraper
 
 def test_parsing(query: str):
     print(f"\n--- Testing Parsing for: '{query}' ---")
@@ -63,7 +67,7 @@ def test_url_generation(parsed_query: Any, coords: Dict[str, float], source: str
                 rent_max=rent_max,
                 bhk_type=parsed_query.house or "BHK2"
             )
-        else:
+        elif source.lower() == "magicbricks":
             url = build_magicbricks_url(
                 city=parsed_query.City or "Mumbai",
                 locality=parsed_query.location or "Mumbai",
@@ -71,6 +75,23 @@ def test_url_generation(parsed_query: Any, coords: Dict[str, float], source: str
                 rent_max=rent_max,
                 bedroom=parsed_query.house or "BHK2"
             )
+        elif source.lower() == "99acres":
+            url = build_99acres_url(
+                term=parsed_query.location or "Mumbai",
+                bedroom=parsed_query.house or "BHK2",
+                rent_min=rent_min,
+                rent_max=rent_max
+            )
+        elif source.lower() == "housing":
+            url = get_housing_url(
+                term=parsed_query.location or "Mumbai",
+                bedroom=parsed_query.house or "BHK2",
+                rent_min=rent_min,
+                rent_max=rent_max,
+                owner_only=getattr(parsed_query, "Owner", True) # Default to True for now as user requested
+            )
+        else:
+            url = None
         print(f"Generated {source.upper()} URL: {url}")
         return url
     except Exception as e:
@@ -84,8 +105,13 @@ def test_direct_scrape(url: str, limit: int = 5, output_file: str = "results.jso
     try:
         if source.lower() == "nobroker":
             results = run_nobroker_scraper(search_url=url, limit=limit)
-        else:
+        elif source.lower() == "magicbricks":
             results = run_magicbricks_scraper(search_url=url, limit=limit)
+        elif source.lower() == "99acres":
+            results = run_99acres_scraper(search_url=url, limit=limit)
+        elif source.lower() == "housing":
+            proxy_url = "http://324beea8213c28ca309a__cr.in:0c9cd61aae2ca100@gw.dataimpulse.com:823"
+            results = run_housing_scraper(url=url, limit=limit, proxy=proxy_url)
             
         if results["status"] == "success":
             items = results["items"]
@@ -142,7 +168,7 @@ def main():
     parser.add_argument("--scrape", action="store_true", help="Run direct scraping via Apify actor.")
     parser.add_argument("--limit", type=int, default=5, help="Limit for number of results to fetch (default 5).")
     parser.add_argument("--output", type=str, default="results.json", help="Output JSON file for scraping results (default results.json).")
-    parser.add_argument("--source", type=str, default="nobroker", choices=["nobroker", "magicbricks"], help="Source to test (default nobroker).")
+    parser.add_argument("--source", type=str, default="nobroker", choices=["nobroker", "magicbricks", "99acres", "housing"], help="Source to test (default nobroker).")
     
     args = parser.parse_args()
     
