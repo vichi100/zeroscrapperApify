@@ -24,11 +24,12 @@ def build_magicbricks_url(
     
     params = {
         "cityName": city,
-        "proptype": "Multistorey-Apartment,Builder-Floor-Apartment,Penthouse,Studio-Apartment,Residential-House,Villa"
+        "proptype": "Multistorey-Apartment,Builder-Floor-Apartment,Penthouse,Studio-Apartment,Service-Apartment"
     }
     
     if locality:
-        params["Locality"] = locality
+        # MagicBricks verified working parameter is 'Locality' (capital L)
+        params["Locality"] = locality.replace(" ", "-")
         
     if bedroom:
         # Normalize BHK2 to 2
@@ -40,12 +41,13 @@ def build_magicbricks_url(
             params["bedroom"] = bedroom
             
     if rent_min is not None:
-        # MagicBricks uses BudgetMin like '40000' or '10-Lacs'
         params["BudgetMin"] = str(rent_min)
         
     if rent_max is not None:
         params["BudgetMax"] = str(rent_max)
         
+    # Manually build query string to preserve order/casing if needed, 
+    # but urlencode is usually fine. Let's ensure parameter names match perfectly.
     query_string = urllib.parse.urlencode(params)
     url = f"https://www.magicbricks.com/{base_category}/residential-real-estate?{query_string}"
     

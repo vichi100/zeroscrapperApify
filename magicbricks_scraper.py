@@ -45,8 +45,11 @@ def run_magicbricks_scraper(
 
     # Prepare input for the actor
     run_input = {
-        "searchUrls": [search_url],
-        "resultsLimit": limit
+        "urls": [search_url],
+        "max_items_per_url": limit,
+        "proxy": {
+            "useApifyProxy": True
+        }
     }
     
     try:
@@ -64,14 +67,21 @@ def run_magicbricks_scraper(
         # Add source info to items
         for item in items:
             item["source"] = "magicbricks"
-            # MagicBricks actor uses property_id
+            
+            # Map ecomscrape actor fields to our standard schema
+            if "title" not in item and "name" in item:
+                item["title"] = item["name"]
+                
+            if "rent" not in item and "price" in item:
+                item["rent"] = item["price"]
+                
+            # ecomscrape returns a relative URL for magicbricks, making it absolute
+            if "url" in item and not str(item["url"]).startswith("http"):
+                 item["url"] = f"https://www.magicbricks.com/property-details/{item['url']}"
+            
+            # Fallback for ID if missing
             if "id" not in item and "property_id" in item:
                 item["id"] = item["property_id"]
-            
-            if "url" not in item and "id" in item:
-                 # Prefer encId for detail URL if available, else use id
-                 detail_id = item.get("encId") or item.get("id")
-                 item["url"] = f"https://www.magicbricks.com/property-details/{detail_id}"
         
         return {
             "status": "success",
