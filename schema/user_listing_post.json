@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "UserListingPost",
+  "type": "object",
+  "properties": {
+    "id": { "type": "string" },
+    "user_id": { "type": "string" },
+    "property_id": { "type": "string" },
+    "intent": { "type": "string", "const": "have" },
+    "status": { "type": "string", "enum": ["active", "sold", "rented", "expired"] },
+    "matched_leads": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "user_id": { "type": "string" },
+          "requirement_post_id": { "type": "string" },
+          "match_score": { "type": "integer" },
+          "last_interacted_at": { "type": "string", "format": "date-time" }
+        }
+      }
+    },
+    "post_date": { "type": "string", "format": "date-time" },
+    "created_at": { "type": "string", "format": "date-time" },
+    "updated_at": { "type": "string", "format": "date-time" },
+    "__v": { "type": "integer" }
+  }
+}

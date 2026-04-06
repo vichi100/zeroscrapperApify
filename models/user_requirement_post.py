@@ -13,18 +13,18 @@ class ResultsBatch(BaseModel):
     sent_at: datetime = Field(default_factory=datetime.utcnow)
     chat: List[ChatMessage] = []
 
-class UserPost(BaseModel):
-    property_id: Optional[str] = None # Using property_id as the primary key for the search request
+class UserRequirementPost(BaseModel):
+    id: Optional[str] = None
     user_id: Optional[str] = None
     query_text: Optional[str] = None
     parsed_query: Optional[Dict[str, Any]] = None
+    intent: str = "want"
     status: Optional[str] = "active"
     zero_broker: Optional[bool] = None
     ok_broker: Optional[bool] = None
     
     results_batches: List[ResultsBatch] = []
     
-    intent: Optional[str] = None # "want" or "have"
     post_date: Optional[datetime] = None
     created_at: Optional[datetime] = Field(default_factory=datetime.utcnow)
     updated_at: Optional[datetime] = Field(default_factory=datetime.utcnow)

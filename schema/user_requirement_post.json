@@ -1,12 +1,13 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "UserPost",
+  "title": "UserRequirementPost",
   "type": "object",
   "properties": {
-    "property_id": { "type": "string" },
+    "id": { "type": "string" },
     "user_id": { "type": "string" },
     "query_text": { "type": "string" },
     "parsed_query": { "type": "object" },
+    "intent": { "type": "string", "const": "want" },
     "status": { "type": "string", "enum": ["active", "expired", "fulfilled"] },
     "zero_broker": { "type": "boolean" },
     "ok_broker": { "type": "boolean" },
@@ -35,7 +36,6 @@
         }
       }
     },
-    "intent": { "type": "string", "enum": ["want", "have"] },
     "post_date": { "type": "string", "format": "date-time" },
     "created_at": { "type": "string", "format": "date-time" },
     "updated_at": { "type": "string", "format": "date-time" },
