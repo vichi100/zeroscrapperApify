@@ -1,0 +1,16 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Notification",
+  "type": "object",
+  "properties": {
+    "user_id": { "type": "string" },
+    "type": { "type": "string", "enum": ["sms", "push", "whatsapp"] },
+    "content": { "type": "string" },
+    "is_read": { "type": "boolean", "default": false },
+    "related_post_id": { "type": "string" },
+    "link_url": { "type": "string" },
+    "created_at": { "type": "string", "format": "date-time" },
+    "updated_at": { "type": "string", "format": "date-time" },
+    "__v": { "type": "integer" }
+  }
+}
