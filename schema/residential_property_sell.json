@@ -1,0 +1,82 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ResidentialPropertySell",
+  "type": "object",
+  "properties": {
+    "property_id": { "type": "string" },
+    "property_status": { "type": "string", "enum": ["open", "close"] },
+    "owner_details": {
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "mobile": { "type": "string" },
+        "address": { "type": "string" }
+      }
+    },
+    "location": {
+      "type": "object",
+      "properties": {
+        "type": { "type": "string", "enum": ["Point"] },
+        "coordinates": {
+          "type": "array",
+          "items": { "type": "number" },
+          "minItems": 2,
+          "maxItems": 2
+        }
+      }
+    },
+    "property_address": {
+      "type": "object",
+      "properties": {
+        "city": { "type": "string" },
+        "main_text": { "type": "string" },
+        "formatted_address": { "type": "string" },
+        "flat_number": { "type": "string" },
+        "building_name": { "type": "string" },
+        "landmark_or_street": { "type": "string" }
+      }
+    },
+    "property_details": {
+      "type": "object",
+      "properties": {
+        "house_type": { "type": "string" },
+        "bhk_type": { "type": "string" },
+        "washroom_numbers": { "type": "integer" },
+        "furnishing_status": { "type": "string" },
+        "parking_number": { "type": "string" },
+        "property_age": { "type": "string" },
+        "floor_number": { "type": "integer" },
+        "total_floor": { "type": "integer" },
+        "lift": { "type": "string" },
+        "property_size": { "type": "integer" }
+      }
+    },
+    "sell_details": {
+      "type": "object",
+      "properties": {
+        "sell_price": { "type": "integer" },
+        "maintenance_charge": { "type": "integer" },
+        "available_from": { "type": "string", "format": "date-time" }
+      }
+    },
+    "image_urls": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "url": { "type": "string" },
+          "id": { "type": "string" }
+        }
+      }
+    },
+    "post_date": { "type": "string", "format": "date-time" },
+    "detail_url": { "type": "string" },
+    "amenities": { "type": "object" },
+    "create_date_time": { "type": "string", "format": "date-time" },
+    "update_date_time": { "type": "string", "format": "date-time" },
+    "last_verified_at": { "type": "string", "format": "date-time" },
+    "nearby_amenities_distance": { "type": "object" },
+    "listing_source": { "type": "string", "enum": ["scraped", "user_posted"] },
+    "__v": { "type": "integer" }
+  }
+}

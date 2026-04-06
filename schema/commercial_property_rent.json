@@ -1,0 +1,76 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "CommercialPropertyRent",
+  "type": "object",
+  "properties": {
+    "property_id": { "type": "string" },
+    "property_status": { "type": ["string", "number", "null"] },
+    "owner_details": {
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "mobile": { "type": "string" }
+      }
+    },
+    "location": {
+      "type": "object",
+      "properties": {
+        "type": { "type": "string", "enum": ["Point"] },
+        "coordinates": {
+          "type": "array",
+          "items": { "type": "number" },
+          "minItems": 2,
+          "maxItems": 2
+        }
+      }
+    },
+    "property_address": {
+      "type": "object",
+      "properties": {
+        "city": { "type": "string" },
+        "main_text": { "type": "string" },
+        "formatted_address": { "type": "string" },
+        "building_name": { "type": "string" },
+        "landmark_or_street": { "type": "string" }
+      }
+    },
+    "property_details": {
+      "type": "object",
+      "properties": {
+        "property_used_for": { "type": "string" },
+        "building_type": { "type": "string" },
+        "ideal_for": { "type": "array", "items": { "type": "string" } },
+        "parking_type": { "type": "string" },
+        "property_age": { "type": "string" },
+        "power_backup": { "type": "string" },
+        "property_size": { "type": "integer" }
+      }
+    },
+    "rent_details": {
+      "type": "object",
+      "properties": {
+        "rent": { "type": "integer" },
+        "deposit": { "type": "integer" },
+        "available_from": { "type": "string", "format": "date-time" }
+      }
+    },
+    "image_urls": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "url": { "type": "string" },
+          "id": { "type": "string" }
+        }
+      }
+    },
+    "post_date": { "type": "string", "format": "date-time" },
+    "detail_url": { "type": "string" },
+    "amenities": { "type": "object" },
+    "create_date_time": { "type": "string", "format": "date-time" },
+    "update_date_time": { "type": "string", "format": "date-time" },
+    "last_verified_at": { "type": "string", "format": "date-time" },
+    "nearby_amenities_distance": { "type": "object" },
+    "listing_source": { "type": "string", "enum": ["scraped", "user_posted"] }
+  }
+}

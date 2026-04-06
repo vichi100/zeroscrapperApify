@@ -1,0 +1,44 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "UserPost",
+  "type": "object",
+  "properties": {
+    "property_id": { "type": "string" },
+    "user_id": { "type": "string" },
+    "query_text": { "type": "string" },
+    "parsed_query": { "type": "object" },
+    "status": { "type": "string", "enum": ["active", "expired", "fulfilled"] },
+    "zero_broker": { "type": "boolean" },
+    "ok_broker": { "type": "boolean" },
+    "results_batches": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "batch_id": { "type": "string" },
+          "property_ids": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "sent_at": { "type": "string", "format": "date-time" },
+          "chat": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "role": { "type": "string", "enum": ["user", "ai"] },
+                "content": { "type": "string" },
+                "time": { "type": "string", "format": "date-time" }
+              }
+            }
+          }
+        }
+      }
+    },
+    "intent": { "type": "string", "enum": ["want", "have"] },
+    "post_date": { "type": "string", "format": "date-time" },
+    "created_at": { "type": "string", "format": "date-time" },
+    "updated_at": { "type": "string", "format": "date-time" },
+    "__v": { "type": "integer" }
+  }
+}
