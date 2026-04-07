@@ -68,6 +68,17 @@ def setup_indexes():
             print(f"  - Compound Filters: [OK]")
         except Exception as e:
             print(f"  - Compound Filters: [FAIL] - {e}")
+
+    # Property Visit Reward Indexes
+    reward_col = db["property_visit_rewards"]
+    print("\nCreating indexes for property_visit_rewards...")
+    reward_col.create_index([("visitor_id", 1)])
+    reward_col.create_index([("owner_id", 1)])
+    reward_col.create_index([("property_id", 1)])
+    reward_col.create_index([("requirement_post_id", 1)])
+    reward_col.create_index([("listing_post_id", 1)])
+    reward_col.create_index([("created_at", -1)])
+    print("  - Reward Indexes: [OK]")
             
     print("\nIndex creation complete.")
 
