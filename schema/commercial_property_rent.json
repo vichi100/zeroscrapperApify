@@ -4,6 +4,7 @@
   "type": "object",
   "properties": {
     "property_id": { "type": "string" },
+    "external_id": { "type": "string" },
     "property_status": { "type": ["string", "number", "null"] },
     "owner_details": {
       "type": "object",

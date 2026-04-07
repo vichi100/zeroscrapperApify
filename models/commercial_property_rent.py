@@ -37,6 +37,7 @@ class ImageUrl(BaseModel):
 
 class CommercialPropertyRent(BaseModel):
     property_id: Optional[str] = None
+    external_id: Optional[str] = None
     property_status: Optional[Any] = None
     owner_details: Optional[OwnerDetails] = None
     location: Optional[GeoPoint] = None

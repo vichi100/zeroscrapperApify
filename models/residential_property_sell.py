@@ -42,6 +42,7 @@ class ImageUrl(BaseModel):
 
 class ResidentialPropertySell(BaseModel):
     property_id: Optional[str] = None
+    external_id: Optional[str] = None
     property_status: Optional[str] = None  # "open" or "close"
     owner_details: Optional[OwnerDetails] = None
     location: Optional[GeoPoint] = None
