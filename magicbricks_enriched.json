@@ -1,0 +1,184 @@
+[
+  {
+    "property_id": "84066603",
+    "external_id": "84066603",
+    "property_status": "open",
+    "owner_details": {
+      "name": "Vijesh Mascarenhas",
+      "mobile": null,
+      "address": null
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        72.85769846,
+        19.35996123
+      ]
+    },
+    "property_address": {
+      "city": "Mumbai",
+      "main_text": "Naigaon Juchandra Road",
+      "formatted_address": "Mumbai, Maharashtra, India",
+      "flat_number": "",
+      "building_name": "",
+      "landmark_or_street": ""
+    },
+    "property_details": {
+      "house_type": null,
+      "bhk_type": "BHK2",
+      "washroom_numbers": 2,
+      "furnishing_status": null,
+      "parking_number": null,
+      "property_age": null,
+      "floor_number": null,
+      "total_floor": 14,
+      "lift": null,
+      "property_size": 500,
+      "available_from": null
+    },
+    "sell_details": {
+      "sell_price": 4700000,
+      "maintenance_charge": null,
+      "available_from": null
+    },
+    "image_urls": [
+      {
+        "url": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Apr/04/Photo_h300_w450/84066603_2_1775254855581-289_300_450.jpg",
+        "id": null
+      },
+      {
+        "url": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Apr/04/Photo_h300_w450/84066603_3_1775254862048-493_300_450.jpg",
+        "id": null
+      },
+      {
+        "url": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Apr/04/Photo_h300_w450/84066603_4_1775254869519-269_300_450.jpg",
+        "id": null
+      },
+      {
+        "url": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Apr/04/Photo_h300_w450/84066603_6_1775254889744-563_300_450.jpg",
+        "id": null
+      },
+      {
+        "url": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Apr/04/Photo_h300_w450/84066603_8_1775254915059-837_300_450.jpg",
+        "id": null
+      }
+    ],
+    "post_date": "2026-04-04 00:00:00",
+    "detail_url": "https://www.magicbricks.com/propertyDetails/2-BHK-765-Sq-ft-Multistorey-Apartment-FOR-Sale-Naigaon-Juchandra-Road-in-Mumbai&id=4d423834303636363033",
+    "amenities": {
+      "POWER_BACK_UP": true,
+      "LIFT": true,
+      "RAIN_WATER_HARVESTING": true,
+      "CLUB_HOUSE": true,
+      "GYMNASIUM": true,
+      "PARK": true,
+      "RESERVED_PARKING": true,
+      "SECURITY": true,
+      "WATER_STORAGE": true
+    },
+    "create_date_time": "2026-04-09 22:27:02.901471",
+    "update_date_time": "2026-04-09 22:27:02.901487",
+    "is_close_successfully": "no",
+    "last_verified_at": null,
+    "nearby_amenities_distance": null,
+    "listing_source": "mb"
+  },
+  {
+    "property_id": "84066321",
+    "external_id": "84066321",
+    "property_status": "open",
+    "owner_details": {
+      "name": "Durgesh deokar",
+      "mobile": null,
+      "address": null
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        72.8308669814394,
+        19.1913939680962
+      ]
+    },
+    "property_address": {
+      "city": "Mumbai",
+      "main_text": "Jankalyan Nagar",
+      "formatted_address": "New Delhi, Delhi NCR, India",
+      "flat_number": "",
+      "building_name": "",
+      "landmark_or_street": ""
+    },
+    "property_details": {
+      "house_type": null,
+      "bhk_type": "BHK2",
+      "washroom_numbers": 2,
+      "furnishing_status": null,
+      "parking_number": null,
+      "property_age": null,
+      "floor_number": null,
+      "total_floor": 23,
+      "lift": null,
+      "property_size": 636,
+      "available_from": null
+    },
+    "sell_details": {
+      "sell_price": 19000000,
+      "maintenance_charge": null,
+      "available_from": null
+    },
+    "image_urls": [
+      {
+        "url": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Apr/04/Photo_h300_w450/84066321_8_hatsAppImage20260330at2.16.31PM6_300_450.jpeg",
+        "id": null
+      },
+      {
+        "url": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Apr/04/Photo_h300_w450/84066321_9_hatsAppImage20260330at2.16.31PM5_300_450.jpeg",
+        "id": null
+      },
+      {
+        "url": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Apr/04/Photo_h300_w450/84066321_4_hatsAppImage20260330at2.16.31PM_300_450.jpeg",
+        "id": null
+      },
+      {
+        "url": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Apr/04/Photo_h300_w450/84066321_5_hatsAppImage20260330at2.16.30PM_300_450.jpeg",
+        "id": null
+      },
+      {
+        "url": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Apr/04/Photo_h300_w450/84066321_6_hatsAppImage20260330at2.16.30PM1_300_450.jpeg",
+        "id": null
+      }
+    ],
+    "post_date": "2026-04-04 00:00:00",
+    "detail_url": "https://www.magicbricks.com/propertyDetails/2-BHK-636-Sq-ft-Multistorey-Apartment-FOR-Sale-Jankalyan-Nagar-in-Mumbai&id=4d423834303636333231",
+    "amenities": {
+      "POWER_BACK_UP": true,
+      "LIFT": true,
+      "RAIN_WATER_HARVESTING": true,
+      "CLUB_HOUSE": true,
+      "SWIMMING_POOL": true,
+      "GYMNASIUM": true,
+      "PARK": true,
+      "RESERVED_PARKING": true,
+      "SECURITY": true,
+      "WATER_STORAGE": true,
+      "VAASTU_COMPLIANT": true,
+      "SERVICE/GOODS_LIFT": true,
+      "AIR_CONDITIONED": true,
+      "VISITOR_PARKING": true,
+      "INTERCOM_FACILITY": true,
+      "MAINTENANCE_STAFF": true,
+      "WASTE_DISPOSAL": true,
+      "LAUNDRY_SERVICE": true,
+      "INTERNET/WI-FI_CONNECTIVITY": true,
+      "DTH_TELEVISION_FACILITY": true,
+      "RO_WATER_SYSTEM": true,
+      "BANQUET_HALL": true,
+      "PIPED_GAS": true
+    },
+    "create_date_time": "2026-04-09 22:27:02.901724",
+    "update_date_time": "2026-04-09 22:27:02.901725",
+    "is_close_successfully": "no",
+    "last_verified_at": null,
+    "nearby_amenities_distance": null,
+    "listing_source": "mb"
+  }
+]

@@ -1,0 +1,259 @@
+[
+  {
+    "property_id": "19320849",
+    "external_id": "19320849",
+    "property_status": "open",
+    "owner_details": {
+      "name": "Tarik"
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        72.829487,
+        19.100558
+      ]
+    },
+    "property_address": {
+      "city": "Mumbai",
+      "main_text": "Ideal 49, Airport Area, Juhu, Mumbai South West, Mumbai",
+      "formatted_address": "Ideal 49, Airport Area, Juhu, Mumbai South West, Mumbai"
+    },
+    "property_details": {
+      "bhk_type": "3BHK",
+      "washroom_numbers": "2",
+      "parking_number": "1",
+      "property_size": 900.0,
+      "property_age": "2 years",
+      "floor_number": 5,
+      "total_floor": 12
+    },
+    "rent_details": {
+      "rent": 185000,
+      "deposit": 550000
+    },
+    "image_urls": [],
+    "post_date": null,
+    "detail_url": "https://housing.com/rent/19320849-900-sqft-2.5-bhk-apartment-on-rent-in-juhu-mumbai",
+    "amenities": {
+      "GAS_PIPELINE": true
+    },
+    "create_date_time": "2026-04-09 21:34:30.369272",
+    "update_date_time": "2026-04-09 21:34:30.369393",
+    "is_close_successfully": "no",
+    "last_verified_at": null,
+    "nearby_amenities_distance": null,
+    "listing_source": "hs"
+  },
+  {
+    "property_id": "19685179",
+    "external_id": "19685179",
+    "property_status": "open",
+    "owner_details": {
+      "name": null,
+      "mobile": null
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        72.829487,
+        19.100558
+      ]
+    },
+    "property_address": {
+      "city": "Mumbai",
+      "main_text": "2 BHK Flat",
+      "formatted_address": "2 BHK Flat",
+      "flat_number": "",
+      "building_name": "",
+      "landmark_or_street": ""
+    },
+    "property_details": {
+      "house_type": null,
+      "bhk_type": "2BHK",
+      "washroom_numbers": null,
+      "furnishing_status": null,
+      "parking_number": null,
+      "property_age": null,
+      "floor_number": null,
+      "total_floor": null,
+      "lift": null,
+      "property_size": 1050
+    },
+    "rent_details": {
+      "rent": 120000,
+      "deposit": null,
+      "available_from": null,
+      "preferred_tenants": null,
+      "non_veg_allowed": null
+    },
+    "image_urls": [],
+    "post_date": null,
+    "detail_url": "https://housing.com/rent/19685179-1050-sqft-2-bhk-apartment-on-rent-in-juhu-mumbai",
+    "amenities": {},
+    "create_date_time": "2026-04-09 21:34:30.369509",
+    "update_date_time": "2026-04-09 21:34:30.369510",
+    "is_close_successfully": "no",
+    "last_verified_at": null,
+    "nearby_amenities_distance": null,
+    "listing_source": "hs"
+  },
+  {
+    "property_id": "19095567",
+    "external_id": "19095567",
+    "property_status": "open",
+    "owner_details": {
+      "name": null,
+      "mobile": null
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        72.824485,
+        19.110502
+      ]
+    },
+    "property_address": {
+      "city": "Mumbai",
+      "main_text": "3 BHK Flat",
+      "formatted_address": "3 BHK Flat",
+      "flat_number": "",
+      "building_name": "",
+      "landmark_or_street": ""
+    },
+    "property_details": {
+      "house_type": null,
+      "bhk_type": "3BHK",
+      "washroom_numbers": null,
+      "furnishing_status": null,
+      "parking_number": null,
+      "property_age": null,
+      "floor_number": null,
+      "total_floor": null,
+      "lift": null,
+      "property_size": 1200
+    },
+    "rent_details": {
+      "rent": 200000,
+      "deposit": null,
+      "available_from": null,
+      "preferred_tenants": null,
+      "non_veg_allowed": null
+    },
+    "image_urls": [],
+    "post_date": null,
+    "detail_url": "https://housing.com/rent/19095567-1200-sqft-3-bhk-apartment-on-rent-in-juhu-mumbai",
+    "amenities": {},
+    "create_date_time": "2026-04-09 21:34:30.369536",
+    "update_date_time": "2026-04-09 21:34:30.369537",
+    "is_close_successfully": "no",
+    "last_verified_at": null,
+    "nearby_amenities_distance": null,
+    "listing_source": "hs"
+  },
+  {
+    "property_id": "11368322",
+    "external_id": "11368322",
+    "property_status": "open",
+    "owner_details": {
+      "name": null,
+      "mobile": null
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        72.832072,
+        19.098821
+      ]
+    },
+    "property_address": {
+      "city": "Mumbai",
+      "main_text": "3 BHK Flat",
+      "formatted_address": "3 BHK Flat",
+      "flat_number": "",
+      "building_name": "",
+      "landmark_or_street": ""
+    },
+    "property_details": {
+      "house_type": null,
+      "bhk_type": "3BHK",
+      "washroom_numbers": null,
+      "furnishing_status": null,
+      "parking_number": null,
+      "property_age": null,
+      "floor_number": null,
+      "total_floor": null,
+      "lift": null,
+      "property_size": 1350
+    },
+    "rent_details": {
+      "rent": 145000,
+      "deposit": null,
+      "available_from": null,
+      "preferred_tenants": null,
+      "non_veg_allowed": null
+    },
+    "image_urls": [],
+    "post_date": null,
+    "detail_url": "https://housing.com/rent/11368322-1350-sqft-3-bhk-apartment-on-rent-in-juhu-mumbai-v2",
+    "amenities": {},
+    "create_date_time": "2026-04-09 21:34:30.369556",
+    "update_date_time": "2026-04-09 21:34:30.369556",
+    "is_close_successfully": "no",
+    "last_verified_at": null,
+    "nearby_amenities_distance": null,
+    "listing_source": "hs"
+  },
+  {
+    "property_id": "19900219",
+    "external_id": "19900219",
+    "property_status": "open",
+    "owner_details": {
+      "name": null,
+      "mobile": null
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        72.82737,
+        19.108931
+      ]
+    },
+    "property_address": {
+      "city": "Mumbai",
+      "main_text": "3 BHK Flat",
+      "formatted_address": "3 BHK Flat",
+      "flat_number": "",
+      "building_name": "",
+      "landmark_or_street": ""
+    },
+    "property_details": {
+      "house_type": null,
+      "bhk_type": "3BHK",
+      "washroom_numbers": null,
+      "furnishing_status": null,
+      "parking_number": null,
+      "property_age": null,
+      "floor_number": null,
+      "total_floor": null,
+      "lift": null,
+      "property_size": 1500
+    },
+    "rent_details": {
+      "rent": 200000,
+      "deposit": null,
+      "available_from": null,
+      "preferred_tenants": null,
+      "non_veg_allowed": null
+    },
+    "image_urls": [],
+    "post_date": null,
+    "detail_url": "https://housing.com/rent/19900219-1500-sqft-3-bhk-apartment-on-rent-in-juhu-mumbai",
+    "amenities": {},
+    "create_date_time": "2026-04-09 21:34:30.369574",
+    "update_date_time": "2026-04-09 21:34:30.369574",
+    "is_close_successfully": "no",
+    "last_verified_at": null,
+    "nearby_amenities_distance": null,
+    "listing_source": "hs"
+  }
+]

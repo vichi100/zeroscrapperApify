@@ -1,0 +1,263 @@
+[
+  {
+    "property_id": "A89768074",
+    "external_id": "A89768074",
+    "property_status": "open",
+    "owner_details": {
+      "name": "Shyam Enterprises",
+      "mobile": null
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": null
+    },
+    "property_address": {
+      "city": "Mumbai",
+      "main_text": "2 BHK Flat for rent in Four Bungalows, Andheri West",
+      "formatted_address": "2 BHK Flat for rent in Four Bungalows, Andheri West",
+      "flat_number": "",
+      "building_name": "",
+      "landmark_or_street": ""
+    },
+    "property_details": {
+      "house_type": null,
+      "bhk_type": "2 BHK",
+      "washroom_numbers": "2",
+      "furnishing_status": null,
+      "parking_number": null,
+      "property_age": null,
+      "floor_number": 10,
+      "total_floor": 27,
+      "lift": null,
+      "property_size": 1346
+    },
+    "rent_details": {
+      "rent": 100000,
+      "deposit": null,
+      "available_from": null,
+      "preferred_tenants": null,
+      "non_veg_allowed": null
+    },
+    "image_urls": [],
+    "post_date": "2026-04-05 08:32:40+00:00",
+    "detail_url": "https://www.99acres.com/2-bhk-bedroom-apartment-flat-for-rent-in-hdil-metropolis-residences-four-bungalows-mumbai-andheri-dahisar-1346-sq-ft-spid-A89768074",
+    "amenities": {
+      "PARKING": true,
+      "METRO_ACCESSIBILITY": true
+    },
+    "create_date_time": "2026-04-09 21:34:31.889426",
+    "update_date_time": "2026-04-09 21:34:31.889433",
+    "is_close_successfully": "no",
+    "last_verified_at": null,
+    "nearby_amenities_distance": null,
+    "listing_source": "99"
+  },
+  {
+    "property_id": "O89783470",
+    "external_id": "O89783470",
+    "property_status": "open",
+    "owner_details": {
+      "name": "Done Deal Real Estate",
+      "mobile": null
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": null
+    },
+    "property_address": {
+      "city": "Mumbai",
+      "main_text": "2 BHK Flat for rent in Manish Nagar, Andheri West",
+      "formatted_address": "2 BHK Flat for rent in Manish Nagar, Andheri West",
+      "flat_number": "",
+      "building_name": "",
+      "landmark_or_street": ""
+    },
+    "property_details": {
+      "house_type": null,
+      "bhk_type": "2 BHK",
+      "washroom_numbers": "2",
+      "furnishing_status": null,
+      "parking_number": null,
+      "property_age": null,
+      "floor_number": null,
+      "total_floor": null,
+      "lift": null,
+      "property_size": 780
+    },
+    "rent_details": {
+      "rent": 74000,
+      "deposit": null,
+      "available_from": null,
+      "preferred_tenants": null,
+      "non_veg_allowed": null
+    },
+    "image_urls": [],
+    "post_date": "2026-04-05 08:32:40.011000+00:00",
+    "detail_url": "https://www.99acres.com/2-bhk-bedroom-apartment-flat-for-rent-in-manish-nagar-mumbai-andheri-dahisar-780-sq-ft-spid-O89783470",
+    "amenities": {
+      "METRO_ACCESSIBILITY": true
+    },
+    "create_date_time": "2026-04-09 21:34:32.533877",
+    "update_date_time": "2026-04-09 21:34:32.533879",
+    "is_close_successfully": "no",
+    "last_verified_at": null,
+    "nearby_amenities_distance": null,
+    "listing_source": "99"
+  },
+  {
+    "property_id": "C89735168",
+    "external_id": "C89735168",
+    "property_status": "open",
+    "owner_details": {
+      "name": "Shyam Enterprises",
+      "mobile": null
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": null
+    },
+    "property_address": {
+      "city": "Mumbai",
+      "main_text": "2 BHK Flat for rent in Lokhandwala Andheri West, Mumbai",
+      "formatted_address": "2 BHK Flat for rent in Lokhandwala Andheri West, Mumbai",
+      "flat_number": "",
+      "building_name": "",
+      "landmark_or_street": ""
+    },
+    "property_details": {
+      "house_type": null,
+      "bhk_type": "2 BHK",
+      "washroom_numbers": "2",
+      "furnishing_status": null,
+      "parking_number": null,
+      "property_age": null,
+      "floor_number": null,
+      "total_floor": 7,
+      "lift": null,
+      "property_size": 950
+    },
+    "rent_details": {
+      "rent": 87000,
+      "deposit": null,
+      "available_from": null,
+      "preferred_tenants": null,
+      "non_veg_allowed": null
+    },
+    "image_urls": [],
+    "post_date": "2026-04-05 08:32:40.011000+00:00",
+    "detail_url": "https://www.99acres.com/2-bhk-bedroom-apartment-flat-for-rent-in-lokhandwala-andheri-west-mumbai-andheri-dahisar-950-sq-ft-spid-C89735168",
+    "amenities": {
+      "METRO_ACCESSIBILITY": true
+    },
+    "create_date_time": "2026-04-09 21:34:32.790388",
+    "update_date_time": "2026-04-09 21:34:32.790392",
+    "is_close_successfully": "no",
+    "last_verified_at": null,
+    "nearby_amenities_distance": null,
+    "listing_source": "99"
+  },
+  {
+    "property_id": "E89627358",
+    "external_id": "E89627358",
+    "property_status": "open",
+    "owner_details": {
+      "name": "Bliss Estate",
+      "mobile": null
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": null
+    },
+    "property_address": {
+      "city": "Mumbai",
+      "main_text": "2 BHK Flat for rent in DN Nagar, Andheri West",
+      "formatted_address": "2 BHK Flat for rent in DN Nagar, Andheri West",
+      "flat_number": "",
+      "building_name": "",
+      "landmark_or_street": ""
+    },
+    "property_details": {
+      "house_type": null,
+      "bhk_type": "2 BHK",
+      "washroom_numbers": "2",
+      "furnishing_status": null,
+      "parking_number": null,
+      "property_age": null,
+      "floor_number": null,
+      "total_floor": null,
+      "lift": null,
+      "property_size": 650
+    },
+    "rent_details": {
+      "rent": 120000,
+      "deposit": null,
+      "available_from": null,
+      "preferred_tenants": null,
+      "non_veg_allowed": null
+    },
+    "image_urls": [],
+    "post_date": "2026-04-05 08:32:40.012000+00:00",
+    "detail_url": "https://www.99acres.com/2-bhk-bedroom-apartment-flat-for-rent-in-platinum-life-dn-nagar-mumbai-andheri-dahisar-650-sq-ft-spid-E89627358",
+    "amenities": {
+      "METRO_ACCESSIBILITY": true
+    },
+    "create_date_time": "2026-04-09 21:34:33.317233",
+    "update_date_time": "2026-04-09 21:34:33.317238",
+    "is_close_successfully": "no",
+    "last_verified_at": null,
+    "nearby_amenities_distance": null,
+    "listing_source": "99"
+  },
+  {
+    "property_id": "K89712572",
+    "external_id": "K89712572",
+    "property_status": "open",
+    "owner_details": {
+      "name": "Owner",
+      "mobile": null
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": null
+    },
+    "property_address": {
+      "city": "Mumbai",
+      "main_text": "2 BHK Flat for rent in Andheri West, Mumbai",
+      "formatted_address": "2 BHK Flat for rent in Andheri West, Mumbai",
+      "flat_number": "",
+      "building_name": "",
+      "landmark_or_street": ""
+    },
+    "property_details": {
+      "house_type": null,
+      "bhk_type": "2 BHK",
+      "washroom_numbers": "2",
+      "furnishing_status": null,
+      "parking_number": null,
+      "property_age": null,
+      "floor_number": null,
+      "total_floor": null,
+      "lift": null,
+      "property_size": 750
+    },
+    "rent_details": {
+      "rent": 60000,
+      "deposit": null,
+      "available_from": null,
+      "preferred_tenants": null,
+      "non_veg_allowed": null
+    },
+    "image_urls": [],
+    "post_date": "2026-04-05 08:32:40.013000+00:00",
+    "detail_url": "https://www.99acres.com/2-bhk-bedroom-apartment-flat-for-rent-in-sunrise-apartment-andheri-west-mumbai-andheri-dahisar-750-sq-ft-spid-K89712572",
+    "amenities": {
+      "METRO_ACCESSIBILITY": true
+    },
+    "create_date_time": "2026-04-09 21:34:33.866045",
+    "update_date_time": "2026-04-09 21:34:33.866060",
+    "is_close_successfully": "no",
+    "last_verified_at": null,
+    "nearby_amenities_distance": null,
+    "listing_source": "99"
+  }
+]

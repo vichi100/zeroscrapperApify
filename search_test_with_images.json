@@ -1,0 +1,7 @@
+[Housing.com Native] Starting TLS impersonated scrape: https://housing.com/rent/search-D2P5b0ifcwcj8n08j54
+[Housing.com Native] ERROR: WAF Blocked the request.
+{
+  "status": "error",
+  "items": [],
+  "message": "WAF Block"
+}

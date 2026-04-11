@@ -1,0 +1,103 @@
+[
+  {
+    "id": "19821699",
+    "title": "Without Brokerage 2 BHK Independent House",
+    "rent": 70000,
+    "rent_formatted": "\u20b970,000",
+    "area": "650 sq.ft",
+    "furnishing": "Fully Furnished",
+    "url": "https://housing.com/rent/19821699-650-sqft-2-bhk-independent-house-on-rent-in-andheri-west-mumbai",
+    "locality": null,
+    "highlights": [],
+    "updated_at": "7 days ago",
+    "source": "housing",
+    "latitude": 19.124524,
+    "longitude": 72.833134
+  },
+  {
+    "id": "19427626",
+    "title": "Without Brokerage 2 BHK Flat",
+    "rent": 68000,
+    "rent_formatted": "\u20b968,000",
+    "area": "800 sq.ft",
+    "furnishing": "Fully Furnished",
+    "url": "https://housing.com/rent/19427626-800-sqft-2-bhk-apartment-on-rent-in-andheri-west-mumbai",
+    "locality": null,
+    "highlights": [],
+    "updated_at": "11 days ago",
+    "source": "housing",
+    "latitude": 19.137616,
+    "longitude": 72.821834
+  },
+  {
+    "id": "19857243",
+    "title": "Without Brokerage 2 BHK Flat",
+    "rent": 70000,
+    "rent_formatted": "\u20b970,000",
+    "area": "800 sq.ft",
+    "furnishing": "Fully Furnished",
+    "url": "https://housing.com/rent/19857243-800-sqft-2-bhk-apartment-on-rent-in-andheri-west-mumbai",
+    "locality": null,
+    "highlights": [],
+    "updated_at": "8 days ago",
+    "source": "housing",
+    "latitude": 19.13632,
+    "longitude": 72.827637,
+    "property_details": {
+      "bhk_type": "2BHK",
+      "washroom_numbers": "2",
+      "parking_number": null,
+      "property_size": 800.0,
+      "property_age": "null year",
+      "floor_number": 3,
+      "total_floor": 5
+    },
+    "rent_details": {
+      "rent": 70000,
+      "deposit": 140000
+    },
+    "amenities": {
+      "DINING_TABLE": true,
+      "WASHING_MACHINE": true,
+      "SOFA": true,
+      "FRIDGE": true,
+      "AC": true,
+      "BED": true,
+      "CHIMNEY": true,
+      "MODULAR_KITCHEN": true
+    },
+    "owner_details": {
+      "name": "Niraj Dhangar"
+    }
+  },
+  {
+    "id": "19637288",
+    "title": "Without Brokerage 2 BHK Flat",
+    "rent": 80000,
+    "rent_formatted": "\u20b980,000",
+    "area": "800 sq.ft",
+    "furnishing": "Semi Furnished",
+    "url": "https://housing.com/rent/19637288-800-sqft-2-bhk-apartment-on-rent-in-andheri-west-mumbai",
+    "locality": null,
+    "highlights": [],
+    "updated_at": "11 days ago",
+    "source": "housing",
+    "latitude": 19.142456,
+    "longitude": 72.824326
+  },
+  {
+    "id": "19809834",
+    "title": "Without Brokerage 2 BHK Flat",
+    "rent": 80000,
+    "rent_formatted": "\u20b980,000",
+    "area": "800 sq.ft",
+    "furnishing": "Semi Furnished",
+    "url": "https://housing.com/rent/19809834-800-sqft-2-bhk-apartment-on-rent-in-andheri-west-mumbai",
+    "locality": null,
+    "highlights": [],
+    "updated_at": "11 days ago",
+    "source": "housing",
+    "latitude": 19.145359,
+    "longitude": 72.824005
+  }
+]

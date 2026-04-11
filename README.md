@@ -96,3 +96,7 @@ python3 test_query.py "I am looking for a 2bhk in Andheri West in 40-60k rent" -
 ## Requirements
 - Python 3.8+
 - Apify Account & API Token
+
+
+
+python3 normalize_nobroker_util.py

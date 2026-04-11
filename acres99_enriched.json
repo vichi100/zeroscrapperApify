@@ -1,0 +1,110 @@
+[
+  {
+    "property_id": "A89768074",
+    "external_id": "A89768074",
+    "property_status": "open",
+    "owner_details": {
+      "name": null,
+      "mobile": null
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        72.82832897222222,
+        19.131074
+      ]
+    },
+    "property_address": {
+      "city": "Western Mumbai",
+      "main_text": "Four Bungalows, Andheri West",
+      "formatted_address": "Four Bungalows, Andheri West, Western Mumbai",
+      "flat_number": "",
+      "building_name": "",
+      "landmark_or_street": ""
+    },
+    "property_details": {
+      "house_type": null,
+      "bhk_type": "BHK2",
+      "washroom_numbers": "2",
+      "furnishing_status": null,
+      "parking_number": "1",
+      "property_age": "1 to 5 Year Old",
+      "floor_number": 10,
+      "total_floor": 27,
+      "lift": null,
+      "property_size": 1346
+    },
+    "rent_details": {
+      "rent": 100000,
+      "deposit": 300000,
+      "available_from": null,
+      "preferred_tenants": null,
+      "non_veg_allowed": null
+    },
+    "image_urls": [
+      {
+        "url": "https://imagecdn.99acres.com/media1/36560/19/731219850M-1774267588203.jpg",
+        "id": null
+      },
+      {
+        "url": "https://imagecdn.99acres.com/media1/36560/19/731219914M-1774267588388.jpg",
+        "id": null
+      },
+      {
+        "url": "https://imagecdn.99acres.com/media1/36560/19/731219852M-1774267588223.jpg",
+        "id": null
+      },
+      {
+        "url": "https://imagecdn.99acres.com/media1/36560/19/731219842M-1774267588469.jpg",
+        "id": null
+      },
+      {
+        "url": "https://imagecdn.99acres.com/media1/36560/19/731219858M-1774267588059.jpg",
+        "id": null
+      },
+      {
+        "url": "https://imagecdn.99acres.com/media1/36560/19/731219908M-1774267588159.jpg",
+        "id": null
+      }
+    ],
+    "post_date": "2026-04-10 18:11:48.450373",
+    "detail_url": "https://www.99acres.com/2-bhk-bedroom-apartment-flat-for-rent-in-hdil-metropolis-residences-four-bungalows-mumbai-andheri-dahisar-1346-sq-ft-spid-A89768074",
+    "amenities": {
+      "PRIVATE_GARDEN": true,
+      "CENTRALLY_AIR_CONDITIONED": true,
+      "CORNER_PROPERTY": true,
+      "VAASTU_COMPLIANT": true,
+      "HIGH_CEILING_HEIGHT": true,
+      "FALSE_CEILING_LIGHTING": true,
+      "SEPARATE_ENTRY_FOR_SERVANT_ROOM": true,
+      "PIPED-GAS": true,
+      "RECENTLY_RENOVATED": true,
+      "SWIMMING_POOL": true,
+      "GYMNASIUM": true,
+      "CLUB_HOUSE": true,
+      "CHILDREN'S_PLAY_AREA": true,
+      "PARK": true,
+      "MULTIPURPOSE_HALL": true,
+      "CAR_PARKING": true,
+      "PAVED_COMPOUND": true,
+      "INTERNAL_STREET_LIGHTS": true,
+      "FIRE_FIGHTING_SYSTEMS": true,
+      "24X7_SECURITY": true,
+      "WAITING_LOUNGE": true,
+      "LIFTS": true,
+      "ENTRANCE_LOBBY": true,
+      "INTERCOM": true,
+      "POWER_BACK_UP_LIFT": true,
+      "GARBAGE_DISPOSAL": true,
+      "SEWAGE_TREATMENT_PLANT": true,
+      "24/7_WATER_SUPPLY": true,
+      "RAIN_WATER_HARVESTING": true
+    },
+    "create_date_time": "2026-04-10 12:41:48.450671",
+    "update_date_time": "2026-04-10 12:41:48.450854",
+    "is_close_successfully": "no",
+    "last_verified_at": null,
+    "nearby_amenities_distance": null,
+    "listing_source": "99"
+  }
+]

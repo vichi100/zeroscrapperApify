@@ -1,5 +1,5 @@
 from pydantic import BaseModel, Field
-from typing import List, Optional
+from typing import List, Optional, Dict
 from datetime import datetime
 
 class OwnerDetails(BaseModel):
@@ -30,6 +30,7 @@ class PropertyDetails(BaseModel):
     total_floor: Optional[int] = None
     lift: Optional[str] = None
     property_size: Optional[int] = None
+    available_from: Optional[datetime] = None
 
 class SellDetails(BaseModel):
     sell_price: Optional[int] = None

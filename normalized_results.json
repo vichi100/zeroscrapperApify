@@ -1,0 +1,1072 @@
+{
+  "nobroker.json": [
+    {
+      "property_id": "8a9f8c039005af44019005b91eab027b",
+      "external_id": "8a9f8c039005af44019005b91eab027b",
+      "property_status": "open",
+      "owner_details": {
+        "name": "Asha Agrawal",
+        "mobile": null
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          72.83926036572488,
+          19.12231886569518
+        ]
+      },
+      "property_address": {
+        "city": "mumbai",
+        "main_text": "Andheri West",
+        "formatted_address": "Dadabhai Cross Rd Number 2 Gilbert Hill, Andheri West Mumbai, Maharashtra 400058, Andheri West, mumbai",
+        "flat_number": "",
+        "building_name": "",
+        "landmark_or_street": ""
+      },
+      "property_details": {
+        "house_type": null,
+        "bhk_type": "BHK2",
+        "washroom_numbers": "2",
+        "furnishing_status": "SEMI_FURNISHED",
+        "parking_number": null,
+        "property_age": null,
+        "floor_number": 2,
+        "total_floor": 4,
+        "lift": "No",
+        "property_size": null
+      },
+      "rent_details": {
+        "rent": 55000,
+        "deposit": 250000,
+        "available_from": "2026-04-01 00:00:00",
+        "preferred_tenants": "FAMILY",
+        "non_veg_allowed": "Yes"
+      },
+      "image_urls": [
+        {
+          "url": "https://assets.nobroker.in/8a9f8c039005af44019005b91eab027b_79660_797948_original.jpg",
+          "id": null
+        }
+      ],
+      "post_date": "2026-03-14 17:15:12",
+      "detail_url": "https://www.nobroker.in/property/2-bhk-apartment-for-rent-in-andheri-west-mumbai-for-rs-55000/8a9f8c039005af44019005b91eab027b/detail",
+      "amenities": {
+        "SECURITY": true,
+        "GYM": true
+      },
+      "create_date_time": "2026-04-07 19:11:57.145634",
+      "update_date_time": "2026-04-07 19:11:57.145744",
+      "is_close_successfully": "no",
+      "last_verified_at": "2026-03-14 17:15:14",
+      "nearby_amenities_distance": null,
+      "listing_source": "nb"
+    },
+    {
+      "property_id": "8a9fb48494c9cbe80194ca258981140b",
+      "external_id": "8a9fb48494c9cbe80194ca258981140b",
+      "property_status": "open",
+      "owner_details": {
+        "name": "Siddhesh",
+        "mobile": null
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          72.83068483458662,
+          19.12434513942347
+        ]
+      },
+      "property_address": {
+        "city": "mumbai",
+        "main_text": "Andheri West",
+        "formatted_address": "44, Andheri Link Rd, Shanti Nagar, D.N.Nagar, Andheri West, Mumbai, Maharashtra 400053, Andheri West, mumbai",
+        "flat_number": "",
+        "building_name": "",
+        "landmark_or_street": ""
+      },
+      "property_details": {
+        "house_type": null,
+        "bhk_type": "BHK2",
+        "washroom_numbers": "1",
+        "furnishing_status": "FULLY_FURNISHED",
+        "parking_number": null,
+        "property_age": null,
+        "floor_number": 2,
+        "total_floor": 4,
+        "lift": "No",
+        "property_size": null
+      },
+      "rent_details": {
+        "rent": 60000,
+        "deposit": 200000,
+        "available_from": "2026-04-06 00:00:00",
+        "preferred_tenants": null,
+        "non_veg_allowed": "Yes"
+      },
+      "image_urls": [
+        {
+          "url": "https://assets.nobroker.in/8a9fb48494c9cbe80194ca258981140b_34753_825091_original.jpg",
+          "id": null
+        }
+      ],
+      "post_date": "2026-04-06 15:45:26",
+      "detail_url": "https://www.nobroker.in/property/2-bhk-apartment-for-rent-in-andheri-west-mumbai-for-rs-60000/8a9fb48494c9cbe80194ca258981140b/detail",
+      "amenities": {
+        "SECURITY": true
+      },
+      "create_date_time": "2026-04-07 19:11:57.145839",
+      "update_date_time": "2026-04-07 19:11:57.145839",
+      "is_close_successfully": "no",
+      "last_verified_at": "2026-04-06 15:45:32",
+      "nearby_amenities_distance": null,
+      "listing_source": "nb"
+    },
+    {
+      "property_id": "8aa9a2679cf5068b019cf57ce1b83c49",
+      "external_id": "8aa9a2679cf5068b019cf57ce1b83c49",
+      "property_status": "open",
+      "owner_details": {
+        "name": "Deepak",
+        "mobile": null
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          72.8264378,
+          19.1247347
+        ]
+      },
+      "property_address": {
+        "city": "mumbai",
+        "main_text": "Four Bungalows, Andheri West",
+        "formatted_address": "Manish Nagar,Four Bungalows,Andheri west , Four Bungalows, Andheri West, mumbai",
+        "flat_number": "",
+        "building_name": "",
+        "landmark_or_street": ""
+      },
+      "property_details": {
+        "house_type": null,
+        "bhk_type": "BHK2",
+        "washroom_numbers": "2",
+        "furnishing_status": "FULLY_FURNISHED",
+        "parking_number": null,
+        "property_age": null,
+        "floor_number": 2,
+        "total_floor": 4,
+        "lift": "No",
+        "property_size": null
+      },
+      "rent_details": {
+        "rent": 55001,
+        "deposit": 150000,
+        "available_from": "2026-03-16 00:00:00",
+        "preferred_tenants": "FAMILY",
+        "non_veg_allowed": "Yes"
+      },
+      "image_urls": [
+        {
+          "url": "https://assets.nobroker.in/8aa9a2679cf5068b019cf57ce1b83c49_194449_81824_original.jpg",
+          "id": null
+        },
+        {
+          "url": "https://assets.nobroker.in/8aa9a2679cf5068b019cf57ce1b83c49_368842_491094_original.jpg",
+          "id": null
+        },
+        {
+          "url": "https://assets.nobroker.in/8aa9a2679cf5068b019cf57ce1b83c49_31597_203256_original.jpg",
+          "id": null
+        },
+        {
+          "url": "https://assets.nobroker.in/8aa9a2679cf5068b019cf57ce1b83c49_345099_247453_original.jpg",
+          "id": null
+        },
+        {
+          "url": "https://assets.nobroker.in/8aa9a2679cf5068b019cf57ce1b83c49_61263_346943_original.jpg",
+          "id": null
+        },
+        {
+          "url": "https://assets.nobroker.in/8aa9a2679cf5068b019cf57ce1b83c49_372852_239742_original.jpg",
+          "id": null
+        }
+      ],
+      "post_date": "2026-03-16 13:13:57",
+      "detail_url": "https://www.nobroker.in/property/2-bhk-apartment-for-rent-in-four-bungalows-andheri-west-mumbai-for-rs-55001/8aa9a2679cf5068b019cf57ce1b83c49/detail",
+      "amenities": {
+        "AC": true,
+        "GP": true,
+        "PARK": true,
+        "SECURITY": true,
+        "SERVANT": true
+      },
+      "create_date_time": "2026-04-07 19:11:57.145892",
+      "update_date_time": "2026-04-07 19:11:57.145892",
+      "is_close_successfully": "no",
+      "last_verified_at": "2026-03-21 19:29:30",
+      "nearby_amenities_distance": null,
+      "listing_source": "nb"
+    },
+    {
+      "property_id": "8aa9bc849cd31f42019cd3842bd51dbb",
+      "external_id": "8aa9bc849cd31f42019cd3842bd51dbb",
+      "property_status": "open",
+      "owner_details": {
+        "name": "Manav",
+        "mobile": null
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          72.82754570000002,
+          19.127355100000006
+        ]
+      },
+      "property_address": {
+        "city": "mumbai",
+        "main_text": "Manish Nagar, Four Bungalows, Andheri West",
+        "formatted_address": "Bharat Skyvistas, Manish Nagar, Four Bungalows, Andheri West, mumbai",
+        "flat_number": "",
+        "building_name": "",
+        "landmark_or_street": ""
+      },
+      "property_details": {
+        "house_type": null,
+        "bhk_type": "BHK2",
+        "washroom_numbers": "1",
+        "furnishing_status": "FULLY_FURNISHED",
+        "parking_number": null,
+        "property_age": null,
+        "floor_number": 2,
+        "total_floor": 4,
+        "lift": "No",
+        "property_size": null
+      },
+      "rent_details": {
+        "rent": 50000,
+        "deposit": 150000,
+        "available_from": "2026-03-10 00:00:00",
+        "preferred_tenants": null,
+        "non_veg_allowed": "Yes"
+      },
+      "image_urls": [
+        {
+          "url": "https://assets.nobroker.in/8aa9bc849cd31f42019cd3842bd51dbb_59783_380393_original.jpg",
+          "id": null
+        },
+        {
+          "url": "https://assets.nobroker.in/8aa9bc849cd31f42019cd3842bd51dbb_46286_601700_original.jpg",
+          "id": null
+        },
+        {
+          "url": "https://assets.nobroker.in/8aa9bc849cd31f42019cd3842bd51dbb_29203_353465_original.jpg",
+          "id": null
+        },
+        {
+          "url": "https://assets.nobroker.in/8aa9bc849cd31f42019cd3842bd51dbb_13603_445020_original.jpg",
+          "id": null
+        },
+        {
+          "url": "https://assets.nobroker.in/8aa9bc849cd31f42019cd3842bd51dbb_79874_52423_original.jpg",
+          "id": null
+        },
+        {
+          "url": "https://assets.nobroker.in/8aa9bc849cd31f42019cd3842bd51dbb_70823_29574_original.jpg",
+          "id": null
+        }
+      ],
+      "post_date": "2026-03-09 22:35:12",
+      "detail_url": "https://www.nobroker.in/property/2-bhk-apartment-for-rent-in-manish-nagar-four-bungalows-andheri-west-mumbai-for-rs-50000/8aa9bc849cd31f42019cd3842bd51dbb/detail",
+      "amenities": {
+        "SECURITY": true
+      },
+      "create_date_time": "2026-04-07 19:11:57.145936",
+      "update_date_time": "2026-04-07 19:11:57.145936",
+      "is_close_successfully": "no",
+      "last_verified_at": "2026-03-29 23:48:58",
+      "nearby_amenities_distance": null,
+      "listing_source": "nb"
+    },
+    {
+      "property_id": "8a9f8fc3937d2b6701937d6df5ba1988",
+      "external_id": "8a9f8fc3937d2b6701937d6df5ba1988",
+      "property_status": "open",
+      "owner_details": {
+        "name": "Vikram Purohit ",
+        "mobile": null
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          72.84490931785932,
+          19.123073542875414
+        ]
+      },
+      "property_address": {
+        "city": "mumbai",
+        "main_text": "Andheri West",
+        "formatted_address": " Fish Market Area near Shree Bharat Furniture, Andheri West, mumbai",
+        "flat_number": "",
+        "building_name": "",
+        "landmark_or_street": ""
+      },
+      "property_details": {
+        "house_type": null,
+        "bhk_type": "BHK2",
+        "washroom_numbers": "2",
+        "furnishing_status": "FULLY_FURNISHED",
+        "parking_number": null,
+        "property_age": null,
+        "floor_number": 1,
+        "total_floor": 2,
+        "lift": "No",
+        "property_size": null
+      },
+      "rent_details": {
+        "rent": 55000,
+        "deposit": 150000,
+        "available_from": "2026-04-02 00:00:00",
+        "preferred_tenants": "FAMILY",
+        "non_veg_allowed": "No"
+      },
+      "image_urls": [
+        {
+          "url": "https://assets.nobroker.in/8a9f8fc3937d2b6701937d6df5ba1988_95896_492344_original.jpg",
+          "id": null
+        },
+        {
+          "url": "https://assets.nobroker.in/8a9f8fc3937d2b6701937d6df5ba1988_619308_821223_original.jpg",
+          "id": null
+        },
+        {
+          "url": "https://assets.nobroker.in/8a9f8fc3937d2b6701937d6df5ba1988_13158_971683_original.jpg",
+          "id": null
+        },
+        {
+          "url": "https://assets.nobroker.in/8a9f8fc3937d2b6701937d6df5ba1988_9567_193048_original.jpg",
+          "id": null
+        },
+        {
+          "url": "https://assets.nobroker.in/8a9f8fc3937d2b6701937d6df5ba1988_83500_367140_original.jpg",
+          "id": null
+        },
+        {
+          "url": "https://assets.nobroker.in/8a9f8fc3937d2b6701937d6df5ba1988_52179_25048_original.jpg",
+          "id": null
+        },
+        {
+          "url": "https://assets.nobroker.in/8a9f8fc3937d2b6701937d6df5ba1988_63105_original.jpg",
+          "id": null
+        },
+        {
+          "url": "https://assets.nobroker.in/8a9f8fc3937d2b6701937d6df5ba1988_15272_original.jpg",
+          "id": null
+        },
+        {
+          "url": "https://assets.nobroker.in/8a9f8fc3937d2b6701937d6df5ba1988_42193_143539_original.jpg",
+          "id": null
+        },
+        {
+          "url": "https://assets.nobroker.in/8a9f8fc3937d2b6701937d6df5ba1988_96484_original.jpg",
+          "id": null
+        },
+        {
+          "url": "https://assets.nobroker.in/8a9f8fc3937d2b6701937d6df5ba1988_56799_original.jpg",
+          "id": null
+        },
+        {
+          "url": "https://assets.nobroker.in/8a9f8fc3937d2b6701937d6df5ba1988_66837_321259_original.jpg",
+          "id": null
+        },
+        {
+          "url": "https://assets.nobroker.in/8a9f8fc3937d2b6701937d6df5ba1988_61362_188618_original.jpg",
+          "id": null
+        },
+        {
+          "url": "https://assets.nobroker.in/8a9f8fc3937d2b6701937d6df5ba1988_61787_495888_original.jpg",
+          "id": null
+        },
+        {
+          "url": "https://assets.nobroker.in/8a9f8fc3937d2b6701937d6df5ba1988_14344_214099_original.jpg",
+          "id": null
+        }
+      ],
+      "post_date": "2026-04-02 14:54:19",
+      "detail_url": "https://www.nobroker.in/property/2-bhk-apartment-for-rent-in-andheri-west-mumbai-for-rs-55000/8a9f8fc3937d2b6701937d6df5ba1988/detail",
+      "amenities": {},
+      "create_date_time": "2026-04-07 19:11:57.145983",
+      "update_date_time": "2026-04-07 19:11:57.145983",
+      "is_close_successfully": "no",
+      "last_verified_at": "2026-04-06 17:06:16",
+      "nearby_amenities_distance": null,
+      "listing_source": "nb"
+    }
+  ],
+  "magicbricks-ecom.json": [
+    {
+      "property_id": "83361717",
+      "external_id": "83361717",
+      "property_status": "open",
+      "owner_details": {
+        "name": "William R Pinto",
+        "mobile": null
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          72.8339825163515,
+          19.1314748793746
+        ]
+      },
+      "property_address": {
+        "city": "Mumbai",
+        "main_text": "Close to Azad nagar metro and Link road.",
+        "formatted_address": "Mumbai, Maharashtra",
+        "flat_number": "",
+        "building_name": "",
+        "landmark_or_street": ""
+      },
+      "property_details": {
+        "house_type": null,
+        "bhk_type": "BHK2",
+        "washroom_numbers": "2",
+        "furnishing_status": null,
+        "parking_number": null,
+        "property_age": null,
+        "floor_number": null,
+        "total_floor": 7,
+        "lift": null,
+        "property_size": 550
+      },
+      "rent_details": {
+        "rent": 55000,
+        "deposit": null,
+        "available_from": null,
+        "preferred_tenants": null,
+        "non_veg_allowed": null
+      },
+      "image_urls": [
+        {
+          "url": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Feb/11/Photo_h180_w240/83361717_5_edroom3_180_240.jpeg",
+          "id": null
+        }
+      ],
+      "post_date": "2026-04-02 23:45:23+00:00",
+      "detail_url": "https://www.magicbricks.com/property-details/2-BHK-700-Sq-ft-Multistorey-Apartment-FOR-Rent-Jeevan-Nagar-in-Mumbai",
+      "amenities": {},
+      "create_date_time": "2026-04-07 19:11:57.146818",
+      "update_date_time": "2026-04-07 19:11:57.146818",
+      "is_close_successfully": "no",
+      "last_verified_at": null,
+      "nearby_amenities_distance": null,
+      "listing_source": "mb"
+    },
+    {
+      "property_id": "82741003",
+      "external_id": "82741003",
+      "property_status": "open",
+      "owner_details": {
+        "name": "Property Point",
+        "mobile": null
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          72.8257229439874,
+          19.1373697481266
+        ]
+      },
+      "property_address": {
+        "city": "Mumbai",
+        "main_text": "DCB Bank at SV road opposite Subway",
+        "formatted_address": "Mumbai, Maharashtra",
+        "flat_number": "",
+        "building_name": "",
+        "landmark_or_street": ""
+      },
+      "property_details": {
+        "house_type": null,
+        "bhk_type": "BHK2",
+        "washroom_numbers": "2",
+        "furnishing_status": null,
+        "parking_number": null,
+        "property_age": null,
+        "floor_number": null,
+        "total_floor": 15,
+        "lift": null,
+        "property_size": 700
+      },
+      "rent_details": {
+        "rent": 60000,
+        "deposit": null,
+        "available_from": null,
+        "preferred_tenants": null,
+        "non_veg_allowed": null
+      },
+      "image_urls": [
+        {
+          "url": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Feb/04/Photo_h180_w240/82741003_2_PropertyImage799-6485110831459_180_240.jpg",
+          "id": null
+        }
+      ],
+      "post_date": "2026-04-01 23:45:18+00:00",
+      "detail_url": "https://www.magicbricks.com/property-details/2-BHK-800-Sq-ft-Multistorey-Apartment-FOR-Rent-Andheri-West-in-Mumbai",
+      "amenities": {
+        "AIR_CONDITIONED": true,
+        "INTERNET/WI-FI_CONNECTIVITY": true,
+        "SERVICE/GOODS_LIFT": true,
+        "INTERCOM_FACILITY": true,
+        "CONFERENCE_ROOM": true
+      },
+      "create_date_time": "2026-04-07 19:11:57.146854",
+      "update_date_time": "2026-04-07 19:11:57.146854",
+      "is_close_successfully": "no",
+      "last_verified_at": null,
+      "nearby_amenities_distance": null,
+      "listing_source": "mb"
+    },
+    {
+      "property_id": "83200227",
+      "external_id": "83200227",
+      "property_status": "open",
+      "owner_details": {
+        "name": "Manoj ",
+        "mobile": null
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          72.8241,
+          19.14413
+        ]
+      },
+      "property_address": {
+        "city": "Mumbai",
+        "main_text": "Situated near Food in Restaurant L0khandwala andheri west.",
+        "formatted_address": "Mumbai, Maharashtra",
+        "flat_number": "",
+        "building_name": "",
+        "landmark_or_street": ""
+      },
+      "property_details": {
+        "house_type": null,
+        "bhk_type": "BHK2",
+        "washroom_numbers": "2",
+        "furnishing_status": null,
+        "parking_number": null,
+        "property_age": null,
+        "floor_number": null,
+        "total_floor": 4,
+        "lift": null,
+        "property_size": 850
+      },
+      "rent_details": {
+        "rent": 60000,
+        "deposit": null,
+        "available_from": null,
+        "preferred_tenants": null,
+        "non_veg_allowed": null
+      },
+      "image_urls": [],
+      "post_date": "2026-04-03 10:26:46+00:00",
+      "detail_url": "https://www.magicbricks.com/property-details/2-BHK-1000-Sq-ft-Multistorey-Apartment-FOR-Rent-Lokhandwala-Complex-in-Mumbai",
+      "amenities": {},
+      "create_date_time": "2026-04-07 19:11:57.146875",
+      "update_date_time": "2026-04-07 19:11:57.146875",
+      "is_close_successfully": "no",
+      "last_verified_at": null,
+      "nearby_amenities_distance": null,
+      "listing_source": "mb"
+    },
+    {
+      "property_id": "78158931",
+      "external_id": "78158931",
+      "property_status": "open",
+      "owner_details": {
+        "name": "Vinay Agrawal",
+        "mobile": null
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          72.830674,
+          19.210586
+        ]
+      },
+      "property_address": {
+        "city": "Mumbai",
+        "main_text": "Rna",
+        "formatted_address": "Mumbai, Maharashtra",
+        "flat_number": "",
+        "building_name": "",
+        "landmark_or_street": ""
+      },
+      "property_details": {
+        "house_type": null,
+        "bhk_type": "BHK2",
+        "washroom_numbers": "2",
+        "furnishing_status": null,
+        "parking_number": null,
+        "property_age": null,
+        "floor_number": null,
+        "total_floor": 8,
+        "lift": null,
+        "property_size": 670
+      },
+      "rent_details": {
+        "rent": 50000,
+        "deposit": null,
+        "available_from": null,
+        "preferred_tenants": null,
+        "non_veg_allowed": null
+      },
+      "image_urls": [
+        {
+          "url": "https://img.staticmb.com/mbimages/project/Photo_h310_w462/Project-Photo-11-RNA-Regency-Park-Mumbai-5000375_728_1296_310_462.JPEG",
+          "id": null
+        }
+      ],
+      "post_date": "2026-02-21 12:54:21+00:00",
+      "detail_url": "https://www.magicbricks.com/property-details/2-BHK-1000-Sq-ft-Multistorey-Apartment-FOR-Rent-Hindustan-Naka-Kandivali-in-Mumbai",
+      "amenities": {},
+      "create_date_time": "2026-04-07 19:11:57.146894",
+      "update_date_time": "2026-04-07 19:11:57.146894",
+      "is_close_successfully": "no",
+      "last_verified_at": null,
+      "nearby_amenities_distance": null,
+      "listing_source": "mb"
+    },
+    {
+      "property_id": "83665277",
+      "external_id": "83665277",
+      "property_status": "open",
+      "owner_details": {
+        "name": "narayani narayani",
+        "mobile": null
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          72.82312846,
+          19.13826155
+        ]
+      },
+      "property_address": {
+        "city": "Mumbai",
+        "main_text": "New mahada, Lokhandwala circle, Andheri west.",
+        "formatted_address": "Mumbai, Maharashtra",
+        "flat_number": "",
+        "building_name": "",
+        "landmark_or_street": ""
+      },
+      "property_details": {
+        "house_type": null,
+        "bhk_type": "BHK2",
+        "washroom_numbers": "2",
+        "furnishing_status": null,
+        "parking_number": null,
+        "property_age": null,
+        "floor_number": null,
+        "total_floor": 14,
+        "lift": null,
+        "property_size": 700
+      },
+      "rent_details": {
+        "rent": 58000,
+        "deposit": null,
+        "available_from": null,
+        "preferred_tenants": null,
+        "non_veg_allowed": null
+      },
+      "image_urls": [
+        {
+          "url": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Mar/10/Photo_h180_w240/83665277_3_PropertyImage946-277664498679_180_240.jpg",
+          "id": null
+        }
+      ],
+      "post_date": "2026-03-06 10:05:33+00:00",
+      "detail_url": "https://www.magicbricks.com/property-details/2-BHK-1000-Sq-ft-Multistorey-Apartment-FOR-Rent-New-Mahada-Colony-in-Mumbai",
+      "amenities": {},
+      "create_date_time": "2026-04-07 19:11:57.146913",
+      "update_date_time": "2026-04-07 19:11:57.146914",
+      "is_close_successfully": "no",
+      "last_verified_at": null,
+      "nearby_amenities_distance": null,
+      "listing_source": "mb"
+    }
+  ],
+  "99acres_test.json": [
+    {
+      "property_id": "A89768074",
+      "external_id": "A89768074",
+      "property_status": "open",
+      "owner_details": null,
+      "location": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "property_address": {
+        "city": "Mumbai",
+        "main_text": "2 BHK Flat for rent in Four Bungalows, Andheri West",
+        "formatted_address": null,
+        "flat_number": "",
+        "building_name": "",
+        "landmark_or_street": ""
+      },
+      "property_details": null,
+      "rent_details": {
+        "rent": 100000,
+        "deposit": null,
+        "available_from": null,
+        "preferred_tenants": null,
+        "non_veg_allowed": null
+      },
+      "image_urls": [],
+      "post_date": null,
+      "detail_url": null,
+      "amenities": {},
+      "create_date_time": "2026-04-07 19:11:57.675044",
+      "update_date_time": "2026-04-07 19:11:57.675057",
+      "is_close_successfully": "no",
+      "last_verified_at": null,
+      "nearby_amenities_distance": null,
+      "listing_source": "99"
+    },
+    {
+      "property_id": "O89783470",
+      "external_id": "O89783470",
+      "property_status": "open",
+      "owner_details": null,
+      "location": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "property_address": {
+        "city": "Mumbai",
+        "main_text": "2 BHK Flat for rent in Manish Nagar, Andheri West",
+        "formatted_address": null,
+        "flat_number": "",
+        "building_name": "",
+        "landmark_or_street": ""
+      },
+      "property_details": null,
+      "rent_details": {
+        "rent": 74000,
+        "deposit": null,
+        "available_from": null,
+        "preferred_tenants": null,
+        "non_veg_allowed": null
+      },
+      "image_urls": [],
+      "post_date": null,
+      "detail_url": null,
+      "amenities": {},
+      "create_date_time": "2026-04-07 19:11:57.847514",
+      "update_date_time": "2026-04-07 19:11:57.847517",
+      "is_close_successfully": "no",
+      "last_verified_at": null,
+      "nearby_amenities_distance": null,
+      "listing_source": "99"
+    },
+    {
+      "property_id": "C89735168",
+      "external_id": "C89735168",
+      "property_status": "open",
+      "owner_details": null,
+      "location": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "property_address": {
+        "city": "Mumbai",
+        "main_text": "2 BHK Flat for rent in Lokhandwala Andheri West, Mumbai",
+        "formatted_address": null,
+        "flat_number": "",
+        "building_name": "",
+        "landmark_or_street": ""
+      },
+      "property_details": null,
+      "rent_details": {
+        "rent": 87000,
+        "deposit": null,
+        "available_from": null,
+        "preferred_tenants": null,
+        "non_veg_allowed": null
+      },
+      "image_urls": [],
+      "post_date": null,
+      "detail_url": null,
+      "amenities": {},
+      "create_date_time": "2026-04-07 19:11:57.989065",
+      "update_date_time": "2026-04-07 19:11:57.989068",
+      "is_close_successfully": "no",
+      "last_verified_at": null,
+      "nearby_amenities_distance": null,
+      "listing_source": "99"
+    },
+    {
+      "property_id": "E89627358",
+      "external_id": "E89627358",
+      "property_status": "open",
+      "owner_details": null,
+      "location": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "property_address": {
+        "city": "Mumbai",
+        "main_text": "2 BHK Flat for rent in DN Nagar, Andheri West",
+        "formatted_address": null,
+        "flat_number": "",
+        "building_name": "",
+        "landmark_or_street": ""
+      },
+      "property_details": null,
+      "rent_details": {
+        "rent": 120000,
+        "deposit": null,
+        "available_from": null,
+        "preferred_tenants": null,
+        "non_veg_allowed": null
+      },
+      "image_urls": [],
+      "post_date": null,
+      "detail_url": null,
+      "amenities": {},
+      "create_date_time": "2026-04-07 19:11:58.029438",
+      "update_date_time": "2026-04-07 19:11:58.029449",
+      "is_close_successfully": "no",
+      "last_verified_at": null,
+      "nearby_amenities_distance": null,
+      "listing_source": "99"
+    },
+    {
+      "property_id": "K89712572",
+      "external_id": "K89712572",
+      "property_status": "open",
+      "owner_details": null,
+      "location": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "property_address": {
+        "city": "Mumbai",
+        "main_text": "2 BHK Flat for rent in Andheri West, Mumbai",
+        "formatted_address": null,
+        "flat_number": "",
+        "building_name": "",
+        "landmark_or_street": ""
+      },
+      "property_details": null,
+      "rent_details": {
+        "rent": 60000,
+        "deposit": null,
+        "available_from": null,
+        "preferred_tenants": null,
+        "non_veg_allowed": null
+      },
+      "image_urls": [],
+      "post_date": null,
+      "detail_url": null,
+      "amenities": {},
+      "create_date_time": "2026-04-07 19:11:58.203068",
+      "update_date_time": "2026-04-07 19:11:58.203072",
+      "is_close_successfully": "no",
+      "last_verified_at": null,
+      "nearby_amenities_distance": null,
+      "listing_source": "99"
+    }
+  ],
+  "housing_test_results.json": [
+    {
+      "property_id": "19320849",
+      "external_id": "19320849",
+      "property_status": "open",
+      "owner_details": null,
+      "location": {
+        "type": "Point",
+        "coordinates": null
+      },
+      "property_address": {
+        "city": "Mumbai",
+        "main_text": "2.5 BHK Flat",
+        "formatted_address": null,
+        "flat_number": "",
+        "building_name": "",
+        "landmark_or_street": ""
+      },
+      "property_details": null,
+      "rent_details": {
+        "rent": 185000,
+        "deposit": null,
+        "available_from": null,
+        "preferred_tenants": null,
+        "non_veg_allowed": null
+      },
+      "image_urls": [],
+      "post_date": null,
+      "detail_url": null,
+      "amenities": {},
+      "create_date_time": "2026-04-07 19:11:58.343390",
+      "update_date_time": "2026-04-07 19:11:58.343394",
+      "is_close_successfully": "no",
+      "last_verified_at": null,
+      "nearby_amenities_distance": null,
+      "listing_source": "hs"
+    },
+    {
+      "property_id": "19685179",
+      "external_id": "19685179",
+      "property_status": "open",
+      "owner_details": null,
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          3.2934704,
+          45.5733046
+        ]
+      },
+      "property_address": {
+        "city": "Mumbai",
+        "main_text": "2 BHK Flat",
+        "formatted_address": null,
+        "flat_number": "",
+        "building_name": "",
+        "landmark_or_street": ""
+      },
+      "property_details": null,
+      "rent_details": {
+        "rent": 120000,
+        "deposit": null,
+        "available_from": null,
+        "preferred_tenants": null,
+        "non_veg_allowed": null
+      },
+      "image_urls": [],
+      "post_date": null,
+      "detail_url": null,
+      "amenities": {},
+      "create_date_time": "2026-04-07 19:11:58.383074",
+      "update_date_time": "2026-04-07 19:11:58.383077",
+      "is_close_successfully": "no",
+      "last_verified_at": null,
+      "nearby_amenities_distance": null,
+      "listing_source": "hs"
+    },
+    {
+      "property_id": "19095567",
+      "external_id": "19095567",
+      "property_status": "open",
+      "owner_details": null,
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          58.4602887,
+          23.4478965
+        ]
+      },
+      "property_address": {
+        "city": "Mumbai",
+        "main_text": "3 BHK Flat",
+        "formatted_address": null,
+        "flat_number": "",
+        "building_name": "",
+        "landmark_or_street": ""
+      },
+      "property_details": null,
+      "rent_details": {
+        "rent": 200000,
+        "deposit": null,
+        "available_from": null,
+        "preferred_tenants": null,
+        "non_veg_allowed": null
+      },
+      "image_urls": [],
+      "post_date": null,
+      "detail_url": null,
+      "amenities": {},
+      "create_date_time": "2026-04-07 19:11:58.521385",
+      "update_date_time": "2026-04-07 19:11:58.521387",
+      "is_close_successfully": "no",
+      "last_verified_at": null,
+      "nearby_amenities_distance": null,
+      "listing_source": "hs"
+    },
+    {
+      "property_id": "11368322",
+      "external_id": "11368322",
+      "property_status": "open",
+      "owner_details": null,
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          58.4602887,
+          23.4478965
+        ]
+      },
+      "property_address": {
+        "city": "Mumbai",
+        "main_text": "3 BHK Flat",
+        "formatted_address": null,
+        "flat_number": "",
+        "building_name": "",
+        "landmark_or_street": ""
+      },
+      "property_details": null,
+      "rent_details": {
+        "rent": 145000,
+        "deposit": null,
+        "available_from": null,
+        "preferred_tenants": null,
+        "non_veg_allowed": null
+      },
+      "image_urls": [],
+      "post_date": null,
+      "detail_url": null,
+      "amenities": {},
+      "create_date_time": "2026-04-07 19:11:58.678531",
+      "update_date_time": "2026-04-07 19:11:58.678534",
+      "is_close_successfully": "no",
+      "last_verified_at": null,
+      "nearby_amenities_distance": null,
+      "listing_source": "hs"
+    },
+    {
+      "property_id": "19900219",
+      "external_id": "19900219",
+      "property_status": "open",
+      "owner_details": null,
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          58.4602887,
+          23.4478965
+        ]
+      },
+      "property_address": {
+        "city": "Mumbai",
+        "main_text": "3 BHK Flat",
+        "formatted_address": null,
+        "flat_number": "",
+        "building_name": "",
+        "landmark_or_street": ""
+      },
+      "property_details": null,
+      "rent_details": {
+        "rent": 200000,
+        "deposit": null,
+        "available_from": null,
+        "preferred_tenants": null,
+        "non_veg_allowed": null
+      },
+      "image_urls": [],
+      "post_date": null,
+      "detail_url": null,
+      "amenities": {},
+      "create_date_time": "2026-04-07 19:11:58.717455",
+      "update_date_time": "2026-04-07 19:11:58.717457",
+      "is_close_successfully": "no",
+      "last_verified_at": null,
+      "nearby_amenities_distance": null,
+      "listing_source": "hs"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "property_id": "19320849",
+  "external_id": "19320849",
+  "property_status": "open",
+  "owner_details": {
+    "name": "Tarik"
+  },
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      72.829487,
+      19.100558
+    ]
+  },
+  "property_address": {
+    "city": "Mumbai",
+    "main_text": "Ideal 49, Airport Area, Juhu, Mumbai South West, Mumbai",
+    "formatted_address": "Ideal 49, Airport Area, Juhu, Mumbai South West, Mumbai"
+  },
+  "rent_details": {
+    "rent": 185000,
+    "deposit": 550000
+  },
+  "property_details": {
+    "bhk_type": "3BHK",
+    "washroom_numbers": "2",
+    "parking_number": "1",
+    "property_size": 900.0,
+    "property_age": "2 years",
+    "floor_number": 5,
+    "total_floor": 12
+  },
+  "detail_url": "/rent/19320849-900-sqft-2.5-bhk-apartment-on-rent-in-juhu-mumbai",
+  "amenities": {
+    "GAS_PIPELINE": true
+  },
+  "image_urls": [
+    {
+      "url": "https://housing-images.n7net.in/01c16c28/abf4294d6a1c777d8b37777cd7a34d00/v0/fs/2.5_bhk_apartment-for-rent-juhu-Mumbai-hall.jpg",
+      "id": null
+    },
+    {
+      "url": "https://housing-images.n7net.in/01c16c28/b9539e9da82cfd779d70198e3aa50a9b/v0/fs/2.5_bhk_apartment-for-rent-juhu-Mumbai-hall.jpg",
+      "id": null
+    },
+    {
+      "url": "https://housing-is-01.s3.amazonaws.com/hsshorts/25325a3a762b9b958076542296bc0209/original.jpg",
+      "id": null
+    },
+    {
+      "url": "https://housing-images.n7net.in/01c16c28/12aaac47618177fdc19d858293239499/v0/fs/2.5_bhk_apartment-for-rent-juhu-Mumbai-bedroom.jpg",
+      "id": null
+    },
+    {
+      "url": "https://housing-images.n7net.in/01c16c28/d2e4deddc58f7ace04677ef2c80d6dac/v0/fs/2.5_bhk_apartment-for-rent-juhu-Mumbai-bedroom.jpg",
+      "id": null
+    },
+    {
+      "url": "https://housing-images.n7net.in/01c16c28/0cff145e585c8690d84fa023f2fb477d/v0/fs/2.5_bhk_apartment-for-rent-juhu-Mumbai-kitchen.jpg",
+      "id": null
+    },
+    {
+      "url": "https://housing-images.n7net.in/01c16c28/67f9462a44a708f1f3d346d49024b0b5/v0/fs/2.5_bhk_apartment-for-rent-juhu-Mumbai-kitchen.jpg",
+      "id": null
+    },
+    {
+      "url": "https://housing-images.n7net.in/01c16c28/822dc9b6a511e187adcb66fef0a333dd/v0/fs/2.5_bhk_apartment-for-rent-juhu-Mumbai-kitchen.jpg",
+      "id": null
+    },
+    {
+      "url": "https://housing-images.n7net.in/01c16c28/ee6e7abaaefa7215dbf61665bb244549/v0/fs/2.5_bhk_apartment-for-rent-juhu-Mumbai-kitchen.jpg",
+      "id": null
+    },
+    {
+      "url": "https://housing-images.n7net.in/01c16c28/9168688e21b9910a59b25d7dccdf19c3/v0/fs/2.5_bhk_apartment-for-rent-juhu-Mumbai-bathroom.jpg",
+      "id": null
+    },
+    {
+      "url": "https://housing-images.n7net.in/01c16c28/9fcd3cb359d32be5c52baab5d3eee87e/v0/fs/2.5_bhk_apartment-for-rent-juhu-Mumbai-bathroom.jpg",
+      "id": null
+    },
+    {
+      "url": "https://housing-images.n7net.in/01c16c28/aaba41756d6ef0f1a1eab9d0984bcc41/v0/fs/2.5_bhk_apartment-for-rent-juhu-Mumbai-bathroom.jpg",
+      "id": null
+    },
+    {
+      "url": "https://housing-images.n7net.in/01c16c28/b90c2076fc4d75c5448ad20f79147e7f/v0/fs/2.5_bhk_apartment-for-rent-juhu-Mumbai-bathroom.jpg",
+      "id": null
+    }
+  ],
+  "listing_source": "hs"
+}

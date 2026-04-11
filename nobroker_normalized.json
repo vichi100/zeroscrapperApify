@@ -1,0 +1,401 @@
+[
+  {
+    "property_id": "8a9f8c039005af44019005b91eab027b",
+    "external_id": "8a9f8c039005af44019005b91eab027b",
+    "property_status": "open",
+    "owner_details": {
+      "name": "Asha Agrawal",
+      "mobile": null
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        72.83926036572488,
+        19.12231886569518
+      ]
+    },
+    "property_address": {
+      "city": "mumbai",
+      "main_text": "Andheri West",
+      "formatted_address": "Dadabhai Cross Rd Number 2 Gilbert Hill, Andheri West Mumbai, Maharashtra 400058, Andheri West, mumbai",
+      "flat_number": "",
+      "building_name": "",
+      "landmark_or_street": ""
+    },
+    "property_details": {
+      "house_type": null,
+      "bhk_type": "BHK2",
+      "washroom_numbers": "2",
+      "furnishing_status": "SEMI_FURNISHED",
+      "parking_number": null,
+      "property_age": null,
+      "floor_number": 2,
+      "total_floor": 4,
+      "lift": "No",
+      "property_size": null
+    },
+    "rent_details": {
+      "rent": 55000,
+      "deposit": 250000,
+      "available_from": "2026-04-01 00:00:00",
+      "preferred_tenants": "FAMILY",
+      "non_veg_allowed": "Yes"
+    },
+    "image_urls": [
+      {
+        "url": "https://assets.nobroker.in/8a9f8c039005af44019005b91eab027b_79660_797948_original.jpg",
+        "id": null
+      }
+    ],
+    "post_date": "2026-03-14 17:15:12",
+    "detail_url": "https://www.nobroker.in/property/2-bhk-apartment-for-rent-in-andheri-west-mumbai-for-rs-55000/8a9f8c039005af44019005b91eab027b/detail",
+    "amenities": {
+      "SECURITY": true,
+      "GYM": true
+    },
+    "create_date_time": "2026-04-07 19:11:56.590265",
+    "update_date_time": "2026-04-07 19:11:56.590371",
+    "is_close_successfully": "no",
+    "last_verified_at": "2026-03-14 17:15:14",
+    "nearby_amenities_distance": null,
+    "listing_source": "nb"
+  },
+  {
+    "property_id": "8a9fb48494c9cbe80194ca258981140b",
+    "external_id": "8a9fb48494c9cbe80194ca258981140b",
+    "property_status": "open",
+    "owner_details": {
+      "name": "Siddhesh",
+      "mobile": null
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        72.83068483458662,
+        19.12434513942347
+      ]
+    },
+    "property_address": {
+      "city": "mumbai",
+      "main_text": "Andheri West",
+      "formatted_address": "44, Andheri Link Rd, Shanti Nagar, D.N.Nagar, Andheri West, Mumbai, Maharashtra 400053, Andheri West, mumbai",
+      "flat_number": "",
+      "building_name": "",
+      "landmark_or_street": ""
+    },
+    "property_details": {
+      "house_type": null,
+      "bhk_type": "BHK2",
+      "washroom_numbers": "1",
+      "furnishing_status": "FULLY_FURNISHED",
+      "parking_number": null,
+      "property_age": null,
+      "floor_number": 2,
+      "total_floor": 4,
+      "lift": "No",
+      "property_size": null
+    },
+    "rent_details": {
+      "rent": 60000,
+      "deposit": 200000,
+      "available_from": "2026-04-06 00:00:00",
+      "preferred_tenants": null,
+      "non_veg_allowed": "Yes"
+    },
+    "image_urls": [
+      {
+        "url": "https://assets.nobroker.in/8a9fb48494c9cbe80194ca258981140b_34753_825091_original.jpg",
+        "id": null
+      }
+    ],
+    "post_date": "2026-04-06 15:45:26",
+    "detail_url": "https://www.nobroker.in/property/2-bhk-apartment-for-rent-in-andheri-west-mumbai-for-rs-60000/8a9fb48494c9cbe80194ca258981140b/detail",
+    "amenities": {
+      "SECURITY": true
+    },
+    "create_date_time": "2026-04-07 19:11:56.590456",
+    "update_date_time": "2026-04-07 19:11:56.590457",
+    "is_close_successfully": "no",
+    "last_verified_at": "2026-04-06 15:45:32",
+    "nearby_amenities_distance": null,
+    "listing_source": "nb"
+  },
+  {
+    "property_id": "8aa9a2679cf5068b019cf57ce1b83c49",
+    "external_id": "8aa9a2679cf5068b019cf57ce1b83c49",
+    "property_status": "open",
+    "owner_details": {
+      "name": "Deepak",
+      "mobile": null
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        72.8264378,
+        19.1247347
+      ]
+    },
+    "property_address": {
+      "city": "mumbai",
+      "main_text": "Four Bungalows, Andheri West",
+      "formatted_address": "Manish Nagar,Four Bungalows,Andheri west , Four Bungalows, Andheri West, mumbai",
+      "flat_number": "",
+      "building_name": "",
+      "landmark_or_street": ""
+    },
+    "property_details": {
+      "house_type": null,
+      "bhk_type": "BHK2",
+      "washroom_numbers": "2",
+      "furnishing_status": "FULLY_FURNISHED",
+      "parking_number": null,
+      "property_age": null,
+      "floor_number": 2,
+      "total_floor": 4,
+      "lift": "No",
+      "property_size": null
+    },
+    "rent_details": {
+      "rent": 55001,
+      "deposit": 150000,
+      "available_from": "2026-03-16 00:00:00",
+      "preferred_tenants": "FAMILY",
+      "non_veg_allowed": "Yes"
+    },
+    "image_urls": [
+      {
+        "url": "https://assets.nobroker.in/8aa9a2679cf5068b019cf57ce1b83c49_194449_81824_original.jpg",
+        "id": null
+      },
+      {
+        "url": "https://assets.nobroker.in/8aa9a2679cf5068b019cf57ce1b83c49_368842_491094_original.jpg",
+        "id": null
+      },
+      {
+        "url": "https://assets.nobroker.in/8aa9a2679cf5068b019cf57ce1b83c49_31597_203256_original.jpg",
+        "id": null
+      },
+      {
+        "url": "https://assets.nobroker.in/8aa9a2679cf5068b019cf57ce1b83c49_345099_247453_original.jpg",
+        "id": null
+      },
+      {
+        "url": "https://assets.nobroker.in/8aa9a2679cf5068b019cf57ce1b83c49_61263_346943_original.jpg",
+        "id": null
+      },
+      {
+        "url": "https://assets.nobroker.in/8aa9a2679cf5068b019cf57ce1b83c49_372852_239742_original.jpg",
+        "id": null
+      }
+    ],
+    "post_date": "2026-03-16 13:13:57",
+    "detail_url": "https://www.nobroker.in/property/2-bhk-apartment-for-rent-in-four-bungalows-andheri-west-mumbai-for-rs-55001/8aa9a2679cf5068b019cf57ce1b83c49/detail",
+    "amenities": {
+      "AC": true,
+      "GP": true,
+      "PARK": true,
+      "SECURITY": true,
+      "SERVANT": true
+    },
+    "create_date_time": "2026-04-07 19:11:56.590504",
+    "update_date_time": "2026-04-07 19:11:56.590505",
+    "is_close_successfully": "no",
+    "last_verified_at": "2026-03-21 19:29:30",
+    "nearby_amenities_distance": null,
+    "listing_source": "nb"
+  },
+  {
+    "property_id": "8aa9bc849cd31f42019cd3842bd51dbb",
+    "external_id": "8aa9bc849cd31f42019cd3842bd51dbb",
+    "property_status": "open",
+    "owner_details": {
+      "name": "Manav",
+      "mobile": null
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        72.82754570000002,
+        19.127355100000006
+      ]
+    },
+    "property_address": {
+      "city": "mumbai",
+      "main_text": "Manish Nagar, Four Bungalows, Andheri West",
+      "formatted_address": "Bharat Skyvistas, Manish Nagar, Four Bungalows, Andheri West, mumbai",
+      "flat_number": "",
+      "building_name": "",
+      "landmark_or_street": ""
+    },
+    "property_details": {
+      "house_type": null,
+      "bhk_type": "BHK2",
+      "washroom_numbers": "1",
+      "furnishing_status": "FULLY_FURNISHED",
+      "parking_number": null,
+      "property_age": null,
+      "floor_number": 2,
+      "total_floor": 4,
+      "lift": "No",
+      "property_size": null
+    },
+    "rent_details": {
+      "rent": 50000,
+      "deposit": 150000,
+      "available_from": "2026-03-10 00:00:00",
+      "preferred_tenants": null,
+      "non_veg_allowed": "Yes"
+    },
+    "image_urls": [
+      {
+        "url": "https://assets.nobroker.in/8aa9bc849cd31f42019cd3842bd51dbb_59783_380393_original.jpg",
+        "id": null
+      },
+      {
+        "url": "https://assets.nobroker.in/8aa9bc849cd31f42019cd3842bd51dbb_46286_601700_original.jpg",
+        "id": null
+      },
+      {
+        "url": "https://assets.nobroker.in/8aa9bc849cd31f42019cd3842bd51dbb_29203_353465_original.jpg",
+        "id": null
+      },
+      {
+        "url": "https://assets.nobroker.in/8aa9bc849cd31f42019cd3842bd51dbb_13603_445020_original.jpg",
+        "id": null
+      },
+      {
+        "url": "https://assets.nobroker.in/8aa9bc849cd31f42019cd3842bd51dbb_79874_52423_original.jpg",
+        "id": null
+      },
+      {
+        "url": "https://assets.nobroker.in/8aa9bc849cd31f42019cd3842bd51dbb_70823_29574_original.jpg",
+        "id": null
+      }
+    ],
+    "post_date": "2026-03-09 22:35:12",
+    "detail_url": "https://www.nobroker.in/property/2-bhk-apartment-for-rent-in-manish-nagar-four-bungalows-andheri-west-mumbai-for-rs-50000/8aa9bc849cd31f42019cd3842bd51dbb/detail",
+    "amenities": {
+      "SECURITY": true
+    },
+    "create_date_time": "2026-04-07 19:11:56.590549",
+    "update_date_time": "2026-04-07 19:11:56.590550",
+    "is_close_successfully": "no",
+    "last_verified_at": "2026-03-29 23:48:58",
+    "nearby_amenities_distance": null,
+    "listing_source": "nb"
+  },
+  {
+    "property_id": "8a9f8fc3937d2b6701937d6df5ba1988",
+    "external_id": "8a9f8fc3937d2b6701937d6df5ba1988",
+    "property_status": "open",
+    "owner_details": {
+      "name": "Vikram Purohit ",
+      "mobile": null
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        72.84490931785932,
+        19.123073542875414
+      ]
+    },
+    "property_address": {
+      "city": "mumbai",
+      "main_text": "Andheri West",
+      "formatted_address": " Fish Market Area near Shree Bharat Furniture, Andheri West, mumbai",
+      "flat_number": "",
+      "building_name": "",
+      "landmark_or_street": ""
+    },
+    "property_details": {
+      "house_type": null,
+      "bhk_type": "BHK2",
+      "washroom_numbers": "2",
+      "furnishing_status": "FULLY_FURNISHED",
+      "parking_number": null,
+      "property_age": null,
+      "floor_number": 1,
+      "total_floor": 2,
+      "lift": "No",
+      "property_size": null
+    },
+    "rent_details": {
+      "rent": 55000,
+      "deposit": 150000,
+      "available_from": "2026-04-02 00:00:00",
+      "preferred_tenants": "FAMILY",
+      "non_veg_allowed": "No"
+    },
+    "image_urls": [
+      {
+        "url": "https://assets.nobroker.in/8a9f8fc3937d2b6701937d6df5ba1988_95896_492344_original.jpg",
+        "id": null
+      },
+      {
+        "url": "https://assets.nobroker.in/8a9f8fc3937d2b6701937d6df5ba1988_619308_821223_original.jpg",
+        "id": null
+      },
+      {
+        "url": "https://assets.nobroker.in/8a9f8fc3937d2b6701937d6df5ba1988_13158_971683_original.jpg",
+        "id": null
+      },
+      {
+        "url": "https://assets.nobroker.in/8a9f8fc3937d2b6701937d6df5ba1988_9567_193048_original.jpg",
+        "id": null
+      },
+      {
+        "url": "https://assets.nobroker.in/8a9f8fc3937d2b6701937d6df5ba1988_83500_367140_original.jpg",
+        "id": null
+      },
+      {
+        "url": "https://assets.nobroker.in/8a9f8fc3937d2b6701937d6df5ba1988_52179_25048_original.jpg",
+        "id": null
+      },
+      {
+        "url": "https://assets.nobroker.in/8a9f8fc3937d2b6701937d6df5ba1988_63105_original.jpg",
+        "id": null
+      },
+      {
+        "url": "https://assets.nobroker.in/8a9f8fc3937d2b6701937d6df5ba1988_15272_original.jpg",
+        "id": null
+      },
+      {
+        "url": "https://assets.nobroker.in/8a9f8fc3937d2b6701937d6df5ba1988_42193_143539_original.jpg",
+        "id": null
+      },
+      {
+        "url": "https://assets.nobroker.in/8a9f8fc3937d2b6701937d6df5ba1988_96484_original.jpg",
+        "id": null
+      },
+      {
+        "url": "https://assets.nobroker.in/8a9f8fc3937d2b6701937d6df5ba1988_56799_original.jpg",
+        "id": null
+      },
+      {
+        "url": "https://assets.nobroker.in/8a9f8fc3937d2b6701937d6df5ba1988_66837_321259_original.jpg",
+        "id": null
+      },
+      {
+        "url": "https://assets.nobroker.in/8a9f8fc3937d2b6701937d6df5ba1988_61362_188618_original.jpg",
+        "id": null
+      },
+      {
+        "url": "https://assets.nobroker.in/8a9f8fc3937d2b6701937d6df5ba1988_61787_495888_original.jpg",
+        "id": null
+      },
+      {
+        "url": "https://assets.nobroker.in/8a9f8fc3937d2b6701937d6df5ba1988_14344_214099_original.jpg",
+        "id": null
+      }
+    ],
+    "post_date": "2026-04-02 14:54:19",
+    "detail_url": "https://www.nobroker.in/property/2-bhk-apartment-for-rent-in-andheri-west-mumbai-for-rs-55000/8a9f8fc3937d2b6701937d6df5ba1988/detail",
+    "amenities": {},
+    "create_date_time": "2026-04-07 19:11:56.590596",
+    "update_date_time": "2026-04-07 19:11:56.590596",
+    "is_close_successfully": "no",
+    "last_verified_at": "2026-04-06 17:06:16",
+    "nearby_amenities_distance": null,
+    "listing_source": "nb"
+  }
+]

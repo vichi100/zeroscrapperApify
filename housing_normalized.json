@@ -1,0 +1,532 @@
+[
+  {
+    "property_id": "19320849",
+    "external_id": "19320849",
+    "property_status": "open",
+    "owner_details": {
+      "name": null,
+      "mobile": null
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        72.829487,
+        19.100558
+      ]
+    },
+    "property_address": {
+      "city": "Mumbai",
+      "main_text": "2.5 BHK Flat",
+      "formatted_address": "2.5 BHK Flat",
+      "flat_number": "",
+      "building_name": "",
+      "landmark_or_street": ""
+    },
+    "property_details": {
+      "house_type": null,
+      "bhk_type": "2.5BHK",
+      "washroom_numbers": null,
+      "furnishing_status": null,
+      "parking_number": null,
+      "property_age": null,
+      "floor_number": null,
+      "total_floor": null,
+      "lift": null,
+      "property_size": 900
+    },
+    "rent_details": {
+      "rent": 185000,
+      "deposit": null,
+      "available_from": null,
+      "preferred_tenants": null,
+      "non_veg_allowed": null
+    },
+    "image_urls": [],
+    "post_date": null,
+    "detail_url": "https://housing.com/rent/19320849-900-sqft-2.5-bhk-apartment-on-rent-in-juhu-mumbai",
+    "amenities": {},
+    "create_date_time": "2026-04-09 21:34:30.369272",
+    "update_date_time": "2026-04-09 21:34:30.369393",
+    "is_close_successfully": "no",
+    "last_verified_at": null,
+    "nearby_amenities_distance": null,
+    "listing_source": "hs"
+  },
+  {
+    "property_id": "19685179",
+    "external_id": "19685179",
+    "property_status": "open",
+    "owner_details": {
+      "name": null,
+      "mobile": null
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        72.829487,
+        19.100558
+      ]
+    },
+    "property_address": {
+      "city": "Mumbai",
+      "main_text": "2 BHK Flat",
+      "formatted_address": "2 BHK Flat",
+      "flat_number": "",
+      "building_name": "",
+      "landmark_or_street": ""
+    },
+    "property_details": {
+      "house_type": null,
+      "bhk_type": "2BHK",
+      "washroom_numbers": null,
+      "furnishing_status": null,
+      "parking_number": null,
+      "property_age": null,
+      "floor_number": null,
+      "total_floor": null,
+      "lift": null,
+      "property_size": 1050
+    },
+    "rent_details": {
+      "rent": 120000,
+      "deposit": null,
+      "available_from": null,
+      "preferred_tenants": null,
+      "non_veg_allowed": null
+    },
+    "image_urls": [],
+    "post_date": null,
+    "detail_url": "https://housing.com/rent/19685179-1050-sqft-2-bhk-apartment-on-rent-in-juhu-mumbai",
+    "amenities": {},
+    "create_date_time": "2026-04-09 21:34:30.369509",
+    "update_date_time": "2026-04-09 21:34:30.369510",
+    "is_close_successfully": "no",
+    "last_verified_at": null,
+    "nearby_amenities_distance": null,
+    "listing_source": "hs"
+  },
+  {
+    "property_id": "19095567",
+    "external_id": "19095567",
+    "property_status": "open",
+    "owner_details": {
+      "name": null,
+      "mobile": null
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        72.824485,
+        19.110502
+      ]
+    },
+    "property_address": {
+      "city": "Mumbai",
+      "main_text": "3 BHK Flat",
+      "formatted_address": "3 BHK Flat",
+      "flat_number": "",
+      "building_name": "",
+      "landmark_or_street": ""
+    },
+    "property_details": {
+      "house_type": null,
+      "bhk_type": "3BHK",
+      "washroom_numbers": null,
+      "furnishing_status": null,
+      "parking_number": null,
+      "property_age": null,
+      "floor_number": null,
+      "total_floor": null,
+      "lift": null,
+      "property_size": 1200
+    },
+    "rent_details": {
+      "rent": 200000,
+      "deposit": null,
+      "available_from": null,
+      "preferred_tenants": null,
+      "non_veg_allowed": null
+    },
+    "image_urls": [],
+    "post_date": null,
+    "detail_url": "https://housing.com/rent/19095567-1200-sqft-3-bhk-apartment-on-rent-in-juhu-mumbai",
+    "amenities": {},
+    "create_date_time": "2026-04-09 21:34:30.369536",
+    "update_date_time": "2026-04-09 21:34:30.369537",
+    "is_close_successfully": "no",
+    "last_verified_at": null,
+    "nearby_amenities_distance": null,
+    "listing_source": "hs"
+  },
+  {
+    "property_id": "11368322",
+    "external_id": "11368322",
+    "property_status": "open",
+    "owner_details": {
+      "name": null,
+      "mobile": null
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        72.832072,
+        19.098821
+      ]
+    },
+    "property_address": {
+      "city": "Mumbai",
+      "main_text": "3 BHK Flat",
+      "formatted_address": "3 BHK Flat",
+      "flat_number": "",
+      "building_name": "",
+      "landmark_or_street": ""
+    },
+    "property_details": {
+      "house_type": null,
+      "bhk_type": "3BHK",
+      "washroom_numbers": null,
+      "furnishing_status": null,
+      "parking_number": null,
+      "property_age": null,
+      "floor_number": null,
+      "total_floor": null,
+      "lift": null,
+      "property_size": 1350
+    },
+    "rent_details": {
+      "rent": 145000,
+      "deposit": null,
+      "available_from": null,
+      "preferred_tenants": null,
+      "non_veg_allowed": null
+    },
+    "image_urls": [],
+    "post_date": null,
+    "detail_url": "https://housing.com/rent/11368322-1350-sqft-3-bhk-apartment-on-rent-in-juhu-mumbai-v2",
+    "amenities": {},
+    "create_date_time": "2026-04-09 21:34:30.369556",
+    "update_date_time": "2026-04-09 21:34:30.369556",
+    "is_close_successfully": "no",
+    "last_verified_at": null,
+    "nearby_amenities_distance": null,
+    "listing_source": "hs"
+  },
+  {
+    "property_id": "19900219",
+    "external_id": "19900219",
+    "property_status": "open",
+    "owner_details": {
+      "name": null,
+      "mobile": null
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        72.82737,
+        19.108931
+      ]
+    },
+    "property_address": {
+      "city": "Mumbai",
+      "main_text": "3 BHK Flat",
+      "formatted_address": "3 BHK Flat",
+      "flat_number": "",
+      "building_name": "",
+      "landmark_or_street": ""
+    },
+    "property_details": {
+      "house_type": null,
+      "bhk_type": "3BHK",
+      "washroom_numbers": null,
+      "furnishing_status": null,
+      "parking_number": null,
+      "property_age": null,
+      "floor_number": null,
+      "total_floor": null,
+      "lift": null,
+      "property_size": 1500
+    },
+    "rent_details": {
+      "rent": 200000,
+      "deposit": null,
+      "available_from": null,
+      "preferred_tenants": null,
+      "non_veg_allowed": null
+    },
+    "image_urls": [],
+    "post_date": null,
+    "detail_url": "https://housing.com/rent/19900219-1500-sqft-3-bhk-apartment-on-rent-in-juhu-mumbai",
+    "amenities": {},
+    "create_date_time": "2026-04-09 21:34:30.369574",
+    "update_date_time": "2026-04-09 21:34:30.369574",
+    "is_close_successfully": "no",
+    "last_verified_at": null,
+    "nearby_amenities_distance": null,
+    "listing_source": "hs"
+  },
+  {
+    "property_id": "19548398",
+    "external_id": "19548398",
+    "property_status": "open",
+    "owner_details": {
+      "name": null,
+      "mobile": null
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        72.8321325,
+        19.1032249
+      ]
+    },
+    "property_address": {
+      "city": "Mumbai",
+      "main_text": "4 BHK Flat",
+      "formatted_address": "4 BHK Flat",
+      "flat_number": "",
+      "building_name": "",
+      "landmark_or_street": ""
+    },
+    "property_details": {
+      "house_type": null,
+      "bhk_type": "4BHK",
+      "washroom_numbers": null,
+      "furnishing_status": null,
+      "parking_number": null,
+      "property_age": null,
+      "floor_number": null,
+      "total_floor": null,
+      "lift": null,
+      "property_size": 3899
+    },
+    "rent_details": {
+      "rent": 600000,
+      "deposit": null,
+      "available_from": null,
+      "preferred_tenants": null,
+      "non_veg_allowed": null
+    },
+    "image_urls": [],
+    "post_date": null,
+    "detail_url": "https://housing.com/rent/19548398-3899-sqft-4-bhk-apartment-on-rent-in-juhu-mumbai",
+    "amenities": {},
+    "create_date_time": "2026-04-09 21:34:30.369592",
+    "update_date_time": "2026-04-09 21:34:30.369592",
+    "is_close_successfully": "no",
+    "last_verified_at": null,
+    "nearby_amenities_distance": null,
+    "listing_source": "hs"
+  },
+  {
+    "property_id": "19346308",
+    "external_id": "19346308",
+    "property_status": "open",
+    "owner_details": {
+      "name": null,
+      "mobile": null
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        72.824921,
+        19.11418
+      ]
+    },
+    "property_address": {
+      "city": "Mumbai",
+      "main_text": "3 BHK Flat",
+      "formatted_address": "3 BHK Flat",
+      "flat_number": "",
+      "building_name": "",
+      "landmark_or_street": ""
+    },
+    "property_details": {
+      "house_type": null,
+      "bhk_type": "3BHK",
+      "washroom_numbers": null,
+      "furnishing_status": null,
+      "parking_number": null,
+      "property_age": null,
+      "floor_number": null,
+      "total_floor": null,
+      "lift": null,
+      "property_size": 1520
+    },
+    "rent_details": {
+      "rent": 250000,
+      "deposit": null,
+      "available_from": null,
+      "preferred_tenants": null,
+      "non_veg_allowed": null
+    },
+    "image_urls": [],
+    "post_date": null,
+    "detail_url": "https://housing.com/rent/19346308-1520-sqft-3-bhk-apartment-on-rent-in-juhu-mumbai",
+    "amenities": {},
+    "create_date_time": "2026-04-09 21:34:30.369610",
+    "update_date_time": "2026-04-09 21:34:30.369610",
+    "is_close_successfully": "no",
+    "last_verified_at": null,
+    "nearby_amenities_distance": null,
+    "listing_source": "hs"
+  },
+  {
+    "property_id": "18574260",
+    "external_id": "18574260",
+    "property_status": "open",
+    "owner_details": {
+      "name": null,
+      "mobile": null
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        72.82122,
+        19.118462
+      ]
+    },
+    "property_address": {
+      "city": "Mumbai",
+      "main_text": "6 BHK Independent House",
+      "formatted_address": "6 BHK Independent House",
+      "flat_number": "",
+      "building_name": "",
+      "landmark_or_street": ""
+    },
+    "property_details": {
+      "house_type": null,
+      "bhk_type": "6BHK",
+      "washroom_numbers": null,
+      "furnishing_status": null,
+      "parking_number": null,
+      "property_age": null,
+      "floor_number": null,
+      "total_floor": null,
+      "lift": null,
+      "property_size": 6200
+    },
+    "rent_details": {
+      "rent": 1000000,
+      "deposit": null,
+      "available_from": null,
+      "preferred_tenants": null,
+      "non_veg_allowed": null
+    },
+    "image_urls": [],
+    "post_date": null,
+    "detail_url": "https://housing.com/rent/18574260-6200-sqft-6-bhk-independent-house-on-rent-in-juhu-mumbai",
+    "amenities": {},
+    "create_date_time": "2026-04-09 21:34:30.369627",
+    "update_date_time": "2026-04-09 21:34:30.369627",
+    "is_close_successfully": "no",
+    "last_verified_at": null,
+    "nearby_amenities_distance": null,
+    "listing_source": "hs"
+  },
+  {
+    "property_id": "19462808",
+    "external_id": "19462808",
+    "property_status": "open",
+    "owner_details": {
+      "name": null,
+      "mobile": null
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        72.8294871912662,
+        19.1005583501856
+      ]
+    },
+    "property_address": {
+      "city": "Mumbai",
+      "main_text": "2 BHK Flat",
+      "formatted_address": "2 BHK Flat",
+      "flat_number": "",
+      "building_name": "",
+      "landmark_or_street": ""
+    },
+    "property_details": {
+      "house_type": null,
+      "bhk_type": "2BHK",
+      "washroom_numbers": null,
+      "furnishing_status": null,
+      "parking_number": null,
+      "property_age": null,
+      "floor_number": null,
+      "total_floor": null,
+      "lift": null,
+      "property_size": 1450
+    },
+    "rent_details": {
+      "rent": 160000,
+      "deposit": null,
+      "available_from": null,
+      "preferred_tenants": null,
+      "non_veg_allowed": null
+    },
+    "image_urls": [],
+    "post_date": null,
+    "detail_url": "https://housing.com/rent/19462808-1450-sqft-2-bhk-apartment-on-rent-in-juhu-mumbai",
+    "amenities": {},
+    "create_date_time": "2026-04-09 21:34:30.369644",
+    "update_date_time": "2026-04-09 21:34:30.369644",
+    "is_close_successfully": "no",
+    "last_verified_at": null,
+    "nearby_amenities_distance": null,
+    "listing_source": "hs"
+  },
+  {
+    "property_id": "17846265",
+    "external_id": "17846265",
+    "property_status": "open",
+    "owner_details": {
+      "name": null,
+      "mobile": null
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        72.829487,
+        19.100558
+      ]
+    },
+    "property_address": {
+      "city": "Mumbai",
+      "main_text": "4 BHK Flat",
+      "formatted_address": "4 BHK Flat",
+      "flat_number": "",
+      "building_name": "",
+      "landmark_or_street": ""
+    },
+    "property_details": {
+      "house_type": null,
+      "bhk_type": "4BHK",
+      "washroom_numbers": null,
+      "furnishing_status": null,
+      "parking_number": null,
+      "property_age": null,
+      "floor_number": null,
+      "total_floor": null,
+      "lift": null,
+      "property_size": 3800
+    },
+    "rent_details": {
+      "rent": 650000,
+      "deposit": null,
+      "available_from": null,
+      "preferred_tenants": null,
+      "non_veg_allowed": null
+    },
+    "image_urls": [],
+    "post_date": null,
+    "detail_url": "https://housing.com/rent/17846265-3800-sqft-4-bhk-apartment-on-rent-in-juhu-mumbai-v2",
+    "amenities": {},
+    "create_date_time": "2026-04-09 21:34:30.369660",
+    "update_date_time": "2026-04-09 21:34:30.369660",
+    "is_close_successfully": "no",
+    "last_verified_at": null,
+    "nearby_amenities_distance": null,
+    "listing_source": "hs"
+  }
+]

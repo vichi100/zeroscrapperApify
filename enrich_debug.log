@@ -1,0 +1,11 @@
+/Users/vichi/Documents/workspace/zeroscrapperApify/venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+INFO:__main__:Enriching 5 Housing.com properties using custom scraper...
+INFO:__main__:Scraped URLs: []
+WARNING:__main__:No match found for https://housing.com/rent/19320849-900-sqft-2.5-bhk-apartment-on-rent-in-juhu-mumbai
+WARNING:__main__:No match found for https://housing.com/rent/19685179-1050-sqft-2-bhk-apartment-on-rent-in-juhu-mumbai
+WARNING:__main__:No match found for https://housing.com/rent/19095567-1200-sqft-3-bhk-apartment-on-rent-in-juhu-mumbai
+WARNING:__main__:No match found for https://housing.com/rent/11368322-1350-sqft-3-bhk-apartment-on-rent-in-juhu-mumbai-v2
+WARNING:__main__:No match found for https://housing.com/rent/19900219-1500-sqft-3-bhk-apartment-on-rent-in-juhu-mumbai
+INFO:__main__:Success! Enriched 5 items.
+INFO:__main__:Output saved to: housing_enriched.json

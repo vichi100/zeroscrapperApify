@@ -1,0 +1,859 @@
+[
+  {
+    "property_id": "84066603",
+    "external_id": "84066603",
+    "property_status": "open",
+    "owner_details": {
+      "name": "Vijesh Mascarenhas",
+      "mobile": null,
+      "address": null
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        72.86060333251953,
+        19.35746955871582
+      ]
+    },
+    "property_address": {
+      "city": "Mumbai",
+      "main_text": "Naigaon Juchandra Road",
+      "formatted_address": null,
+      "flat_number": "",
+      "building_name": "",
+      "landmark_or_street": ""
+    },
+    "property_details": {
+      "house_type": null,
+      "bhk_type": "BHK2",
+      "washroom_numbers": 2,
+      "furnishing_status": "Unfurnished",
+      "parking_number": null,
+      "property_age": null,
+      "floor_number": 2,
+      "total_floor": 14,
+      "lift": null,
+      "property_size": 500,
+      "available_from": null
+    },
+    "sell_details": {
+      "sell_price": 4700000,
+      "maintenance_charge": null,
+      "available_from": null
+    },
+    "image_urls": [
+      {
+        "url": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Apr/04/Photo_h470_w1080/84066603_2_1775254855581-289_470_1080.jpg",
+        "id": null
+      },
+      {
+        "url": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Apr/04/Photo_h470_w1080/84066603_3_1775254862048-493_470_1080.jpg",
+        "id": null
+      },
+      {
+        "url": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Apr/04/Photo_h470_w1080/84066603_4_1775254869519-269_470_1080.jpg",
+        "id": null
+      },
+      {
+        "url": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Apr/04/Photo_h470_w1080/84066603_6_1775254889744-563_470_1080.jpg",
+        "id": null
+      },
+      {
+        "url": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Apr/04/Photo_h470_w1080/84066603_8_1775254915059-837_470_1080.jpg",
+        "id": null
+      },
+      {
+        "url": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Apr/04/Photo_h470_w1080/84066603_1_1775254841690-5679_470_1080.jpg",
+        "id": null
+      },
+      {
+        "url": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Apr/04/Photo_h470_w1080/84066603_5_1775254880809-619_470_1080.jpg",
+        "id": null
+      }
+    ],
+    "post_date": "2026-04-03 22:11:56+00:00",
+    "detail_url": "https://www.magicbricks.com/propertyDetails/2-BHK-765-Sqft-Flat-FOR-Sale-Naigaon-Juchandra-Road-in-Mumbai&id=LzZvfoShEWtzpSvf+uAgZw==&category=Sale",
+    "amenities": {
+      "POWER_BACK_UP": true,
+      "LIFT": true,
+      "RAIN_WATER_HARVESTING": true,
+      "CLUB_HOUSE": true,
+      "GYMNASIUM": true,
+      "PARK": true,
+      "RESERVED_PARKING": true,
+      "SECURITY": true,
+      "WATER_STORAGE": true
+    },
+    "create_date_time": "2026-04-09 22:13:47.827945",
+    "update_date_time": "2026-04-09 22:13:47.828069",
+    "is_close_successfully": "no",
+    "last_verified_at": null,
+    "nearby_amenities_distance": null,
+    "listing_source": "mb"
+  },
+  {
+    "property_id": "84066321",
+    "external_id": "84066321",
+    "property_status": "open",
+    "owner_details": {
+      "name": "Durgesh deokar",
+      "mobile": null,
+      "address": null
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        72.8308669814394,
+        19.1913939680962
+      ]
+    },
+    "property_address": {
+      "city": "Mumbai",
+      "main_text": "Jankalyan Nagar",
+      "formatted_address": null,
+      "flat_number": "",
+      "building_name": "",
+      "landmark_or_street": ""
+    },
+    "property_details": {
+      "house_type": null,
+      "bhk_type": "BHK2",
+      "washroom_numbers": 2,
+      "furnishing_status": "Furnished",
+      "parking_number": null,
+      "property_age": null,
+      "floor_number": 6,
+      "total_floor": 23,
+      "lift": null,
+      "property_size": 636,
+      "available_from": null
+    },
+    "sell_details": {
+      "sell_price": 19000000,
+      "maintenance_charge": null,
+      "available_from": null
+    },
+    "image_urls": [
+      {
+        "url": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Apr/04/Photo_h470_w1080/84066321_8_hatsAppImage20260330at2.16.31PM6_470_1080.jpeg",
+        "id": null
+      },
+      {
+        "url": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Apr/04/Photo_h470_w1080/84066321_9_hatsAppImage20260330at2.16.31PM5_470_1080.jpeg",
+        "id": null
+      },
+      {
+        "url": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Apr/04/Photo_h470_w1080/84066321_4_hatsAppImage20260330at2.16.31PM_470_1080.jpeg",
+        "id": null
+      },
+      {
+        "url": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Apr/04/Photo_h470_w1080/84066321_5_hatsAppImage20260330at2.16.30PM_470_1080.jpeg",
+        "id": null
+      },
+      {
+        "url": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Apr/04/Photo_h470_w1080/84066321_6_hatsAppImage20260330at2.16.30PM1_470_1080.jpeg",
+        "id": null
+      },
+      {
+        "url": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Apr/04/Photo_h470_w1080/84066321_7_hatsAppImage20260330at2.16.31PM1_470_1080.jpeg",
+        "id": null
+      },
+      {
+        "url": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Apr/04/Photo_h470_w1080/84066321_1_hatsAppImage20260330at2.16.31PM2_470_1080.jpeg",
+        "id": null
+      }
+    ],
+    "post_date": "2026-04-03 18:57:03+00:00",
+    "detail_url": "https://www.magicbricks.com/propertyDetails/2-BHK-636-Sqft-Flat-FOR-Sale-Jankalyan-Nagar-in-Mumbai&id=noqb45qhmrJzpSvf+uAgZw==&category=Sale",
+    "amenities": {
+      "AIR_CONDITIONED": true,
+      "LAUNDRY_SERVICE": true,
+      "INTERNET/WI-FI_CONNECTIVITY": true,
+      "BANQUET_HALL": true,
+      "POWER_BACK_UP": true,
+      "LIFT": true,
+      "RAIN_WATER_HARVESTING": true,
+      "CLUB_HOUSE": true,
+      "SWIMMING_POOL": true,
+      "GYMNASIUM": true,
+      "PARK": true,
+      "RESERVED_PARKING": true,
+      "SECURITY": true,
+      "WATER_STORAGE": true,
+      "MAINTENANCE_STAFF": true,
+      "SERVICE/GOODS_LIFT": true,
+      "VISITOR_PARKING": true,
+      "INTERCOM_FACILITY": true,
+      "LIBRARY_AND_BUSINESS_CENTRE": true,
+      "RO_WATER_SYSTEM": true,
+      "DTH_TELEVISION_FACILITY": true,
+      "WASTE_DISPOSAL": true
+    },
+    "create_date_time": "2026-04-09 22:13:47.828151",
+    "update_date_time": "2026-04-09 22:13:47.828151",
+    "is_close_successfully": "no",
+    "last_verified_at": null,
+    "nearby_amenities_distance": null,
+    "listing_source": "mb"
+  },
+  {
+    "property_id": "84070857",
+    "external_id": "84070857",
+    "property_status": "open",
+    "owner_details": {
+      "name": "KHAN AWAIS",
+      "mobile": null,
+      "address": null
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        72.876583,
+        19.0686026
+      ]
+    },
+    "property_address": {
+      "city": "Mumbai",
+      "main_text": "Kurla West",
+      "formatted_address": null,
+      "flat_number": "",
+      "building_name": "",
+      "landmark_or_street": ""
+    },
+    "property_details": {
+      "house_type": null,
+      "bhk_type": "BHK2",
+      "washroom_numbers": 2,
+      "furnishing_status": "Semi-Furnished",
+      "parking_number": null,
+      "property_age": null,
+      "floor_number": 2,
+      "total_floor": 3,
+      "lift": null,
+      "property_size": null,
+      "available_from": null
+    },
+    "sell_details": {
+      "sell_price": 13000000,
+      "maintenance_charge": null,
+      "available_from": null
+    },
+    "image_urls": [
+      {
+        "url": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Apr/04/Photo_h470_w1080/84070857_2_PropertyImage474-8405717207371_470_1080.jpg",
+        "id": null
+      },
+      {
+        "url": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Apr/04/Photo_h470_w1080/84070857_7_PropertyImage133-22439373768603_470_1080.jpg",
+        "id": null
+      },
+      {
+        "url": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Apr/04/Photo_h470_w1080/84070857_9_PropertyImage218-1823586705416_470_1080.jpg",
+        "id": null
+      },
+      {
+        "url": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Apr/04/Photo_h470_w1080/84070857_10_PropertyImage597-6719238005821_470_1080.jpg",
+        "id": null
+      },
+      {
+        "url": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Apr/04/Photo_h470_w1080/84070857_11_PropertyImage910-1792398481747_470_1080.jpg",
+        "id": null
+      },
+      {
+        "url": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Apr/04/Photo_h470_w1080/84070857_5_PropertyImage63-917242770441085_470_1080.jpg",
+        "id": null
+      },
+      {
+        "url": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Apr/04/Photo_h470_w1080/84070857_2_PropertyImage99-04004019469737_470_1080.jpg",
+        "id": null
+      }
+    ],
+    "post_date": "2026-04-04 07:45:29+00:00",
+    "detail_url": "https://www.magicbricks.com/propertyDetails/2-BHK-750-Sqft-Flat-FOR-Sale-Kurla-West-in-Mumbai&id=slshcuJ9WhcSl5zpSvf+uAgZw==&category=Sale",
+    "amenities": {
+      "AIR_CONDITIONED": true,
+      "VISITOR_PARKING": true,
+      "RESERVED_PARKING": true,
+      "SECURITY": true,
+      "WATER_STORAGE": true,
+      "MAINTENANCE_STAFF": true
+    },
+    "create_date_time": "2026-04-09 22:13:48.269983",
+    "update_date_time": "2026-04-09 22:13:48.269985",
+    "is_close_successfully": "no",
+    "last_verified_at": null,
+    "nearby_amenities_distance": null,
+    "listing_source": "mb"
+  },
+  {
+    "property_id": "84055839",
+    "external_id": "84055839",
+    "property_status": "open",
+    "owner_details": {
+      "name": "NITIN",
+      "mobile": null,
+      "address": null
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        73.107238,
+        19.071869
+      ]
+    },
+    "property_address": {
+      "city": "Navi Mumbai",
+      "main_text": "Taloja",
+      "formatted_address": null,
+      "flat_number": "",
+      "building_name": "",
+      "landmark_or_street": ""
+    },
+    "property_details": {
+      "house_type": null,
+      "bhk_type": "BHK2",
+      "washroom_numbers": 2,
+      "furnishing_status": "Semi-Furnished",
+      "parking_number": null,
+      "property_age": null,
+      "floor_number": 11,
+      "total_floor": 15,
+      "lift": null,
+      "property_size": 720,
+      "available_from": null
+    },
+    "sell_details": {
+      "sell_price": 7500000,
+      "maintenance_charge": null,
+      "available_from": null
+    },
+    "image_urls": [
+      {
+        "url": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Apr/03/Photo_h470_w1080/84055839_3_PropertyImage860-5448803355681_470_1080.jpg",
+        "id": null
+      },
+      {
+        "url": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Apr/03/Photo_h470_w1080/84055839_4_PropertyImage128-54332469988648_470_1080.jpg",
+        "id": null
+      },
+      {
+        "url": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Apr/03/Photo_h470_w1080/84055839_2_PropertyImage669-8722721897842_470_1080.jpg",
+        "id": null
+      },
+      {
+        "url": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Apr/03/Photo_h470_w1080/84055839_1_PropertyImage875-7547100884254_470_1080.jpg",
+        "id": null
+      },
+      {
+        "url": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Apr/03/Photo_h470_w1080/84055839_1_PropertyImage590-9151114444857_470_1080.jpg",
+        "id": null
+      }
+    ],
+    "post_date": "2026-04-03 08:55:33+00:00",
+    "detail_url": "https://www.magicbricks.com/propertyDetails/2-BHK-1045-Sqft-Flat-FOR-Sale-Taloja-in-Navi-Mumbai&id=ZXiM9q5cQ1FzpSvf+uAgZw==&category=Sale",
+    "amenities": {},
+    "create_date_time": "2026-04-09 22:13:48.270062",
+    "update_date_time": "2026-04-09 22:13:48.270063",
+    "is_close_successfully": "no",
+    "last_verified_at": null,
+    "nearby_amenities_distance": null,
+    "listing_source": "mb"
+  },
+  {
+    "property_id": "84057757",
+    "external_id": "84057757",
+    "property_status": "open",
+    "owner_details": {
+      "name": "Sunil",
+      "mobile": null,
+      "address": null
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        72.8616978,
+        19.1762177
+      ]
+    },
+    "property_address": {
+      "city": "Mumbai",
+      "main_text": "MHB Colony Dindoshi",
+      "formatted_address": null,
+      "flat_number": "",
+      "building_name": "",
+      "landmark_or_street": ""
+    },
+    "property_details": {
+      "house_type": null,
+      "bhk_type": "BHK2",
+      "washroom_numbers": 2,
+      "furnishing_status": "Unfurnished",
+      "parking_number": null,
+      "property_age": null,
+      "floor_number": 7,
+      "total_floor": 36,
+      "lift": null,
+      "property_size": 591,
+      "available_from": null
+    },
+    "sell_details": {
+      "sell_price": 17000000,
+      "maintenance_charge": null,
+      "available_from": null
+    },
+    "image_urls": [
+      {
+        "url": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Apr/03/Photo_h470_w1080/84057757_5_ivingFinal_470_1080.jpg",
+        "id": null
+      },
+      {
+        "url": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Apr/03/Photo_h470_w1080/84057757_1_assageFinal_470_1080.jpg",
+        "id": null
+      },
+      {
+        "url": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Apr/03/Photo_h470_w1080/84057757_2_itchenFinal_470_1080.jpg",
+        "id": null
+      },
+      {
+        "url": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Apr/03/Photo_h470_w1080/84057757_4_ommonBedroomFinal_470_1080.jpg",
+        "id": null
+      },
+      {
+        "url": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Apr/03/Photo_h470_w1080/84057757_3_inalBathroom_470_1080.jpg",
+        "id": null
+      }
+    ],
+    "post_date": "2026-04-03 09:55:54+00:00",
+    "detail_url": "https://www.magicbricks.com/propertyDetails/2-BHK-680-Sqft-Flat-FOR-Sale-MHB-Colony-Dindoshi-in-Mumbai&id=TjidGsDiLIlzpSvf+uAgZw==&category=Sale",
+    "amenities": {
+      "LIFT": true,
+      "RESERVED_PARKING": true,
+      "SECURITY": true
+    },
+    "create_date_time": "2026-04-09 22:13:48.270097",
+    "update_date_time": "2026-04-09 22:13:48.270098",
+    "is_close_successfully": "no",
+    "last_verified_at": null,
+    "nearby_amenities_distance": null,
+    "listing_source": "mb"
+  },
+  {
+    "property_id": "84054243",
+    "external_id": "84054243",
+    "property_status": "open",
+    "owner_details": {
+      "name": "Shri K",
+      "mobile": null,
+      "address": null
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        73.101686,
+        19.022099
+      ]
+    },
+    "property_address": {
+      "city": "Navi Mumbai",
+      "main_text": "Panvel",
+      "formatted_address": null,
+      "flat_number": "",
+      "building_name": "",
+      "landmark_or_street": ""
+    },
+    "property_details": {
+      "house_type": null,
+      "bhk_type": "BHK2",
+      "washroom_numbers": 2,
+      "furnishing_status": "Unfurnished",
+      "parking_number": null,
+      "property_age": null,
+      "floor_number": 3,
+      "total_floor": 3,
+      "lift": null,
+      "property_size": 452,
+      "available_from": null
+    },
+    "sell_details": {
+      "sell_price": 3500000,
+      "maintenance_charge": null,
+      "available_from": null
+    },
+    "image_urls": [
+      {
+        "url": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Apr/03/Photo_h470_w1080/84054243_5_.HallwithBalcony_470_1080.jpg",
+        "id": null
+      },
+      {
+        "url": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Apr/03/Photo_h470_w1080/84054243_4_edroom2withBalcony_470_1080.jpg",
+        "id": null
+      },
+      {
+        "url": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Apr/03/Photo_h470_w1080/84054243_1_.KitchenwithDryBalcony_470_1080.jpg",
+        "id": null
+      },
+      {
+        "url": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Apr/03/Photo_h470_w1080/84054243_2_ommonBathroom_470_1080.jpg",
+        "id": null
+      },
+      {
+        "url": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Apr/03/Photo_h470_w1080/84054243_3_asterBathroomattached2secondbathroom_470_1080.jpg",
+        "id": null
+      }
+    ],
+    "post_date": "2026-04-03 07:49:44+00:00",
+    "detail_url": "https://www.magicbricks.com/propertyDetails/2-BHK-452-Sqft-Flat-FOR-Sale-Panvel-in-Navi-Mumbai&id=Hvtpz4H9Z51zpSvf+uAgZw==&category=Sale",
+    "amenities": {},
+    "create_date_time": "2026-04-09 22:13:48.270123",
+    "update_date_time": "2026-04-09 22:13:48.270123",
+    "is_close_successfully": "no",
+    "last_verified_at": null,
+    "nearby_amenities_distance": null,
+    "listing_source": "mb"
+  },
+  {
+    "property_id": "84065975",
+    "external_id": "84065975",
+    "property_status": "open",
+    "owner_details": {
+      "name": "Aashish",
+      "mobile": null,
+      "address": null
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        72.8912186,
+        19.0481792
+      ]
+    },
+    "property_address": {
+      "city": "Mumbai",
+      "main_text": "Mumbai Central",
+      "formatted_address": null,
+      "flat_number": "",
+      "building_name": "",
+      "landmark_or_street": ""
+    },
+    "property_details": {
+      "house_type": null,
+      "bhk_type": "BHK2",
+      "washroom_numbers": 2,
+      "furnishing_status": "Semi-Furnished",
+      "parking_number": null,
+      "property_age": null,
+      "floor_number": 1,
+      "total_floor": 11,
+      "lift": null,
+      "property_size": 850,
+      "available_from": null
+    },
+    "sell_details": {
+      "sell_price": 37500000,
+      "maintenance_charge": null,
+      "available_from": null
+    },
+    "image_urls": [
+      {
+        "url": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Apr/03/Photo_h470_w1080/84065975_5_creenshot20260403at22.55.39_470_1080.jpg",
+        "id": null
+      }
+    ],
+    "post_date": "2026-04-03 17:15:22+00:00",
+    "detail_url": "https://www.magicbricks.com/propertyDetails/2-BHK-1150-Sqft-Flat-FOR-Sale-Mumbai-Central-in-Mumbai&id=4cHhO8G6upZzpSvf+uAgZw==&category=Sale",
+    "amenities": {
+      "AIR_CONDITIONED": true,
+      "INTERNET/WI-FI_CONNECTIVITY": true,
+      "JOGGING_AND_STROLLING_TRACK": true,
+      "PARK": true
+    },
+    "create_date_time": "2026-04-09 22:13:48.270148",
+    "update_date_time": "2026-04-09 22:13:48.270148",
+    "is_close_successfully": "no",
+    "last_verified_at": null,
+    "nearby_amenities_distance": null,
+    "listing_source": "mb"
+  },
+  {
+    "property_id": "84048335",
+    "external_id": "84048335",
+    "property_status": "open",
+    "owner_details": {
+      "name": "Puneet",
+      "mobile": null,
+      "address": null
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        72.931134,
+        19.149901
+      ]
+    },
+    "property_address": {
+      "city": "Mumbai",
+      "main_text": "Bhandup West",
+      "formatted_address": null,
+      "flat_number": "",
+      "building_name": "",
+      "landmark_or_street": ""
+    },
+    "property_details": {
+      "house_type": null,
+      "bhk_type": "BHK2",
+      "washroom_numbers": 2,
+      "furnishing_status": "Semi-Furnished",
+      "parking_number": null,
+      "property_age": null,
+      "floor_number": 21,
+      "total_floor": 33,
+      "lift": null,
+      "property_size": 797,
+      "available_from": null
+    },
+    "sell_details": {
+      "sell_price": 20000000,
+      "maintenance_charge": null,
+      "available_from": null
+    },
+    "image_urls": [
+      {
+        "url": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Apr/04/Photo_h470_w1080/84048335_1_hatsAppImage20240619at17.34.42_470_1080.jpeg",
+        "id": null
+      },
+      {
+        "url": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Apr/04/Photo_h470_w1080/84048335_9_hatsAppImage20240619at17.34.38_470_1080.jpeg",
+        "id": null
+      },
+      {
+        "url": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Apr/04/Photo_h470_w1080/84048335_7_hatsAppImage20240619at17.34.411_470_1080.jpeg",
+        "id": null
+      },
+      {
+        "url": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Apr/04/Photo_h470_w1080/84048335_8_hatsAppImage20240619at17.35.59_470_1080.jpeg",
+        "id": null
+      },
+      {
+        "url": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Apr/04/Photo_h470_w1080/84048335_4_hatsAppImage20240619at17.34.381_470_1080.jpeg",
+        "id": null
+      },
+      {
+        "url": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Apr/04/Photo_h470_w1080/84048335_5_hatsAppImage20240619at17.34.40_470_1080.jpeg",
+        "id": null
+      },
+      {
+        "url": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Apr/04/Photo_h470_w1080/84048335_2_hatsAppImage20240619at17.34.421_470_1080.jpeg",
+        "id": null
+      }
+    ],
+    "post_date": "2026-04-03 04:40:19+00:00",
+    "detail_url": "https://www.magicbricks.com/propertyDetails/2-BHK-1002-Sqft-Flat-FOR-Sale-Bhandup-West-in-Mumbai&id=VfuslshBCEHJ9hzpSvf+uAgZw==&category=Sale",
+    "amenities": {
+      "AIR_CONDITIONED": true,
+      "BANQUET_HALL": true,
+      "JOGGING_AND_STROLLING_TRACK": true,
+      "HEALTH_CLUB_WITH_STEAM_/_JACCUZI": true,
+      "POWER_BACK_UP": true,
+      "LIFT": true,
+      "RAIN_WATER_HARVESTING": true,
+      "CLUB_HOUSE": true,
+      "SWIMMING_POOL": true,
+      "GYMNASIUM": true,
+      "SECURITY": true,
+      "WATER_STORAGE": true,
+      "VISITOR_PARKING": true,
+      "INTERCOM_FACILITY": true,
+      "MAINTENANCE_STAFF": true,
+      "LIBRARY_AND_BUSINESS_CENTRE": true,
+      "WASTE_DISPOSAL": true
+    },
+    "create_date_time": "2026-04-09 22:13:48.270178",
+    "update_date_time": "2026-04-09 22:13:48.270178",
+    "is_close_successfully": "no",
+    "last_verified_at": null,
+    "nearby_amenities_distance": null,
+    "listing_source": "mb"
+  },
+  {
+    "property_id": "84050481",
+    "external_id": "84050481",
+    "property_status": "open",
+    "owner_details": {
+      "name": "Rakesh",
+      "mobile": null,
+      "address": null
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        72.8382236,
+        19.0238887
+      ]
+    },
+    "property_address": {
+      "city": "Mumbai",
+      "main_text": "Dadar West",
+      "formatted_address": null,
+      "flat_number": "",
+      "building_name": "",
+      "landmark_or_street": ""
+    },
+    "property_details": {
+      "house_type": null,
+      "bhk_type": "BHK2",
+      "washroom_numbers": 1,
+      "furnishing_status": "Semi-Furnished",
+      "parking_number": null,
+      "property_age": null,
+      "floor_number": 5,
+      "total_floor": 8,
+      "lift": null,
+      "property_size": 500,
+      "available_from": null
+    },
+    "sell_details": {
+      "sell_price": 21000000,
+      "maintenance_charge": null,
+      "available_from": null
+    },
+    "image_urls": [
+      {
+        "url": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Apr/03/Photo_h470_w1080/84050481_1_PropertyImage664-4489708760595_470_1080.jpg",
+        "id": null
+      },
+      {
+        "url": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Apr/03/Photo_h470_w1080/84050481_1_PropertyImage50-37962072135815_470_1080.jpg",
+        "id": null
+      },
+      {
+        "url": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Apr/03/Photo_h470_w1080/84050481_1_PropertyImage873-9719151023138_470_1080.jpg",
+        "id": null
+      },
+      {
+        "url": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Apr/03/Photo_h470_w1080/84050481_5_PropertyImage454-5925395129673_470_1080.jpg",
+        "id": null
+      }
+    ],
+    "post_date": "2026-04-03 06:19:15+00:00",
+    "detail_url": "https://www.magicbricks.com/propertyDetails/2-BHK-675-Sqft-Flat-FOR-Sale-Dadar-West-in-Mumbai&id=Mpgjfi6r80xzpSvf+uAgZw==&category=Sale",
+    "amenities": {
+      "SERVICE/GOODS_LIFT": true,
+      "LIFT": true,
+      "SECURITY": true,
+      "MAINTENANCE_STAFF": true
+    },
+    "create_date_time": "2026-04-09 22:13:48.662052",
+    "update_date_time": "2026-04-09 22:13:48.662055",
+    "is_close_successfully": "no",
+    "last_verified_at": null,
+    "nearby_amenities_distance": null,
+    "listing_source": "mb"
+  },
+  {
+    "property_id": "84054969",
+    "external_id": "84054969",
+    "property_status": "open",
+    "owner_details": {
+      "name": "Harish Vora",
+      "mobile": null,
+      "address": null
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        72.85978884938051,
+        19.02695459535348
+      ]
+    },
+    "property_address": {
+      "city": "Mumbai",
+      "main_text": "Matunga East",
+      "formatted_address": null,
+      "flat_number": "",
+      "building_name": "",
+      "landmark_or_street": ""
+    },
+    "property_details": {
+      "house_type": null,
+      "bhk_type": "BHK2",
+      "washroom_numbers": 2,
+      "furnishing_status": "Semi-Furnished",
+      "parking_number": null,
+      "property_age": null,
+      "floor_number": 18,
+      "total_floor": 42,
+      "lift": null,
+      "property_size": 704,
+      "available_from": null
+    },
+    "sell_details": {
+      "sell_price": 33500000,
+      "maintenance_charge": null,
+      "available_from": null
+    },
+    "image_urls": [
+      {
+        "url": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Apr/03/Photo_h470_w1080/84054969_1_iddhiSiddhiAptsTopViews06_470_1080.jpeg",
+        "id": null
+      },
+      {
+        "url": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Apr/03/Photo_h470_w1080/84054969_2_iddhiSiddhiAptsTopViews02_470_1080.jpeg",
+        "id": null
+      },
+      {
+        "url": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Apr/03/Photo_h470_w1080/84054969_3_iddhiSiddhiAptsTopViews03_470_1080.jpeg",
+        "id": null
+      },
+      {
+        "url": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Apr/03/Photo_h470_w1080/84054969_4_iddhiSiddhiAptsTopViews04_470_1080.jpeg",
+        "id": null
+      },
+      {
+        "url": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Apr/03/Photo_h470_w1080/84054969_5_iddhiSiddhiAptsTopViews01_470_1080.jpeg",
+        "id": null
+      },
+      {
+        "url": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Apr/03/Photo_h470_w1080/84054969_6_iddhiSiddhiAptsTopViews07_470_1080.jpeg",
+        "id": null
+      },
+      {
+        "url": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Apr/03/Photo_h470_w1080/84054969_7_iddhiSiddhiAptsTopViews05_470_1080.jpeg",
+        "id": null
+      }
+    ],
+    "post_date": "2026-04-03 08:14:04+00:00",
+    "detail_url": "https://www.magicbricks.com/propertyDetails/2-BHK-704-Sqft-Flat-FOR-Sale-Matunga-East-in-Mumbai&id=vO4mKyMqJclzpSvf+uAgZw==&category=Sale",
+    "amenities": {
+      "PRIVATE_POOL": true,
+      "SKYDECK": true,
+      "THEME_BASED_ARCHITECTURES": true,
+      "SMART_HOME": true,
+      "POWER_BACK_UP": true,
+      "LIFT": true,
+      "CLUB_HOUSE": true,
+      "SWIMMING_POOL": true,
+      "GYMNASIUM": true,
+      "PARK": true,
+      "RESERVED_PARKING": true,
+      "SECURITY": true,
+      "WATER_STORAGE": true,
+      "VAASTU_COMPLIANT": true,
+      "MAINTENANCE_STAFF": true,
+      "SERVICE/GOODS_LIFT": true,
+      "AIR_CONDITIONED": true,
+      "VISITOR_PARKING": true,
+      "INTERCOM_FACILITY": true,
+      "LIBRARY_AND_BUSINESS_CENTRE": true,
+      "INTERNET/WI-FI_CONNECTIVITY": true,
+      "BANQUET_HALL": true,
+      "WASTE_DISPOSAL": true,
+      "JOGGING_AND_STROLLING_TRACK": true
+    },
+    "create_date_time": "2026-04-09 22:13:48.662163",
+    "update_date_time": "2026-04-09 22:13:48.662163",
+    "is_close_successfully": "no",
+    "last_verified_at": null,
+    "nearby_amenities_distance": null,
+    "listing_source": "mb"
+  }
+]

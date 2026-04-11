@@ -17,7 +17,13 @@ def run_housing_scraper(url: str, limit: int = 10, proxy: str = None) -> Dict[st
             impersonate="chrome",
             proxies=proxies,
             timeout=20,
-            headers={"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"}
+            verify=False,
+            headers={
+                "User-Agent": "Mozilla/5.0 (Linux; Android 10; SM-G973F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Mobile Safari/537.36",
+                "X-Requested-With": "com.locon.housing",
+                "Accept": "application/json, text/plain, */*",
+                "Accept-Language": "en-US,en;q=0.9"
+            }
         )
         
         if "Security Alert" in response.text:
@@ -105,6 +111,27 @@ def run_housing_scraper(url: str, limit: int = 10, proxy: str = None) -> Dict[st
                         highlights = prop.get("highlights", [])
                         updated_at = prop.get("updatedAtStr", "N/A")
                         
+                        # Extract images
+                        image_urls = []
+                        raw_images = prop.get("images", [])
+                        for img_group in raw_images:
+                            # Search results sometimes have images directly in the group
+                            if isinstance(img_group, dict):
+                                img_src = img_group.get("src")
+                                if img_src:
+                                    # Normalize to high-res format
+                                    img_src = re.sub(r'https?://is\d+-\d+\.housingcdn\.com', 'https://housing-images.n7net.in', img_src)
+                                    img_src = img_src.replace('/version/', '/fs/').replace('/medium/', '/fs/').replace('/small/', '/fs/')
+                                    image_urls.append({"url": img_src, "id": None})
+                                
+                                # Search results sometimes have nested images list
+                                for sub_img in img_group.get("images", []):
+                                    src = sub_img.get("src")
+                                    if src:
+                                        src = re.sub(r'https?://is\d+-\d+\.housingcdn\.com', 'https://housing-images.n7net.in', src)
+                                        src = src.replace('/version/', '/fs/').replace('/medium/', '/fs/').replace('/small/', '/fs/')
+                                        image_urls.append({"url": src, "id": None})
+
                         items.append({
                             "id": lid,
                             "title": title,
@@ -113,6 +140,7 @@ def run_housing_scraper(url: str, limit: int = 10, proxy: str = None) -> Dict[st
                             "area": area,
                             "furnishing": furnishing,
                             "url": prop_url,
+                            "image_urls": image_urls,
                             "locality": prop.get("address", {}).get("label"),
                             "highlights": highlights,
                             "updated_at": updated_at,
