@@ -66,3 +66,9 @@ response = requests.get(
 ## ⚠️ Troubleshooting
 - **Status 406**: Usually means the `Accept` headers don't match or the `X-Requested-With` is missing.
 - **Status 403 / Security Alert**: Means the IP reputation is low or the TLS fingerprint was detected. Rotating to a new `-mob-in` node usually fixes this.
+
+
+### Playwright/Puppeteer
+
+```python
+
