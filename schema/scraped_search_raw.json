@@ -1,0 +1,16 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ScrapedSearchRaw",
+  "description": "Stores the raw JSON array of search results for a specific requirement.",
+  "type": "object",
+  "properties": {
+    "requirement_id": { "type": "string" },
+    "query_text": { "type": "string" },
+    "parsed_query": { "type": "object" },
+    "listing_source": { "type": "string", "enum": ["hs", "nb", "mb", "99a"] },
+    "raw_data": { "type": "array", "items": { "type": "object" } },
+    "scraped_at": { "type": "string", "format": "date-time" },
+    "__v": { "type": "integer" }
+  },
+  "required": ["requirement_id", "listing_source", "raw_data"]
+}

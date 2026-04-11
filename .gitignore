@@ -50,3 +50,5 @@ coverage.xml
 
 # Jupyter Notebook
 .ipynb_checkpoints
+node_modules/
+*.log

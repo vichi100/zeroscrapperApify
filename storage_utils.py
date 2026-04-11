@@ -2,6 +2,7 @@ import os
 import json
 import redis
 import pymongo
+import datetime
 from typing import List, Dict, Any, Optional
 from qdrant_client import QdrantClient
 from qdrant_client.http import models
@@ -20,6 +21,37 @@ mongo_client = pymongo.MongoClient(MONGODB_URI)
 db = mongo_client["zeroscrapper"]
 properties_col = db["properties"]
 user_history_col = db["user_history"]
+user_wishlist_col = db["user_wishlist"]
+user_requirement_col = db["user_requirement"]
+requirement_status_col = db["requirement_status"]
+scraped_search_raw_col = db["scraped_search_raw"]
+scraped_detail_raw_col = db["scraped_detail_raw"]
+
+def init_mongodb():
+    """Initializes MongoDB indexes for performance and data integrity."""
+    try:
+        # Raw Scraped Data Indexes
+        scraped_search_raw_col.create_index([("requirement_id", pymongo.ASCENDING), ("listing_source", pymongo.ASCENDING)])
+        scraped_detail_raw_col.create_index([("requirement_id", pymongo.ASCENDING), ("url", pymongo.ASCENDING)], unique=True)
+        
+        # Requirement Status Indexes
+        requirement_status_col.create_index([("requirement_id", pymongo.ASCENDING)], unique=True)
+        
+        # User Wishlist Indexes
+        user_wishlist_col.create_index([("user_id", pymongo.ASCENDING)])
+        user_wishlist_col.create_index([("post_id", pymongo.ASCENDING)])
+        # Unique index to prevent duplicate wishlisting of the same post by the same user
+        user_wishlist_col.create_index(
+            [("user_id", pymongo.ASCENDING), ("post_id", pymongo.ASCENDING)],
+            unique=True
+        )
+        print("MongoDB indexes initialized.")
+        
+        # User History Indexes
+        user_history_col.create_index([("user_id", pymongo.ASCENDING)], unique=True)
+        
+    except Exception as e:
+        print(f"Error initializing MongoDB indexes: {e}")
 
 # Qdrant Configuration
 QDRANT_HOST = os.getenv("QDRANT_HOST", "localhost")
@@ -97,6 +129,35 @@ def get_user_sent_results(user_id: str) -> List[str]:
     user = user_history_col.find_one({"user_id": user_id})
     return user.get("sent_properties", []) if user else []
 
+def save_requirement(requirement: Dict[str, Any]):
+    """Saves a user requirement post and its initial status."""
+    requirement.setdefault("created_at", str(datetime.datetime.utcnow()))
+    # Remove transient status from main document
+    requirement.pop("processing_status", None)
+    
+    user_requirement_col.update_one(
+        {"id": requirement["id"]},
+        {"$set": requirement},
+        upsert=True
+    )
+    # Initialize separate status
+    update_requirement_status(requirement["id"], "pending")
+
+def update_requirement_status(req_id: str, status: str, error: str = None):
+    """Updates the processing status in a separate collection."""
+    update_data = {
+        "requirement_id": req_id,
+        "status": status, 
+        "updated_at": str(datetime.datetime.utcnow())
+    }
+    if error:
+        update_data["last_error"] = error
+    requirement_status_col.update_one(
+        {"requirement_id": req_id}, 
+        {"$set": update_data},
+        upsert=True
+    )
+
 # --- Qdrant Operations ---
 
 def upsert_property_vectors(property_ids: List[str], embeddings: List[List[float]], metadata: List[Dict[str, Any]]):
@@ -151,3 +212,4 @@ def find_duplicates(embedding: List[float], threshold: float = 0.95) -> List[str
         return []
 
 init_qdrant()
+init_mongodb()

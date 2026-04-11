@@ -1,0 +1,17 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ScrapedDetailRaw",
+  "description": "Stores the raw JSON result for an individual property detail page.",
+  "type": "object",
+  "properties": {
+    "requirement_id": { "type": "string" },
+    "query_text": { "type": "string" },
+    "parsed_query": { "type": "object" },
+    "url": { "type": "string" },
+    "listing_source": { "type": "string", "enum": ["hs", "nb", "mb", "99a"] },
+    "raw_data": { "type": "object" },
+    "scraped_at": { "type": "string", "format": "date-time" },
+    "__v": { "type": "integer" }
+  },
+  "required": ["requirement_id", "url", "listing_source", "raw_data"]
+}

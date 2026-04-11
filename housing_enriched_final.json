@@ -25,8 +25,7 @@
       "property_size": 900.0,
       "property_age": "2 years",
       "floor_number": 5,
-      "total_floor": 12,
-      "furnishing_status": "Semi Furnished"
+      "total_floor": 12
     },
     "rent_details": {
       "rent": 185000,
@@ -34,51 +33,55 @@
     },
     "image_urls": [
       {
-        "url": "https://housing-images.n7net.in/01c16c28/abf4294d6a1c777d8b37777cd7a34d00/v0/fs/2.5_bhk_apartment-for-rent-juhu-Mumbai-hall.jpg",
+        "url": "https://is1-3.housingcdn.com/01c16c28/abf4294d6a1c777d8b37777cd7a34d00/v0/version/2.5_bhk_apartment-for-rent-juhu-Mumbai-hall.jpg",
         "id": null
       },
       {
-        "url": "https://housing-images.n7net.in/01c16c28/b9539e9da82cfd779d70198e3aa50a9b/v0/fs/2.5_bhk_apartment-for-rent-juhu-Mumbai-hall.jpg",
+        "url": "https://is1-3.housingcdn.com/01c16c28/b9539e9da82cfd779d70198e3aa50a9b/v0/version/2.5_bhk_apartment-for-rent-juhu-Mumbai-hall.jpg",
         "id": null
       },
       {
-        "url": "https://housing-images.n7net.in/01c16c28/9168688e21b9910a59b25d7dccdf19c3/v0/fs/2.5_bhk_apartment-for-rent-juhu-Mumbai-bathroom.jpg",
+        "url": "https://housing-is-01.s3.amazonaws.com/hsshorts/25325a3a762b9b958076542296bc0209/original.jpg",
         "id": null
       },
       {
-        "url": "https://housing-images.n7net.in/01c16c28/9fcd3cb359d32be5c52baab5d3eee87e/v0/fs/2.5_bhk_apartment-for-rent-juhu-Mumbai-bathroom.jpg",
+        "url": "https://is1-2.housingcdn.com/01c16c28/12aaac47618177fdc19d858293239499/v0/version/2.5_bhk_apartment-for-rent-juhu-Mumbai-bedroom.jpg",
         "id": null
       },
       {
-        "url": "https://housing-images.n7net.in/01c16c28/aaba41756d6ef0f1a1eab9d0984bcc41/v0/fs/2.5_bhk_apartment-for-rent-juhu-Mumbai-bathroom.jpg",
+        "url": "https://is1-2.housingcdn.com/01c16c28/d2e4deddc58f7ace04677ef2c80d6dac/v0/version/2.5_bhk_apartment-for-rent-juhu-Mumbai-bedroom.jpg",
         "id": null
       },
       {
-        "url": "https://housing-images.n7net.in/01c16c28/b90c2076fc4d75c5448ad20f79147e7f/v0/fs/2.5_bhk_apartment-for-rent-juhu-Mumbai-bathroom.jpg",
+        "url": "https://is1-2.housingcdn.com/01c16c28/0cff145e585c8690d84fa023f2fb477d/v0/version/2.5_bhk_apartment-for-rent-juhu-Mumbai-kitchen.jpg",
         "id": null
       },
       {
-        "url": "https://housing-images.n7net.in/01c16c28/0cff145e585c8690d84fa023f2fb477d/v0/fs/2.5_bhk_apartment-for-rent-juhu-Mumbai-kitchen.jpg",
+        "url": "https://is1-2.housingcdn.com/01c16c28/67f9462a44a708f1f3d346d49024b0b5/v0/version/2.5_bhk_apartment-for-rent-juhu-Mumbai-kitchen.jpg",
         "id": null
       },
       {
-        "url": "https://housing-images.n7net.in/01c16c28/67f9462a44a708f1f3d346d49024b0b5/v0/fs/2.5_bhk_apartment-for-rent-juhu-Mumbai-kitchen.jpg",
+        "url": "https://is1-2.housingcdn.com/01c16c28/822dc9b6a511e187adcb66fef0a333dd/v0/version/2.5_bhk_apartment-for-rent-juhu-Mumbai-kitchen.jpg",
         "id": null
       },
       {
-        "url": "https://housing-images.n7net.in/01c16c28/822dc9b6a511e187adcb66fef0a333dd/v0/fs/2.5_bhk_apartment-for-rent-juhu-Mumbai-kitchen.jpg",
+        "url": "https://is1-2.housingcdn.com/01c16c28/ee6e7abaaefa7215dbf61665bb244549/v0/version/2.5_bhk_apartment-for-rent-juhu-Mumbai-kitchen.jpg",
         "id": null
       },
       {
-        "url": "https://housing-images.n7net.in/01c16c28/ee6e7abaaefa7215dbf61665bb244549/v0/fs/2.5_bhk_apartment-for-rent-juhu-Mumbai-kitchen.jpg",
+        "url": "https://is1-2.housingcdn.com/01c16c28/9168688e21b9910a59b25d7dccdf19c3/v0/version/2.5_bhk_apartment-for-rent-juhu-Mumbai-bathroom.jpg",
         "id": null
       },
       {
-        "url": "https://housing-images.n7net.in/01c16c28/12aaac47618177fdc19d858293239499/v0/fs/2.5_bhk_apartment-for-rent-juhu-Mumbai-bedroom.jpg",
+        "url": "https://is1-3.housingcdn.com/01c16c28/9fcd3cb359d32be5c52baab5d3eee87e/v0/version/2.5_bhk_apartment-for-rent-juhu-Mumbai-bathroom.jpg",
         "id": null
       },
       {
-        "url": "https://housing-images.n7net.in/01c16c28/d2e4deddc58f7ace04677ef2c80d6dac/v0/fs/2.5_bhk_apartment-for-rent-juhu-Mumbai-bedroom.jpg",
+        "url": "https://is1-3.housingcdn.com/01c16c28/aaba41756d6ef0f1a1eab9d0984bcc41/v0/version/2.5_bhk_apartment-for-rent-juhu-Mumbai-bathroom.jpg",
+        "id": null
+      },
+      {
+        "url": "https://is1-3.housingcdn.com/01c16c28/b90c2076fc4d75c5448ad20f79147e7f/v0/version/2.5_bhk_apartment-for-rent-juhu-Mumbai-bathroom.jpg",
         "id": null
       }
     ],
@@ -99,8 +102,7 @@
     "external_id": "19685179",
     "property_status": "open",
     "owner_details": {
-      "name": null,
-      "mobile": null
+      "name": "Falconvest Real Estate LLC"
     },
     "location": {
       "type": "Point",
@@ -111,100 +113,105 @@
     },
     "property_address": {
       "city": "Mumbai",
-      "main_text": "2 BHK Flat",
-      "formatted_address": "2 BHK Flat",
-      "flat_number": "",
-      "building_name": "",
-      "landmark_or_street": ""
+      "main_text": "Airport Area, Juhu, Mumbai South West, Mumbai",
+      "formatted_address": "Airport Area, Juhu, Mumbai South West, Mumbai"
     },
     "property_details": {
-      "house_type": null,
       "bhk_type": "2BHK",
-      "washroom_numbers": null,
-      "furnishing_status": "Fully Furnished",
+      "washroom_numbers": "3",
       "parking_number": null,
-      "property_age": null,
-      "floor_number": null,
-      "total_floor": null,
-      "lift": null,
-      "property_size": 1050
+      "property_size": 1050.0,
+      "property_age": "5 years",
+      "floor_number": 7,
+      "total_floor": 11
     },
     "rent_details": {
       "rent": 120000,
-      "deposit": null,
-      "available_from": null,
-      "preferred_tenants": null,
-      "non_veg_allowed": null
+      "deposit": 240000
     },
     "image_urls": [
       {
-        "url": "https://housing-images.n7net.in/01c16c28/2b804e2e92b0f5951b422c345e654786/v0/fs/2_bhk_apartment-for-rent-juhu-Mumbai-hall.jpg",
+        "url": "https://is1-3.housingcdn.com/01c16c28/2b804e2e92b0f5951b422c345e654786/v0/version/2_bhk_apartment-for-rent-juhu-Mumbai-hall.jpg",
         "id": null
       },
       {
-        "url": "https://housing-images.n7net.in/01c16c28/926b0a2b3c804bb59f747a69628501a5/v0/fs/2_bhk_apartment-for-rent-juhu-Mumbai-hall.jpg",
+        "url": "https://is1-2.housingcdn.com/01c16c28/926b0a2b3c804bb59f747a69628501a5/v0/version/2_bhk_apartment-for-rent-juhu-Mumbai-hall.jpg",
         "id": null
       },
       {
-        "url": "https://housing-images.n7net.in/01c16c28/b45fe8723d7f6a424e908f9494add316/v0/fs/2_bhk_apartment-for-rent-juhu-Mumbai-hall.jpg",
+        "url": "https://is1-3.housingcdn.com/01c16c28/b45fe8723d7f6a424e908f9494add316/v0/version/2_bhk_apartment-for-rent-juhu-Mumbai-hall.jpg",
         "id": null
       },
       {
-        "url": "https://housing-images.n7net.in/01c16c28/be6353268081ab691fa378d22b72d38d/v0/fs/2_bhk_apartment-for-rent-juhu-Mumbai-hall.jpg",
+        "url": "https://is1-3.housingcdn.com/01c16c28/be6353268081ab691fa378d22b72d38d/v0/version/2_bhk_apartment-for-rent-juhu-Mumbai-hall.jpg",
         "id": null
       },
       {
-        "url": "https://housing-images.n7net.in/01c16c28/c8985296e40f0d24d6f2995342e0556d/v0/fs/2_bhk_apartment-for-rent-juhu-Mumbai-hall.jpg",
+        "url": "https://is1-2.housingcdn.com/01c16c28/c8985296e40f0d24d6f2995342e0556d/v0/version/2_bhk_apartment-for-rent-juhu-Mumbai-hall.jpg",
         "id": null
       },
       {
-        "url": "https://housing-images.n7net.in/01c16c28/ce08635913b97baad8bf01236a8fbb78/v0/fs/2_bhk_apartment-for-rent-juhu-Mumbai-hall.jpg",
+        "url": "https://is1-3.housingcdn.com/01c16c28/ce08635913b97baad8bf01236a8fbb78/v0/version/2_bhk_apartment-for-rent-juhu-Mumbai-hall.jpg",
         "id": null
       },
       {
-        "url": "https://housing-images.n7net.in/01c16c28/f08df7552aa7559fb88c89a266ca46eb/v0/fs/2_bhk_apartment-for-rent-juhu-Mumbai-hall.jpg",
+        "url": "https://is1-3.housingcdn.com/01c16c28/f08df7552aa7559fb88c89a266ca46eb/v0/version/2_bhk_apartment-for-rent-juhu-Mumbai-hall.jpg",
         "id": null
       },
       {
-        "url": "https://housing-images.n7net.in/01c16c28/5f22e7c03c79f92fdc50c7f1ca715185/v0/fs/2_bhk_apartment-for-rent-juhu-Mumbai-bathroom.jpg",
+        "url": "https://housing-is-01.s3.amazonaws.com/hsshorts/f713eb348810ff9b96e2961d3e7a4b56/original.jpg",
         "id": null
       },
       {
-        "url": "https://housing-images.n7net.in/01c16c28/a906b7f5d59bccb2c42271ac828aa8f6/v0/fs/2_bhk_apartment-for-rent-juhu-Mumbai-bathroom.jpg",
+        "url": "https://is1-3.housingcdn.com/01c16c28/c08d4e475759d588d68c68c68b089a98/v0/version/2_bhk_apartment-for-rent-juhu-Mumbai-bedroom.jpg",
         "id": null
       },
       {
-        "url": "https://housing-images.n7net.in/01c16c28/c9237f6424d1116843c74d3640814e81/v0/fs/2_bhk_apartment-for-rent-juhu-Mumbai-bathroom.jpg",
+        "url": "https://is1-2.housingcdn.com/01c16c28/e833dd717b14125cb7aebd2a1770f04e/v0/version/2_bhk_apartment-for-rent-juhu-Mumbai-bedroom.jpg",
         "id": null
       },
       {
-        "url": "https://housing-images.n7net.in/01c16c28/32dee82508dc51d428e4ad4adf4f9c2b/v1/fs/2_bhk_apartment-for-rent-juhu-Mumbai-kitchen.jpg",
+        "url": "https://is1-2.housingcdn.com/01c16c28/fae8d7331c74f2cb1d143551ce87c8e8/v0/version/2_bhk_apartment-for-rent-juhu-Mumbai-bedroom.jpg",
         "id": null
       },
       {
-        "url": "https://housing-images.n7net.in/01c16c28/5472625549cdb71c413fcfaadd73c278/v0/fs/2_bhk_apartment-for-rent-juhu-Mumbai-kitchen.jpg",
+        "url": "https://is1-2.housingcdn.com/01c16c28/32dee82508dc51d428e4ad4adf4f9c2b/v1/version/2_bhk_apartment-for-rent-juhu-Mumbai-kitchen.jpg",
         "id": null
       },
       {
-        "url": "https://housing-images.n7net.in/01c16c28/c2ca06d88f2ca42470de5362afa17b1a/v0/fs/2_bhk_apartment-for-rent-juhu-Mumbai-kitchen.jpg",
+        "url": "https://is1-2.housingcdn.com/01c16c28/5472625549cdb71c413fcfaadd73c278/v0/version/2_bhk_apartment-for-rent-juhu-Mumbai-kitchen.jpg",
         "id": null
       },
       {
-        "url": "https://housing-images.n7net.in/01c16c28/c08d4e475759d588d68c68c68b089a98/v0/fs/2_bhk_apartment-for-rent-juhu-Mumbai-bedroom.jpg",
+        "url": "https://is1-3.housingcdn.com/01c16c28/c2ca06d88f2ca42470de5362afa17b1a/v0/version/2_bhk_apartment-for-rent-juhu-Mumbai-kitchen.jpg",
         "id": null
       },
       {
-        "url": "https://housing-images.n7net.in/01c16c28/e833dd717b14125cb7aebd2a1770f04e/v0/fs/2_bhk_apartment-for-rent-juhu-Mumbai-bedroom.jpg",
+        "url": "https://is1-3.housingcdn.com/01c16c28/5f22e7c03c79f92fdc50c7f1ca715185/v0/version/2_bhk_apartment-for-rent-juhu-Mumbai-bathroom.jpg",
         "id": null
       },
       {
-        "url": "https://housing-images.n7net.in/01c16c28/fae8d7331c74f2cb1d143551ce87c8e8/v0/fs/2_bhk_apartment-for-rent-juhu-Mumbai-bedroom.jpg",
+        "url": "https://is1-3.housingcdn.com/01c16c28/a906b7f5d59bccb2c42271ac828aa8f6/v0/version/2_bhk_apartment-for-rent-juhu-Mumbai-bathroom.jpg",
+        "id": null
+      },
+      {
+        "url": "https://is1-2.housingcdn.com/01c16c28/c9237f6424d1116843c74d3640814e81/v0/version/2_bhk_apartment-for-rent-juhu-Mumbai-bathroom.jpg",
         "id": null
       }
     ],
     "post_date": null,
     "detail_url": "https://housing.com/rent/19685179-1050-sqft-2-bhk-apartment-on-rent-in-juhu-mumbai",
-    "amenities": {},
+    "amenities": {
+      "DINING_TABLE": true,
+      "SOFA": true,
+      "MICROWAVE": true,
+      "STOVE": true,
+      "FRIDGE": true,
+      "WATER_PURIFIER": true,
+      "GAS_PIPELINE": true,
+      "CUPBOARD": true,
+      "SERVANT_ROOM": true
+    },
     "create_date_time": "2026-04-09 21:34:30.369509",
     "update_date_time": "2026-04-09 21:34:30.369510",
     "is_close_successfully": "no",
@@ -217,8 +224,7 @@
     "external_id": "19095567",
     "property_status": "open",
     "owner_details": {
-      "name": null,
-      "mobile": null
+      "name": "PROPtalk"
     },
     "location": {
       "type": "Point",
@@ -229,35 +235,64 @@
     },
     "property_address": {
       "city": "Mumbai",
-      "main_text": "3 BHK Flat",
-      "formatted_address": "3 BHK Flat",
-      "flat_number": "",
-      "building_name": "",
-      "landmark_or_street": ""
+      "main_text": "QUJu13B, Juhu Tara, Juhu, Mumbai South West, Mumbai",
+      "formatted_address": "QUJu13B, Juhu Tara, Juhu, Mumbai South West, Mumbai"
     },
     "property_details": {
-      "house_type": null,
       "bhk_type": "3BHK",
-      "washroom_numbers": null,
-      "furnishing_status": null,
-      "parking_number": null,
-      "property_age": null,
-      "floor_number": null,
-      "total_floor": null,
-      "lift": null,
-      "property_size": 1200
+      "washroom_numbers": "3",
+      "parking_number": "1",
+      "property_size": 1200.0,
+      "property_age": "15 years",
+      "floor_number": 5,
+      "total_floor": 6
     },
     "rent_details": {
       "rent": 200000,
-      "deposit": null,
-      "available_from": null,
-      "preferred_tenants": null,
-      "non_veg_allowed": null
+      "deposit": 0
     },
-    "image_urls": [],
+    "image_urls": [
+      {
+        "url": "https://is1-3.housingcdn.com/01c16c28/467b135f1d222af1e50cc2987f3b509e/v0/version/3_bhk_apartment-for-rent-juhu-Mumbai-hall.jpg",
+        "id": null
+      },
+      {
+        "url": "https://is1-2.housingcdn.com/01c16c28/28bf4421138477c072e71e017414c1e5/v0/version/3_bhk_apartment-for-rent-juhu-Mumbai-hall.jpg",
+        "id": null
+      },
+      {
+        "url": "https://is1-2.housingcdn.com/01c16c28/cd40d949c3db61e854e9610956d5d552/v0/version/3_bhk_apartment-for-rent-juhu-Mumbai-hall.jpg",
+        "id": null
+      },
+      {
+        "url": "https://is1-3.housingcdn.com/01c16c28/da7002980a257f83e36199d9cb21eb2a/v0/version/3_bhk_apartment-for-rent-juhu-Mumbai-hall.jpg",
+        "id": null
+      },
+      {
+        "url": "https://is1-3.housingcdn.com/01c16c28/136c44bccbd6cd0fe1aa2100f1a4a38b/v0/version/3_bhk_apartment-for-rent-juhu-Mumbai-bathroom.jpg",
+        "id": null
+      },
+      {
+        "url": "https://is1-2.housingcdn.com/01c16c28/09e1f0bbb508517f447bb9bb8c5b489d/v0/version/3_bhk_apartment-for-rent-juhu-Mumbai-balcony.jpg",
+        "id": null
+      },
+      {
+        "url": "https://is1-3.housingcdn.com/01c16c28/60109e0b869d5ac9b61dbee948bf94fd/v0/version/3_bhk_apartment-for-rent-juhu-Mumbai-balcony.jpg",
+        "id": null
+      },
+      {
+        "url": "https://is1-3.housingcdn.com/01c16c28/af66b4108f00ff14c6830d172e9b9335/v0/version/3_bhk_apartment-for-rent-juhu-Mumbai-balcony.jpg",
+        "id": null
+      }
+    ],
     "post_date": null,
     "detail_url": "https://housing.com/rent/19095567-1200-sqft-3-bhk-apartment-on-rent-in-juhu-mumbai",
-    "amenities": {},
+    "amenities": {
+      "FAN": true,
+      "LIGHT": true,
+      "AC": true,
+      "LIFT": true
+    },
     "create_date_time": "2026-04-09 21:34:30.369536",
     "update_date_time": "2026-04-09 21:34:30.369537",
     "is_close_successfully": "no",
@@ -270,8 +305,7 @@
     "external_id": "11368322",
     "property_status": "open",
     "owner_details": {
-      "name": null,
-      "mobile": null
+      "name": "Gurmmeet Dang"
     },
     "location": {
       "type": "Point",
@@ -282,35 +316,101 @@
     },
     "property_address": {
       "city": "Mumbai",
-      "main_text": "3 BHK Flat",
-      "formatted_address": "3 BHK Flat",
-      "flat_number": "",
-      "building_name": "",
-      "landmark_or_street": ""
+      "main_text": "rajgir Milan, Airport Area, Juhu, Mumbai South West, Mumbai",
+      "formatted_address": "rajgir Milan, Airport Area, Juhu, Mumbai South West, Mumbai"
     },
     "property_details": {
-      "house_type": null,
       "bhk_type": "3BHK",
-      "washroom_numbers": null,
-      "furnishing_status": null,
-      "parking_number": null,
-      "property_age": null,
-      "floor_number": null,
-      "total_floor": null,
-      "lift": null,
-      "property_size": 1350
+      "washroom_numbers": "3",
+      "parking_number": "1",
+      "property_size": 1350.0,
+      "property_age": "10 years",
+      "floor_number": 5,
+      "total_floor": 10
     },
     "rent_details": {
       "rent": 145000,
-      "deposit": null,
-      "available_from": null,
-      "preferred_tenants": null,
-      "non_veg_allowed": null
+      "deposit": 400000
     },
-    "image_urls": [],
+    "image_urls": [
+      {
+        "url": "https://is1-3.housingcdn.com/01c16c28/9b4035a76a823ff6c91547a71dbda328/v0/version/3_bhk_apartment-for-rent-juhu-Mumbai-hall.jpg",
+        "id": null
+      },
+      {
+        "url": "https://is1-3.housingcdn.com/01c16c28/9b4035a76a823ff6c91547a71dbda328/v0/version/3_bhk_apartment-for-rent-juhu-Mumbai-hall.jpg",
+        "id": null
+      },
+      {
+        "url": "https://housing-is-01.s3.amazonaws.com/hsshorts/068ffa3fc40243d60796ad2a37517b75/original.jpg",
+        "id": null
+      },
+      {
+        "url": "https://is1-3.housingcdn.com/01c16c28/92f5a7f940070bd24e5aba59daf31e4e/v0/version/3_bhk_apartment-for-rent-juhu-Mumbai-bedroom.jpg",
+        "id": null
+      },
+      {
+        "url": "https://is1-3.housingcdn.com/01c16c28/97a057455d94ebb3ba1a41cd47e361bb/v0/version/3_bhk_apartment-for-rent-juhu-Mumbai-bedroom.jpg",
+        "id": null
+      },
+      {
+        "url": "https://is1-3.housingcdn.com/01c16c28/c88c2d38a1f0f08283a08a009b980b1d/v0/version/3_bhk_apartment-for-rent-juhu-Mumbai-bedroom.jpg",
+        "id": null
+      },
+      {
+        "url": "https://is1-2.housingcdn.com/01c16c28/728ef6fe0048708c2704d358b1a58410/v0/version/3_bhk_apartment-for-rent-juhu-Mumbai-kitchen.jpg",
+        "id": null
+      },
+      {
+        "url": "https://is1-2.housingcdn.com/01c16c28/c383798adf72f882964de7e587f14b91/v0/version/3_bhk_apartment-for-rent-juhu-Mumbai-kitchen.jpg",
+        "id": null
+      },
+      {
+        "url": "https://is1-2.housingcdn.com/01c16c28/5054ce2129fa3479f6d60f40dc17b414/v0/version/3_bhk_apartment-for-rent-juhu-Mumbai-bathroom.jpg",
+        "id": null
+      },
+      {
+        "url": "https://is1-3.housingcdn.com/01c16c28/8164301e2f97e7c2e32a9b8e483e7727/v0/version/3_bhk_apartment-for-rent-juhu-Mumbai-bathroom.jpg",
+        "id": null
+      },
+      {
+        "url": "https://is1-2.housingcdn.com/01c16c28/cdcb7fa6536079070a931716ead97634/v0/version/3_bhk_apartment-for-rent-juhu-Mumbai-balcony.jpg",
+        "id": null
+      },
+      {
+        "url": "https://is1-2.housingcdn.com/01c16c28/f90cc10e42ca0659c577bd0272426336/v0/version/3_bhk_apartment-for-rent-juhu-Mumbai-balcony.jpg",
+        "id": null
+      },
+      {
+        "url": "https://is1-3.housingcdn.com/01c16c28/dacd02cf2cc4922aba49e48ad2ca1ad2/v0/version/3_bhk_apartment-for-rent-juhu-Mumbai-others.jpg",
+        "id": null
+      }
+    ],
     "post_date": null,
     "detail_url": "https://housing.com/rent/11368322-1350-sqft-3-bhk-apartment-on-rent-in-juhu-mumbai-v2",
-    "amenities": {},
+    "amenities": {
+      "DINING_TABLE": true,
+      "WASHING_MACHINE": true,
+      "SOFA": true,
+      "MICROWAVE": true,
+      "STOVE": true,
+      "FRIDGE": true,
+      "WATER_PURIFIER": true,
+      "GAS_PIPELINE": true,
+      "BED": true,
+      "CUPBOARD": true,
+      "PET_ALLOWED": true,
+      "AC": true,
+      "TV": true,
+      "GEYSER": true,
+      "LIFT": true,
+      "POWER_BACKUP": true,
+      "INTERCOM": true,
+      "GARDEN": true,
+      "CCTV": true,
+      "GATED_COMMUNITY": true,
+      "REGULAR_WATER_SUPPLY": true
+    },
     "create_date_time": "2026-04-09 21:34:30.369556",
     "update_date_time": "2026-04-09 21:34:30.369556",
     "is_close_successfully": "no",
@@ -323,8 +423,7 @@
     "external_id": "19900219",
     "property_status": "open",
     "owner_details": {
-      "name": null,
-      "mobile": null
+      "name": "PropNxt"
     },
     "location": {
       "type": "Point",
@@ -335,35 +434,105 @@
     },
     "property_address": {
       "city": "Mumbai",
-      "main_text": "3 BHK Flat",
-      "formatted_address": "3 BHK Flat",
-      "flat_number": "",
-      "building_name": "",
-      "landmark_or_street": ""
+      "main_text": "Bharat Juhu Vikrant Acropolis, Vithal Nagar, Juhu, Mumbai South West, Mumbai",
+      "formatted_address": "Bharat Juhu Vikrant Acropolis, Vithal Nagar, Juhu, Mumbai South West, Mumbai"
     },
     "property_details": {
-      "house_type": null,
       "bhk_type": "3BHK",
-      "washroom_numbers": null,
-      "furnishing_status": null,
-      "parking_number": null,
-      "property_age": null,
-      "floor_number": null,
-      "total_floor": null,
-      "lift": null,
-      "property_size": 1500
+      "washroom_numbers": "3",
+      "parking_number": "4",
+      "property_size": 1500.0,
+      "property_age": "2 years",
+      "floor_number": 11,
+      "total_floor": 15
     },
     "rent_details": {
       "rent": 200000,
-      "deposit": null,
-      "available_from": null,
-      "preferred_tenants": null,
-      "non_veg_allowed": null
+      "deposit": 600000
     },
-    "image_urls": [],
+    "image_urls": [
+      {
+        "url": "https://is1-3.housingcdn.com/01c16c28/a019de60eb2a4c258aae71fddb7f0ba4/v0/version/3_bhk_apartment-for-rent-juhu-Mumbai-living_room.jpg",
+        "id": null
+      },
+      {
+        "url": "https://is1-3.housingcdn.com/01c16c28/21b278ac0053461993d9f6c0b4eed854/v0/version/3_bhk_apartment-for-rent-juhu-Mumbai-bedroom_one.jpg",
+        "id": null
+      },
+      {
+        "url": "https://is1-3.housingcdn.com/01c16c28/6aebffb6a9024d37884435dda1d79bcb/v0/version/3_bhk_apartment-for-rent-juhu-Mumbai-bedroom_two.jpg",
+        "id": null
+      },
+      {
+        "url": "https://is1-3.housingcdn.com/01c16c28/51a24f2a4d204209b313f3c89b8f2112/v0/version/3_bhk_apartment-for-rent-juhu-Mumbai-bedroom_three.jpg",
+        "id": null
+      },
+      {
+        "url": "https://is1-3.housingcdn.com/01c16c28/3334edcba3a9422f853626113466fba6/v0/version/3_bhk_apartment-for-rent-juhu-Mumbai-kitchen.jpg",
+        "id": null
+      },
+      {
+        "url": "https://is1-3.housingcdn.com/01c16c28/2e1f8eed0e094c83a3494fea110f0d2d/v0/version/3_bhk_apartment-for-rent-juhu-Mumbai-bathroom_two.jpg",
+        "id": null
+      },
+      {
+        "url": "https://is1-3.housingcdn.com/01c16c28/bb11cabe13c84227a2b989c1efa42cc5/v0/version/3_bhk_apartment-for-rent-juhu-Mumbai-bathroom_one.jpg",
+        "id": null
+      },
+      {
+        "url": "https://is1-2.housingcdn.com/01c16c28/be6516b7923d4d4c8d7d1ffeb4880538/v0/version/3_bhk_apartment-for-rent-juhu-Mumbai-bathroom_three.jpg",
+        "id": null
+      },
+      {
+        "url": "https://is1-3.housingcdn.com/4f2250e8/7350dd99092267a3ed3d55f9bf0e8611/v0/version.jpeg",
+        "id": null
+      },
+      {
+        "url": "https://is1-3.housingcdn.com/012c1500/342007dc9fade82bc0197a4df615292e/v0/version.jpeg",
+        "id": null
+      },
+      {
+        "url": "https://is1-2.housingcdn.com/012c1500/4a1f0d56a7ebc40311aebfffadca35a6/v0/version.jpeg",
+        "id": null
+      }
+    ],
     "post_date": null,
     "detail_url": "https://housing.com/rent/19900219-1500-sqft-3-bhk-apartment-on-rent-in-juhu-mumbai",
-    "amenities": {},
+    "amenities": {
+      "SERVANT_ROOM": true,
+      "AC": true,
+      "GEYSER": true,
+      "MODULAR_KITCHEN": true,
+      "SWIMMING_POOL": true,
+      "GYM": true,
+      "LIFT": true,
+      "POWER_BACKUP": true,
+      "INTERCOM": true,
+      "GARDEN": true,
+      "KIDS_AREA": true,
+      "CCTV": true,
+      "CLUB_HOUSE": true,
+      "COMMUNITY_HALL": true,
+      "REGULAR_WATER_SUPPLY": true,
+      "ATTACHED_BALCONY": true,
+      "LANDSCAPING_&_TREE_PLANTING": true,
+      "WATER_CONSERVATION,_RAIN_WATER_HARVESTING": true,
+      "FIRE_FIGHTING_SYSTEM": true,
+      "CLOSED_CAR_PARKING": true,
+      "JOGGING_TRACK": true,
+      "STREET_LIGHTING": true,
+      "GATED_COMMUNITY": true,
+      "LAWN_TENNIS_COURT": true,
+      "SEWAGE_TREATMENT_PLANT": true,
+      "ENTRANCE_LOBBY": true,
+      "RECREATION_FACILITIES": true,
+      "SOLID_WASTE_MANAGEMENT_AND_DISPOSAL": true,
+      "THEME_PARK": true,
+      "FOOTBALL_FIELD": true,
+      "BASKETBALL_COURT": true,
+      "STORM_WATER_DRAINS": true,
+      "ENERGY_MANAGEMENT": true
+    },
     "create_date_time": "2026-04-09 21:34:30.369574",
     "update_date_time": "2026-04-09 21:34:30.369574",
     "is_close_successfully": "no",
