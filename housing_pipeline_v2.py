@@ -1,3 +1,9 @@
+import sys
+import json
+import re
+import random
+import time
+from curl_cffi import requests
 from typing import List, Dict, Any
 from logger_utils import get_logger
 from storage_utils import save_raw_search, save_raw_detail, store_properties
@@ -136,14 +142,8 @@ def run_pipeline(query, requirement_id=None):
         
     proxy = "http://324beea8213c28ca309a__cr.in:0c9cd61aae2ca100@gw.dataimpulse.com:823"
     
-    # Step 4: NoBroker placeholder
-    logger.info("4) now scrapping nobroker search result (Skipping - Housing focused)")
-    
-    # Step 5: Housing.com
-    logger.info(f"5) now scraping housing.com search result for '{query}' (Hash: {hash_id})")
-    
     properties = get_html_search_results(hash_id, proxy=proxy)
-    logger.info(f"Found {len(properties)} search results.")
+    logger.info(f"Found {len(properties)} search results on Housing.com.")
     
     # Step 6: Save raw search results
     if requirement_id:
@@ -176,13 +176,6 @@ def run_pipeline(query, requirement_id=None):
     logger.info(f"Success! Final data saved to {output_file}")
 
 if __name__ == "__main__":
-    import sys
-    import json
-    import re
-    import random
-    import time
-    from curl_cffi import requests
-    
     if len(sys.argv) > 1:
         query = sys.argv[1]
         req_id = sys.argv[2] if len(sys.argv) > 2 else None

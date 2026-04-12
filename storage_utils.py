@@ -161,6 +161,10 @@ def update_requirement_status(req_id: str, status: str, error: str = None):
         upsert=True
     )
 
+def get_requirement_status(req_id: str) -> Optional[Dict[str, Any]]:
+    """Retrieves the processing status of a requirement."""
+    return requirement_status_col.find_one({"requirement_id": req_id}, {"_id": 0})
+
 def save_raw_search(req_id: str, source: str, raw_data: List[Dict[str, Any]], query_text: str = None, parsed_query: Dict[str, Any] = None):
     """Saves raw search result list to MongoDB."""
     data = {

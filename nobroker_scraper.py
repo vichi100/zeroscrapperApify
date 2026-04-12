@@ -16,6 +16,9 @@ def get_apify_client():
 
 from nobroker_utils import build_nobroker_url
 
+from logger_utils import get_logger
+logger = get_logger("nobroker", log_file="logs/worker.log")
+
 def run_nobroker_scraper(
     search_url: Optional[str] = None,
     search_queries: Optional[List[str]] = None,
@@ -25,51 +28,31 @@ def run_nobroker_scraper(
 ) -> Dict[str, Any]:
     """
     Triggers the NoBroker search results scraper actor on Apify.
-    
-    Args:
-        search_url (Optional[str]): Direct search URL to scrape.
-        search_queries (Optional[List[str]]): List of search terms.
-        location (str): The city or locality to search in.
-        category (str): Scraper category (Rent/Resale).
-        limit (int): Maximum number of results to fetch.
-        
-    Returns:
-        Dict[str, Any]: Information about the actor run.
     """
     client = get_apify_client()
     
     if not NO_BROKER_ACTOR_ID:
         raise ValueError("NO_BROKER_ACTOR_ID not found in environment variables.")
     
-    # If no search_url is provided, generate one from search_queries or location
     if not search_url:
-        # For simplicity, we use the first query or the location if no queries provided
         place = search_queries[0] if search_queries else location
-        # Note: In a real scenario, we might need lat/lon from geocoding here
-        # For now, we use a placeholder or assume the user provides search_url
-        # If we have lat/lon in the env or passed in, we could use them.
-        # But since main.py already does geocoding, we should probably pass the URL from main.py.
         search_url = build_nobroker_url(lat=19.0760, lon=72.8777, place_name=place, category=category.lower())
 
-    # Prepare input for the actor (as confirmed by schema check)
     run_input = {
         "searchUrls": [search_url],
         "resultsLimit": limit
     }
     
     try:
-        # Start the actor and wait for it to finish
-        print(f"Starting NoBroker scraper actor: {NO_BROKER_ACTOR_ID}...")
-        print(f"Input URL: {search_url}")
+        logger.info(f"Starting NoBroker scraper actor: {NO_BROKER_ACTOR_ID}...")
+        logger.info(f"Input URL: {search_url}")
         run = client.actor(NO_BROKER_ACTOR_ID).call(run_input=run_input)
         
-        print(f"Run completed. Run ID: {run['id']}")
+        logger.info(f"Run completed. Run ID: {run['id']}")
         
-        # Fetch the results from the dataset
         dataset_id = run["defaultDatasetId"]
         items = client.dataset(dataset_id).list_items().items
         
-        # Add source info to items
         for item in items:
             item["source"] = "nobroker"
             
@@ -80,7 +63,7 @@ def run_nobroker_scraper(
             "items": items
         }
     except Exception as e:
-        print(f"Error running NoBroker scraper: {str(e)}")
+        logger.error(f"Error running NoBroker scraper: {str(e)}")
         return {
             "status": "error",
             "message": str(e)

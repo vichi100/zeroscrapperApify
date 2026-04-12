@@ -17,6 +17,7 @@ from storage_utils import (
     search_nearby_properties,
     find_duplicates,
     save_requirement,
+    get_requirement_status,
     redis_client
 )
 from logger_utils import get_logger
@@ -99,6 +100,13 @@ async def process_search(request: SearchRequest):
         "message": "Your requirement is being processed. You will receive a link shortly.",
         "requirement_id": req_id
     }
+
+@app.get("/status/{requirement_id}")
+async def check_status(requirement_id: str):
+    status_data = get_requirement_status(requirement_id)
+    if not status_data:
+        raise HTTPException(status_code=404, detail="Requirement ID not found")
+    return status_data
 
 if __name__ == "__main__":
     import uvicorn

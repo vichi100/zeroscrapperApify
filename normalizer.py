@@ -126,3 +126,9 @@ class Normalizer:
             return json.loads(response['message']['content'])
         except Exception:
             return None
+
+def normalize_property(item: Dict[str, Any], source: str, property_type: str = "residential", intent: str = "rent") -> Optional[Dict[str, Any]]:
+    """Standalone helper to normalize a single property."""
+    normalizer = Normalizer()
+    res = normalizer.normalize(item, source, property_type, intent)
+    return res.model_dump() if res else None

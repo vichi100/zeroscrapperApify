@@ -68,8 +68,9 @@ class NoBrokerMapper:
                 preferred_tenants = ", ".join(flat_lease)
 
         # Non-veg mapping
-        non_veg_allowed = item.get("aea__", {}).get("NON_VEG_ALLOWED", {}).get("display_value") or \
-                          item.get("aea__", {}).get("n_o_n__v_e_g__a_l_l_o_w_e_d", {}).get("display_value")
+        aea = item.get("aea__") or {}
+        non_veg_allowed = aea.get("NON_VEG_ALLOWED", {}).get("display_value") or \
+                          aea.get("n_o_n__v_e_g__a_l_l_o_w_e_d", {}).get("display_value")
 
         # 5. Dates
         def parse_date(date_val: Any) -> Optional[datetime]:

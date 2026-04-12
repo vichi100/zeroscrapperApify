@@ -56,10 +56,17 @@ function stop() {
     PID=$(lsof -t -i :8000)
     if [ -n "$PID" ]; then
         echo "Stopping FastAPI server (PID $PID)..."
-        kill $PID
+        kill -9 $PID
+    fi
+
+    # Stop BullMQ worker
+    W_PID=$(pgrep -f "node index.js")
+    if [ -n "$W_PID" ]; then
+        echo "Stopping BullMQ worker (PID $W_PID)..."
+        kill -9 $W_PID
     fi
     
-    echo -e "${GREEN}Infrastructure stopped.${NC}"
+    echo -e "${GREEN}Infrastructure and backend services stopped.${NC}"
 }
 
 function status() {
@@ -85,12 +92,22 @@ function status() {
     else
         echo -e "${RED}FastAPI server is NOT running.${NC}"
     fi
+
+    # BullMQ Worker
+    if pgrep -f "node index.js" >/dev/null 2>&1; then
+        echo -e "${GREEN}BullMQ worker is running.${NC}"
+    else
+        echo -e "${RED}BullMQ worker is NOT running.${NC}"
+    fi
 }
 
 function run_app() {
-    echo "Starting FastAPI App..."
+    echo "Ensuring infrastructure is ready..."
+    start
     
-    # Kill any existing process on port 8000
+    echo "Starting Backend Services..."
+    
+    # --- 1. START FASTAPI ---
     PID=$(lsof -t -i :8000)
     if [ -n "$PID" ]; then
         echo "Clearing existing process on port 8000 (PID $PID)..."
@@ -99,13 +116,22 @@ function run_app() {
     fi
     
     if [ ! -d "venv" ]; then
-        echo -e "${RED}Error: Virtual environment 'venv' not found. Please create it first.${NC}"
+        echo -e "${RED}Error: Virtual environment 'venv' not found.${NC}"
         exit 1
     fi
     source venv/bin/activate
-    echo "Logs are being redirected to uvicorn.log (reloads excluded)"
-    nohup python3 -m uvicorn main:app --host 0.0.0.0 --port 8000 --reload --reload-exclude "uvicorn.log" > uvicorn.log 2>&1 &
-    sleep 2
+    echo "Starting FastAPI server..."
+    nohup python3 main.py > logs/api_std.log 2>&1 &
+    
+    # --- 2. START BULLMQ WORKER ---
+    echo "Starting BullMQ worker..."
+    cd worker
+    nohup node index.js > ../logs/worker.log 2>&1 &
+    cd ..
+    
+    sleep 3
+    echo -e "${GREEN}All backend services are running in background.${NC}"
+    echo "Logs: logs/api.log, worker/worker.log"
 }
 
 case "$1" in

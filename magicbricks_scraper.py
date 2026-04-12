@@ -15,6 +15,8 @@ def get_apify_client():
     return ApifyClient(APIFY_API_TOKEN)
 
 from magicbricks_utils import build_magicbricks_url
+from logger_utils import get_logger
+logger = get_logger("magicbricks", log_file="logs/worker.log")
 
 def run_magicbricks_scraper(
     search_url: Optional[str] = None,
@@ -24,26 +26,15 @@ def run_magicbricks_scraper(
 ) -> Dict[str, Any]:
     """
     Triggers the MagicBricks search results scraper actor on Apify.
-    
-    Args:
-        search_url (Optional[str]): Direct search URL to scrape.
-        location (str): The city or locality to search in.
-        category (str): Scraper category (Rent/Sale).
-        limit (int): Maximum number of results to fetch.
-        
-    Returns:
-        Dict[str, Any]: Information about the actor run.
     """
     client = get_apify_client()
     
     if not MAGICBRICKS_ACTOR_ID:
         raise ValueError("MAGICBRICKS_ACTOR_ID not found in environment variables.")
     
-    # If no search_url is provided, generate one
     if not search_url:
         search_url = build_magicbricks_url(city="Mumbai", locality=location, category=category.lower())
 
-    # Prepare input for the actor
     run_input = {
         "urls": [search_url],
         "max_items_per_url": limit,
@@ -53,33 +44,23 @@ def run_magicbricks_scraper(
     }
     
     try:
-        # Start the actor and wait for it to finish
-        print(f"Starting MagicBricks scraper actor: {MAGICBRICKS_ACTOR_ID}...")
-        print(f"Input URL: {search_url}")
+        logger.info(f"Starting MagicBricks scraper actor: {MAGICBRICKS_ACTOR_ID}...")
+        logger.info(f"Input URL: {search_url}")
         run = client.actor(MAGICBRICKS_ACTOR_ID).call(run_input=run_input)
         
-        print(f"Run completed. Run ID: {run['id']}")
+        logger.info(f"Run completed. Run ID: {run['id']}")
         
-        # Fetch the results from the dataset
         dataset_id = run["defaultDatasetId"]
         items = client.dataset(dataset_id).list_items().items
         
-        # Add source info to items
         for item in items:
             item["source"] = "magicbricks"
-            
-            # Map ecomscrape actor fields to our standard schema
             if "title" not in item and "name" in item:
                 item["title"] = item["name"]
-                
             if "rent" not in item and "price" in item:
                 item["rent"] = item["price"]
-                
-            # ecomscrape returns a relative URL for magicbricks, making it absolute
             if "url" in item and not str(item["url"]).startswith("http"):
                  item["url"] = f"https://www.magicbricks.com/property-details/{item['url']}"
-            
-            # Fallback for ID if missing
             if "id" not in item and "property_id" in item:
                 item["id"] = item["property_id"]
         
@@ -90,7 +71,7 @@ def run_magicbricks_scraper(
             "items": items
         }
     except Exception as e:
-        print(f"Error running MagicBricks scraper: {str(e)}")
+        logger.error(f"Error running MagicBricks scraper: {str(e)}")
         return {
             "status": "error",
             "message": str(e)

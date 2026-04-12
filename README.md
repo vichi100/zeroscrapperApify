@@ -1,38 +1,43 @@
-# Apify Integrated Server
+# Housing.com High-Fidelity Scraper Pipeline
 
-A simple FastAPI server to trigger and manage [Apify](https://apify.com) actors.
+A professional, WAF-resistant real estate search engine and background enrichment pipeline.
 
-## Setup
+## ⚙️ Backend Services
 
-1.  **Clone the repository** (if you haven't already).
-2.  **Create a virtual environment**:
-    ```bash
-    python3 -m venv venv
-    source venv/bin/activate
-    ```
-3.  **Install dependencies**:
-    ```bash
-    pip install -r requirements.txt
-    ```
-4.  **Configure environment variables**:
-    - Add your `APIFY_API_TOKEN` to the `.env` file.
-
-## Infrastructure Management
-
-You can use the provided `infra.sh` script to manage the required services (MongoDB, Redis, Qdrant, and Ollama).
+To start the entire backend stack (API + Background Worker) with a single command:
 
 ```bash
-# Check status of all services
-./infra.sh status
-
-# Start all services (Docker + Ollama)
-./infra.sh start
-
-# Stop all services and the FastAPI server
-./infra.sh stop
+./infra.sh run
 ```
 
-## Running the Server
+This will:
+1.  Clear any existing processes on port 8000.
+2.  Start the FastAPI server in the background.
+3.  Start the BullMQ worker in the background.
+
+To stop everything: `./infra.sh stop`
+To check status: `./infra.sh status`
+
+---
+
+## 📡 API Endpoints
+
+### 1. Trigger Search & Scrape
+**POST** `/search`
+```json
+{
+  "user_id": "vichi_001",
+  "post_content": "2bhk rent in andheri west under 70k"
+}
+```
+
+### 2. Check Job Status
+**GET** `/status/{requirement_id}`
+Returns the lifecycle status (`pending`, `processing`, `completed`, `failed`) and any error details.
+
+---
+
+## 🏗️ Architecture
 
 ## API Endpoints
 

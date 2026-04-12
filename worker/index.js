@@ -20,18 +20,21 @@ async function runPythonScraper(query, requirementId) {
     console.log(`Executing Python scraper for: ${query} (Req: ${requirementId})`);
     // Use the absolute path to the venv python if possible, or just python3
     const pythonPath = '../venv/bin/python3';
-    const scraperPath = '../housing_pipeline_v2.py';
+    const scraperPath = '../pipeline_v3.py';
     
     // Pass requirementId as the second argument
     const pyProcess = spawn(pythonPath, [scraperPath, query, requirementId]);
     
     let output = '';
     pyProcess.stdout.on('data', (data) => {
+      const logLine = data.toString().trim();
+      if (logLine) console.log(logLine);
       output += data.toString();
     });
     
     pyProcess.stderr.on('data', (data) => {
-      console.error(`Scraper Error: ${data}`);
+      const logLine = data.toString().trim();
+      if (logLine) console.log(logLine);
     });
     
     pyProcess.on('close', (code) => {

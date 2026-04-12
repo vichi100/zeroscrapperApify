@@ -41,6 +41,8 @@ def parse_price(price_str: Optional[str]) -> int:
     return int(num)
 
 from ninetynineacres_utils import build_99acres_url
+from logger_utils import get_logger
+logger = get_logger("99acres", log_file="logs/worker.log")
 
 def run_99acres_scraper(
     search_url: str = None,
@@ -65,7 +67,7 @@ def run_99acres_scraper(
     if not search_url:
         return {"status": "error", "message": "Failed to resolve 99acres location ID."}
         
-    print(f"DEBUG Built 99acres URL: {search_url}")
+    logger.info(f"Built 99acres URL: {search_url}")
         
     run_input = {
         "startUrls": [search_url],
@@ -78,11 +80,10 @@ def run_99acres_scraper(
     }
     
     try:
-        print(f"Starting 99acres scraper actor: {NINETYNINEACRES_ACTOR_ID}...")
-        print(f"Input configuration for location: {location}")
+        logger.info(f"Starting 99acres scraper actor: {NINETYNINEACRES_ACTOR_ID}...")
         run = client.actor(NINETYNINEACRES_ACTOR_ID).call(run_input=run_input)
         
-        print(f"Run completed. Run ID: {run['id']}")
+        logger.info(f"Run completed. Run ID: {run['id']}")
         
         dataset_id = run["defaultDatasetId"]
         items = client.dataset(dataset_id).list_items().items
@@ -102,7 +103,7 @@ def run_99acres_scraper(
             "items": items
         }
     except Exception as e:
-        print(f"Error running 99acres scraper: {str(e)}")
+        logger.error(f"Error running 99acres scraper: {str(e)}")
         return {
             "status": "error",
             "message": str(e)
