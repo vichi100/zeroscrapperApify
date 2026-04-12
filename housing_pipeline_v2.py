@@ -1,10 +1,8 @@
-import sys
-import json
-import re
-import random
-import time
-from curl_cffi import requests
 from typing import List, Dict, Any
+from logger_utils import get_logger
+from storage_utils import save_raw_search, save_raw_detail, store_properties
+
+logger = get_logger("worker", log_file="logs/worker.log")
 
 # Locality Hash Map from housing_utils
 MUMBAI_LOCATIONS = {
@@ -33,16 +31,16 @@ def get_html_search_results(hash_id, proxy=None):
     proxies = {"http": proxy, "https": proxy} if proxy else None
     
     try:
-        print(f"Fetching search results from HTML: {url}")
+        logger.info(f"Fetching search results from HTML: {url}")
         resp = requests.get(url, headers=headers, proxies=proxies, impersonate="chrome", timeout=30, verify=False)
         if resp.status_code != 200:
-            print(f"Error: Status {resp.status_code}")
+            logger.error(f"Error: Status {resp.status_code}")
             return []
             
         html = resp.text
         match = re.search(r'window\.__INITIAL_STATE__=JSON\.parse\(\"(.*)\"\);', html)
         if not match:
-            print("Error: Could not find __INITIAL_STATE__")
+            logger.error("Error: Could not find __INITIAL_STATE__")
             return []
             
         data_str = match.group(1).encode('utf-8').decode('unicode_escape')
@@ -60,7 +58,7 @@ def get_html_search_results(hash_id, proxy=None):
         return results
         
     except Exception as e:
-        print(f"HTML Search Error: {e}")
+        logger.error(f"HTML Search Error: {e}")
         return []
 
 def map_to_housing_enriched(prop):
@@ -124,11 +122,7 @@ def map_to_housing_enriched(prop):
         "listing_source": "hs"
     }
 
-def main():
-    query = "Andheri West"
-    if len(sys.argv) > 1:
-        query = sys.argv[1]
-        
+def run_pipeline(query, requirement_id=None):
     term = query.lower()
     hash_id = None
     for k, v in MUMBAI_LOCATIONS.items():
@@ -137,26 +131,61 @@ def main():
             break
             
     if not hash_id:
-        print(f"Error: Locality '{query}' not found in internal map.")
-        sys.exit(1)
+        logger.error(f"Error: Locality '{query}' not found in internal map.")
+        return
         
     proxy = "http://324beea8213c28ca309a__cr.in:0c9cd61aae2ca100@gw.dataimpulse.com:823"
-    print(f"Starting pipeline for '{query}' (Hash: {hash_id})")
+    
+    # Step 4: NoBroker placeholder
+    logger.info("4) now scrapping nobroker search result (Skipping - Housing focused)")
+    
+    # Step 5: Housing.com
+    logger.info(f"5) now scraping housing.com search result for '{query}' (Hash: {hash_id})")
     
     properties = get_html_search_results(hash_id, proxy=proxy)
-    print(f"Found {len(properties)} search results.")
+    logger.info(f"Found {len(properties)} search results.")
     
+    # Step 6: Save raw search results
+    if requirement_id:
+        save_raw_search(requirement_id, "hs", properties, query_text=query)
+        
     enriched_results = []
     for prop in properties:
+        # Step 7: Deep Scrape (Placeholder for now, we use search data)
+        detail_url = f"https://housing.com{prop.get('url')}" if prop.get('url', '').startswith('/') else prop.get('url')
+        logger.info(f"7) now scrapping detail url to enrich data: {detail_url}")
+        
+        # Step 8: Save raw detail result
+        if requirement_id:
+            save_raw_detail(requirement_id, detail_url, "hs", prop, query_text=query)
+            
+        # Step 9: Enriching Data
+        logger.info(f"9) enriching data for property: {prop.get('id')}")
         enriched_item = map_to_housing_enriched(prop)
         enriched_results.append(enriched_item)
-        print(f"Added enriched property: {enriched_item.get('property_id')} - {len(enriched_item['image_urls'])} images")
+        
+    # Step 10: Saving Enriched Data
+    if enriched_results:
+        logger.info(f"10) now saving the enriched data in 'properties' collection.")
+        store_properties(enriched_results)
         
     output_file = "housing_enriched_v2.json"
     with open(output_file, "w") as f:
         json.dump(enriched_results, f, indent=2)
         
-    print(f"Success! Final data saved to {output_file}")
+    logger.info(f"Success! Final data saved to {output_file}")
 
 if __name__ == "__main__":
-    main()
+    import sys
+    import json
+    import re
+    import random
+    import time
+    from curl_cffi import requests
+    
+    if len(sys.argv) > 1:
+        query = sys.argv[1]
+        req_id = sys.argv[2] if len(sys.argv) > 2 else None
+        run_pipeline(query, requirement_id=req_id)
+    else:
+        logger.warning("No query provided to pipeline.")

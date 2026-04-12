@@ -15,14 +15,15 @@ const connection = new IORedis({
   maxRetriesPerRequest: null,
 });
 
-async function runPythonScraper(query) {
+async function runPythonScraper(query, requirementId) {
   return new Promise((resolve, reject) => {
-    console.log(`Executing Python scraper for: ${query}`);
+    console.log(`Executing Python scraper for: ${query} (Req: ${requirementId})`);
     // Use the absolute path to the venv python if possible, or just python3
     const pythonPath = '../venv/bin/python3';
     const scraperPath = '../housing_pipeline_v2.py';
     
-    const pyProcess = spawn(pythonPath, [scraperPath, query]);
+    // Pass requirementId as the second argument
+    const pyProcess = spawn(pythonPath, [scraperPath, query, requirementId]);
     
     let output = '';
     pyProcess.stdout.on('data', (data) => {
@@ -65,7 +66,7 @@ async function startWorker() {
       );
 
       // 2. Run the Scrapers (Python)
-      await runPythonScraper(query_text);
+      await runPythonScraper(query_text, requirement_id);
 
       // 3. Update status to 'completed'
       await statusCol.updateOne(

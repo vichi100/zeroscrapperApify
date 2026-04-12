@@ -19,8 +19,11 @@ from storage_utils import (
     save_requirement,
     redis_client
 )
+from logger_utils import get_logger
 import uuid
 import time
+
+logger = get_logger("api", log_file="logs/api.log")
 from nobroker_utils import build_nobroker_url
 from nobroker_scraper import run_nobroker_scraper
 from magicbricks_utils import build_magicbricks_url
@@ -49,7 +52,9 @@ async def process_search(request: SearchRequest):
     req_id = str(uuid.uuid4())
     
     # --- 1. PERSISTENCE FIRST ---
-    # Save the requirement to MongoDB before starting anything
+    logger.info(f"1) Parsing requirement query: '{post_content}'")
+    # (Optional: call parse_user_post here if we wanted to log the parsed result in Step 1)
+    
     requirement = {
         "id": req_id,
         "user_id": user_id,
@@ -59,7 +64,7 @@ async def process_search(request: SearchRequest):
         "listing_source": "hs"
     }
     save_requirement(requirement)
-    print(f"Requirement {req_id} saved to MongoDB.")
+    logger.info(f"2) Requirement {req_id} saved to 'user_requirement' collection in MongoDB.")
 
     # --- 2. ENQUEUE TO BULLMQ ---
     try:
@@ -84,9 +89,9 @@ async def process_search(request: SearchRequest):
         # Signal the worker via custom channel if needed, or just let it poll
         pipeline.execute()
         
-        print(f"Job {job_id} enqueued to BullMQ.")
+        logger.info(f"3) Job {job_id} for requirement {req_id} enqueued to BullMQ for processing.")
     except Exception as e:
-        print(f"Error enqueuing to BullMQ: {e}")
+        logger.error(f"Error enqueuing to BullMQ: {e}")
         # Note: We still return success because it's persistent in MongoDB
 
     return {

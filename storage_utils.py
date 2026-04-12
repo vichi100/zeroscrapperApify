@@ -8,7 +8,10 @@ from qdrant_client import QdrantClient
 from qdrant_client.http import models
 from dotenv import load_dotenv
 
-load_dotenv()
+import logging
+
+# Shared logger for storage operations
+logger = logging.getLogger("storage")
 
 # Redis Configuration
 REDIS_HOST = os.getenv("REDIS_HOST", "localhost")
@@ -157,6 +160,37 @@ def update_requirement_status(req_id: str, status: str, error: str = None):
         {"$set": update_data},
         upsert=True
     )
+
+def save_raw_search(req_id: str, source: str, raw_data: List[Dict[str, Any]], query_text: str = None, parsed_query: Dict[str, Any] = None):
+    """Saves raw search result list to MongoDB."""
+    data = {
+        "requirement_id": req_id,
+        "listing_source": source,
+        "raw_data": raw_data,
+        "query_text": query_text,
+        "parsed_query": parsed_query,
+        "scraped_at": str(datetime.datetime.utcnow())
+    }
+    scraped_search_raw_col.insert_one(data)
+    logger.info(f"6) Saved raw search results from '{source}' to 'scraped_search_raw' collection.")
+
+def save_raw_detail(req_id: str, url: str, source: str, raw_data: Dict[str, Any], query_text: str = None, parsed_query: Dict[str, Any] = None):
+    """Saves raw property detail to MongoDB."""
+    data = {
+        "requirement_id": req_id,
+        "url": url,
+        "listing_source": source,
+        "raw_data": raw_data,
+        "query_text": query_text,
+        "parsed_query": parsed_query,
+        "scraped_at": str(datetime.datetime.utcnow())
+    }
+    scraped_detail_raw_col.update_one(
+        {"requirement_id": req_id, "url": url},
+        {"$set": data},
+        upsert=True
+    )
+    logger.info(f"8) Saved raw detail result for {url} to 'scraped_detail_raw' collection.")
 
 # --- Qdrant Operations ---
 
